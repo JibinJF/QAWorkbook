@@ -1,0 +1,13 @@
+<div class="total-container" [class.device-is-mobile]="mobileQuery.matches">
+  <app-top-toolbar></app-top-toolbar>
+  <mat-sidenav-container class="main-sidenav-container" [style.marginTop.px]="0" autosize>
+    <mat-sidenav #leftNavMenu [mode]="'side'" [opened]="mobileQuery.matches ? 'false' : 'true'"
+      [fixedInViewport]="mobileQuery.matches" fixedTopGap="56">
+      <app-left-side-nav></app-left-side-nav>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <p>content</p>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
