@@ -8,9 +8,7 @@ import { SideNavService } from './StructuralComponents/side-nav.service';
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"]
 })
-// export class AppComponent  {
-//   name = 'Angular';
-// }
+
 export class AppComponent implements OnDestroy, AfterViewInit {
   name = "Angular";
   mobileQuery: MediaQueryList;
