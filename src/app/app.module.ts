@@ -3,9 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { MatSidenavModule } from '@angular/material/sidenav';
-import {MatIconModule} from '@angular/material/icon';
+import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-import {MatMenuModule} from '@angular/material/menu';
+import { MatMenuModule } from '@angular/material/menu';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { AppComponent } from './app.component';
@@ -14,12 +14,17 @@ import { LeftSideNavComponent } from './StructuralComponents/left-side-nav/left-
 import { TopToolbarComponent } from './StructuralComponents/top-toolbar/top-toolbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TodaysNewsRelatedQAComponent } from './DailyNewsRelatedQA/todays-news-related-qa/todays-news-related-qa.component';
+import { RightTopSidebarComponent } from './StructuralComponents/right-top-sidebar/right-top-sidebar.component';
+import { RightBottomSidebarComponent } from './StructuralComponents/right-bottom-sidebar/right-bottom-sidebar.component';
+import { MainComponent } from './StructuralComponents/main/main.component';
+import { RightSidebarComponent } from './StructuralComponents/right-sidebar/sidebar.component';
 
 
 @NgModule({
-  imports:      [
+  imports: [
     AppRoutingModule,
-    BrowserModule, 
+    BrowserModule,
     FormsModule,
     MatSidenavModule,
     MatIconModule,
@@ -27,13 +32,22 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatMenuModule,
     MatToolbarModule,
     BrowserAnimationsModule
-    ],
-  declarations: [ 
-    AppComponent, 
-    LeftSideNavComponent, 
-    TopToolbarComponent 
-    ],
-  bootstrap:    [ AppComponent ],
-  providers: [SideNavService]
+  ],
+  declarations: [
+    AppComponent,
+    LeftSideNavComponent,
+    TopToolbarComponent, 
+    TodaysNewsRelatedQAComponent, 
+    RightTopSidebarComponent, 
+    RightBottomSidebarComponent, 
+    MainComponent, 
+    RightSidebarComponent
+  ],
+  bootstrap: [
+    AppComponent
+  ],
+  providers: [
+    SideNavService
+  ]
 })
 export class AppModule { }

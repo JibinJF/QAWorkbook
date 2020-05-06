@@ -10,10 +10,12 @@ import { SideNavService } from './StructuralComponents/side-nav.service';
 })
 
 export class AppComponent implements OnDestroy, AfterViewInit {
-  name = "Angular";
+
   mobileQuery: MediaQueryList;
+  tabletQuery: MediaQueryList;
 
   private _mobileQueryListener: () => void;
+  private _tabletQueryListener: () => void;
 
   constructor(
     changeDetectorRef: ChangeDetectorRef,
@@ -23,10 +25,16 @@ export class AppComponent implements OnDestroy, AfterViewInit {
     this.mobileQuery = media.matchMedia("(max-width: 600px)");
     this._mobileQueryListener = () => changeDetectorRef.detectChanges();
     this.mobileQuery.addListener(this._mobileQueryListener);
+
+
+    this.tabletQuery = media.matchMedia("(max-width: 900px)");
+    this._tabletQueryListener = () => changeDetectorRef.detectChanges();
+    this.tabletQuery.addListener(this._tabletQueryListener);
   }
 
   ngOnDestroy(): void {
     this.mobileQuery.removeListener(this._mobileQueryListener);
+    this.tabletQuery.removeListener(this._tabletQueryListener);
   }
 
   @ViewChild("leftNavMenu", { static: true }) sidenav: MatSidenav;
