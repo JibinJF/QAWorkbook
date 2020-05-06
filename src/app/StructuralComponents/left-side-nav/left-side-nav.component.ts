@@ -22,8 +22,8 @@ import { SideNavService } from '../side-nav.service';
 export class LeftSideNavComponent {
   @Input() leftSideNavElement: NavElementModel;
   @Input() depth: number;
-  
-  
+
+
   constructor(public leftNavMenuService: SideNavService,
     public router: Router) {
     if (this.depth === undefined) {

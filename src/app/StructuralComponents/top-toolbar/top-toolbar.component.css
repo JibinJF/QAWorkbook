@@ -15,7 +15,9 @@
 }
 
 .topToolbarMenuItem {
-    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: lighter;
     font-variant-caps: petite-caps;
     margin-left: 20px;
 }
@@ -50,9 +52,10 @@
 }
 
 .toolbarWbTitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-variant-caps: petite-caps;
     font-size: x-large;
-    color: #D4AF37;
+    color: rgb(255, 212, 71);
 }
 
 .toolbarWbTitle:hover {

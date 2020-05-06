@@ -2,7 +2,10 @@
     padding: 8px 0;
     display: flex;
     width: auto;
-    height: 40px !important;
+    height: 35px !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    letter-spacing: 1px;
 }
 
 .mat-list-item:hover {

@@ -11,7 +11,8 @@
       </span>
     </a>
     <div *ngIf="leftSideNavElement.expand">
-      <app-left-side-nav *ngFor="let child of leftSideNavElement.children" [leftSideNavElement]="child" [depth]="depth+1">
+      <app-left-side-nav *ngFor="let child of leftSideNavElement.children" [leftSideNavElement]="child"
+        [depth]="depth+1">
       </app-left-side-nav>
     </div>
   </mat-nav-list>
@@ -29,7 +30,8 @@
       </span>
     </a>
     <div *ngIf="leftSideNavElement.expand">
-      <app-left-side-nav *ngFor="let child of leftSideNavElement.children" [leftSideNavElement]="child" [depth]="depth+1">
+      <app-left-side-nav *ngFor="let child of leftSideNavElement.children" [leftSideNavElement]="child"
+        [depth]="depth+1">
       </app-left-side-nav>
     </div>
   </mat-nav-list>
