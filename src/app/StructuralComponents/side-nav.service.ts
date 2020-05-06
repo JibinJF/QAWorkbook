@@ -6,7 +6,7 @@ import { MatSidenav } from '@angular/material/sidenav';
 })
 export class SideNavService {
   private sideNav: MatSidenav;
-  constructor() {}
+  constructor() { }
 
   public setSidenav(sideNav: MatSidenav) {
     this.sideNav = sideNav;
