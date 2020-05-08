@@ -1,12 +1,16 @@
-/* * {
-    box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
- } */
-
 .qaContainer{
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+mat-expansion-panel,
+.mat-expansion-panel-header,
+.mat-expansion-panel-body,
+.mat-expansion-panel-content {
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-size: large;
+    padding: 0 5px;
 }
 
 .qaNumberContainer,
@@ -16,24 +20,23 @@
    display: flex; 
    flex-wrap: wrap;
    flex-direction: row;
-   /* background-color: black; */
+   background-color: #424242;
+   border-radius: 5px;
+   box-shadow: 0px .5px black;
+   margin: 1px;
 }
 
 .pageTitleContainer {
-    /* display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row; */
     align-self: center;
     align-content: center;
     color: #FFD700;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: larger;
     text-align: center;
-}
-
-.chapterName {
-    margin-top: 10px;
-    /* margin-bottom: 10px; */
+    background-color: #424242;
+    box-shadow: 0px .5px black;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .qaNumberLabel,
@@ -64,22 +67,21 @@
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
  .prevQaButton,
  .showHideAnswerButton,
  .nextQaButton {
     padding: 0 5px 0 5px;
-    border: .5px solid grey;
+    background-color: #424242;
+    box-shadow: 0px .5px black;
  }
-
- .prevNextShowHideButtonContainer 
- .prevQaButton,
- .showHideAnswerButton,
- .nextQaButton :hover {
-    cursor: pointer;
+ 
+ .prevNextShowHideButtonContainer :hover {
+     background-color: black;
+     cursor: pointer;
  }
  
  .prevQaButton {
@@ -87,8 +89,6 @@
      float: left;
      align-self: flex-start;
      border-radius: 100px 25px 25px 100px;
-     /* border-bottom-left-radius: 100px;
-     border-top-left-radius: 100px; */
  }
  .showHideAnswerButton {
      order:2;

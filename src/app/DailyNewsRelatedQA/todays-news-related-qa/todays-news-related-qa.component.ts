@@ -8,6 +8,7 @@ import { QAModel } from 'src/app/StructuralComponents/qamodel';
 })
 export class TodaysNewsRelatedQAComponent implements OnInit {
 
+  qaNumber = 1;
   constructor() { }
 
   ngOnInit(): void {
@@ -15,6 +16,7 @@ export class TodaysNewsRelatedQAComponent implements OnInit {
 
   todaysNewsRelatedQAs: QAModel[] = [
     {
+      qaNumber: this.qaNumber++,
       question: 'What is COVID-19? Briefly explain its symptoms, treatment and the ways through which it spreads.',
       answer: `Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
     Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment.`,
@@ -24,10 +26,12 @@ export class TodaysNewsRelatedQAComponent implements OnInit {
     a contaminated surface and then your eyes, nose or mouth.`
     },
     {
+      qaNumber: this.qaNumber++,
       question: `Q2`,
       answer: `A2`
     },
     {
+      qaNumber: this.qaNumber++,
       question:`q3 theis question is deliberately made big to test multi line behaviour of the app`,
       answer:`a3`,
       description:`d3`

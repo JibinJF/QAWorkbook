@@ -4,6 +4,18 @@
             {{chapterName}} QAs
         </div>
     </div>
+    <div class="qaPaletteContainer">
+        <mat-accordion>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    QA Palette
+                </mat-expansion-panel-header>
+
+                Some deferred content
+
+            </mat-expansion-panel>
+        </mat-accordion>
+    </div>
     <div class="prevNextShowHideButtonContainer">
         <div class="prevQaButton" (click)="onPrevQaButtonClick()">
             <a>
@@ -26,7 +38,8 @@
             QA:
         </div>
         <div class="qaNumber">
-            #{{currentQAIndex+1}}
+            <!-- #{{currentQAIndex+1}} -->
+            {{qas[currentQAIndex].qaNumber}}
         </div>
     </div>
     <div class="questionContainer">

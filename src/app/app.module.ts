@@ -7,6 +7,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 import { AppComponent } from './app.component';
 import { SideNavService } from './StructuralComponents/side-nav.service';
@@ -32,17 +33,18 @@ import { DisplayQAComponent } from './StructuralComponents/display-qa/display-qa
     MatListModule,
     MatMenuModule,
     MatToolbarModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatExpansionModule
   ],
   declarations: [
     AppComponent,
     LeftSideNavComponent,
-    TopToolbarComponent, 
-    TodaysNewsRelatedQAComponent, 
-    RightTopSidebarComponent, 
-    RightBottomSidebarComponent, 
-    MainComponent, 
-    RightSidebarComponent, 
+    TopToolbarComponent,
+    TodaysNewsRelatedQAComponent,
+    RightTopSidebarComponent,
+    RightBottomSidebarComponent,
+    MainComponent,
+    RightSidebarComponent,
     DisplayQAComponent,
   ],
   bootstrap: [
