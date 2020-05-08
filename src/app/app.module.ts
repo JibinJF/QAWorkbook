@@ -19,6 +19,7 @@ import { RightTopSidebarComponent } from './StructuralComponents/right-top-sideb
 import { RightBottomSidebarComponent } from './StructuralComponents/right-bottom-sidebar/right-bottom-sidebar.component';
 import { MainComponent } from './StructuralComponents/main/main.component';
 import { RightSidebarComponent } from './StructuralComponents/right-sidebar/sidebar.component';
+import { DisplayQAComponent } from './StructuralComponents/display-qa/display-qa.component';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { RightSidebarComponent } from './StructuralComponents/right-sidebar/side
     RightTopSidebarComponent, 
     RightBottomSidebarComponent, 
     MainComponent, 
-    RightSidebarComponent
+    RightSidebarComponent, 
+    DisplayQAComponent,
   ],
   bootstrap: [
     AppComponent

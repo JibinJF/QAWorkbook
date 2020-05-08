@@ -1,0 +1,75 @@
+<div class="qaContainer">
+    <div class="pageTitleContainer">
+        <div class="chapterName">
+            {{chapterName}} QAs
+        </div>
+    </div>
+    <div class="prevNextShowHideButtonContainer">
+        <div class="prevQaButton" (click)="onPrevQaButtonClick()">
+            <a>
+                Prev QA
+            </a>
+        </div>
+        <div class="showHideAnswerButton" (click)="onShowHideButtonClick()">
+            <a>
+                {{showHideButtonText}}
+            </a>
+        </div>
+        <div class="nextQaButton" (click)="onNextQaButtonClick()">
+            <a>
+                Next QA
+            </a>
+        </div>
+    </div>
+    <div class="qaNumberContainer">
+        <div class="qaNumberLabel">
+            QA:
+        </div>
+        <div class="qaNumber">
+            #{{currentQAIndex+1}}
+        </div>
+    </div>
+    <div class="questionContainer">
+        <div class="questionLabel">
+            Question:
+        </div>
+        <div class="question">
+            {{qas[currentQAIndex].question}}
+        </div>
+    </div>
+    <div *ngIf="qas[currentQAIndex].showAnswer">
+        <div class="answerContainer">
+            <div class="answerLabel">
+                Answer:
+            </div>
+            <div class="answer">
+                {{qas[currentQAIndex].answer}}
+            </div>
+        </div>
+        <div *ngIf="qas[currentQAIndex].description" class="descriptionContainer">
+            <div class="descriptionLabel">
+                Description:
+            </div>
+            <div class="description">
+                {{qas[currentQAIndex].description}}
+            </div>
+        </div>
+    </div>
+    <div class="prevNextShowHideButtonContainer">
+        <div class="prevQaButton" (click)="onPrevQaButtonClick()">
+            <a>
+                Prev QA
+            </a>
+        </div>
+        <div class="showHideAnswerButton" (click)="onShowHideButtonClick()">
+            <a>
+                {{showHideButtonText}}
+            </a>
+        </div>
+        <div class="nextQaButton" (click)="onNextQaButtonClick()">
+            <a>
+                Next QA
+            </a>
+        </div>
+    </div>
+</div>
