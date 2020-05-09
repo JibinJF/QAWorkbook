@@ -22,7 +22,7 @@ export class AppComponent implements OnDestroy, AfterViewInit {
     media: MediaMatcher,
     private leftNavMenuService: SideNavService
   ) {
-    this.mobileQuery = media.matchMedia("(max-width: 600px)");
+    this.mobileQuery = media.matchMedia("(max-width: 768px)");
     this._mobileQueryListener = () => changeDetectorRef.detectChanges();
     this.mobileQuery.addListener(this._mobileQueryListener);
 

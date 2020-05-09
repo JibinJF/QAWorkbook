@@ -36,7 +36,7 @@
   app-main,
   app-right-bottom-sidebar,
   app-right-sidebar {
-    padding: 10px;
+    padding: 5px;
   }
 
   app-main {
@@ -50,20 +50,20 @@
   order:1;
   flex: auto;
   float: left;
-  width: 75%;
+  width: 70%;
 } 
 
 .desktopSidenavContentContainer app-right-sidebar {
   order:2;
    flex: auto;
    float: right;
-   width: 25%;
+   width: 30%;
 }
 
-.mobileSidenavContentContainer 
-  app-right-top-sidebar, 
-   app-main, 
-   app-right-bottom-sidebar {
-    flex: unset;
-     width: 100%;
+.mobileSidenavContentContainer
+app-right-top-sidebar,
+app-main,
+app-right-bottom-sidebar {
+  flex: unset;
+  width: 100%;
 }

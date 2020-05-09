@@ -5,84 +5,34 @@
         </div>
     </div>
     <div class="qaPaletteContainer">
-        <mat-accordion>
-            <mat-expansion-panel>
-                <mat-expansion-panel-header>
-                    QA Palette
-                </mat-expansion-panel-header>
-
-                Some deferred content
-
-            </mat-expansion-panel>
-        </mat-accordion>
-    </div>
-    <div class="prevNextShowHideButtonContainer">
-        <div class="prevQaButton" (click)="onPrevQaButtonClick()">
-            <a>
-                Prev QA
-            </a>
-        </div>
-        <div class="showHideAnswerButton" (click)="onShowHideButtonClick()">
-            <a>
-                {{showHideButtonText}}
-            </a>
-        </div>
-        <div class="nextQaButton" (click)="onNextQaButtonClick()">
-            <a>
-                Next QA
-            </a>
-        </div>
-    </div>
-    <div class="qaNumberContainer">
-        <div class="qaNumberLabel">
-            QA:
-        </div>
-        <div class="qaNumber">
-            <!-- #{{currentQAIndex+1}} -->
-            {{qas[currentQAIndex].qaNumber}}
-        </div>
-    </div>
-    <div class="questionContainer">
-        <div class="questionLabel">
-            Question:
-        </div>
-        <div class="question">
-            {{qas[currentQAIndex].question}}
-        </div>
-    </div>
-    <div *ngIf="qas[currentQAIndex].showAnswer">
-        <div class="answerContainer">
-            <div class="answerLabel">
-                Answer:
+        <div *ngFor="let qa of qas">
+            <div class="qaExpansionPanelContainer" [@.disabled]="true">
+                <mat-expansion-panel [expanded]="false">
+                    <mat-expansion-panel-header>
+                        <div class="questionContainer">
+                            <div class="question">
+                                <span style="color: #FFD700;">#{{qa.qaNumber}} </span>{{qa.question}}
+                            </div>
+                        </div>
+                    </mat-expansion-panel-header>
+                    <div class="answerContainer">
+                        <div class="answerLabel">
+                            Answer:
+                        </div>
+                        <div class="answer">
+                            {{qa.answer}}
+                        </div>
+                    </div>
+                    <div *ngIf="qa.description" class="descriptionContainer">
+                        <div class="descriptionLabel">
+                            Description:
+                        </div>
+                        <div class="description">
+                            {{qa.description}}
+                        </div>
+                    </div>
+                </mat-expansion-panel>
             </div>
-            <div class="answer">
-                {{qas[currentQAIndex].answer}}
-            </div>
-        </div>
-        <div *ngIf="qas[currentQAIndex].description" class="descriptionContainer">
-            <div class="descriptionLabel">
-                Description:
-            </div>
-            <div class="description">
-                {{qas[currentQAIndex].description}}
-            </div>
-        </div>
-    </div>
-    <div class="prevNextShowHideButtonContainer">
-        <div class="prevQaButton" (click)="onPrevQaButtonClick()">
-            <a>
-                Prev QA
-            </a>
-        </div>
-        <div class="showHideAnswerButton" (click)="onShowHideButtonClick()">
-            <a>
-                {{showHideButtonText}}
-            </a>
-        </div>
-        <div class="nextQaButton" (click)="onNextQaButtonClick()">
-            <a>
-                Next QA
-            </a>
         </div>
     </div>
 </div>

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
@@ -6,18 +6,17 @@ import { QAModel } from 'src/app/StructuralComponents/qamodel';
   templateUrl: './todays-news-related-qa.component.html',
   styleUrls: ['./todays-news-related-qa.component.css']
 })
-export class TodaysNewsRelatedQAComponent implements OnInit {
+export class TodaysNewsRelatedQAComponent {
 
-  qaNumber = 1;
+  qaNumber: number = 1;
+  chapterName: string = 'A Very very very very very very Long Chapter Name For Testing';
+
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
   todaysNewsRelatedQAs: QAModel[] = [
     {
       qaNumber: this.qaNumber++,
-      question: 'What is COVID-19? Briefly explain its symptoms, treatment and the ways through which it spreads.',
+      question: 'What is COVID-19? Briefly explain its symptoms, treatment and the ways through which it spreads?',
       answer: `Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
     Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment.`,
       description: `HOW IT SPREADS The virus that causes COVID- 19 is mainly transmitted through droplets generated when an 
@@ -27,14 +26,14 @@ export class TodaysNewsRelatedQAComponent implements OnInit {
     },
     {
       qaNumber: this.qaNumber++,
-      question: `Q2`,
+      question: `Q2?`,
       answer: `A2`
     },
     {
       qaNumber: this.qaNumber++,
-      question:`q3 theis question is deliberately made big to test multi line behaviour of the app`,
-      answer:`a3`,
-      description:`d3`
+      question: `q3-this question is deliberately made big to test multi line behaviour of the app?`,
+      answer: `a3`,
+      description: `d3`
     }
   ];
 }
