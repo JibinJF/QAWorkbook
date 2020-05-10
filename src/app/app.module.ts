@@ -21,6 +21,13 @@ import { RightBottomSidebarComponent } from './StructuralComponents/right-bottom
 import { MainComponent } from './StructuralComponents/main/main.component';
 import { RightSidebarComponent } from './StructuralComponents/right-sidebar/sidebar.component';
 import { DisplayQAComponent } from './StructuralComponents/display-qa/display-qa.component';
+import { GeneralAwarenessQAComponent } from './general-awareness-qa/general-awareness-qa.component';
+import { HistoryQAComponent } from './general-awareness-qa/history-qa/history-qa.component';
+import { AncientIndianHistoryQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/ancient-indian-history-qa.component';
+import { StoneAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/stone-age-qa/stone-age-qa.component';
+import { ChalcolithicFarmingCulturesQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/chalcolithic-farming-cultures-qa/chalcolithic-farming-cultures-qa.component';
+import { HarappanCultureBronzeAgeCivilizationQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/harappan-culture-bronze-age-civilization-qa/harappan-culture-bronze-age-civilization-qa.component';
+import { DisplayQAWbListComponent } from './StructuralComponents/display-qawb-list/display-qawb-list.component';
 
 
 @NgModule({
@@ -46,6 +53,13 @@ import { DisplayQAComponent } from './StructuralComponents/display-qa/display-qa
     MainComponent,
     RightSidebarComponent,
     DisplayQAComponent,
+    GeneralAwarenessQAComponent,
+    HistoryQAComponent,
+    AncientIndianHistoryQAComponent,
+    StoneAgeQAComponent,
+    ChalcolithicFarmingCulturesQAComponent,
+    HarappanCultureBronzeAgeCivilizationQAComponent,
+    DisplayQAWbListComponent,
   ],
   bootstrap: [
     AppComponent

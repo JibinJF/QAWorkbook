@@ -1,0 +1,16 @@
+<div class="outerContainer">
+    <div class="pageTitleContainer">
+        <div class="wbName">
+            Available {{workbookName}} Workbooks
+        </div>
+    </div>
+    <div class="qaWbListContainer">
+        <div *ngFor="let qaWb of qaWbList">
+            <div class="qaWBContainer">
+                <a routerLink={{qaWb.wbRoute}}>
+                    <span class="qaWbNumber">#{{qaWb.wbNumber}} </span>{{qaWb.wbName}}
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

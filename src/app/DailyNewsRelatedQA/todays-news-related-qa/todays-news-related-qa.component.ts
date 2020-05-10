@@ -9,7 +9,7 @@ import { QAModel } from 'src/app/StructuralComponents/qamodel';
 export class TodaysNewsRelatedQAComponent {
 
   qaNumber: number = 1;
-  chapterName: string = 'A Very very very very very very Long Chapter Name For Testing';
+  chapterName: string = `Todays's News Related`;
 
   constructor() { }
 
