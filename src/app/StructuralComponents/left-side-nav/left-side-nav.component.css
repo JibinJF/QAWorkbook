@@ -1,13 +1,17 @@
 .mat-list-item {
-    padding: 8px 0;
-    display: flex;
+    flex: auto;
     width: auto;
     height: 35px !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
     letter-spacing: 1px;
+    background-color: #424242;
+    border-radius: 5px;
+    width: auto !important;
+    padding: 0 0 !important;
+    margin-right: 5px !important;
 }
 
 .mat-list-item:hover {
-    background-color:black;
+    background-color:#424242 !important;
 }

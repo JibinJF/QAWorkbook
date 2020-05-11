@@ -1,4 +1,4 @@
-import { Component, ChangeDetectorRef, OnDestroy, ViewChild, AfterViewInit } from '@angular/core';
+import { Component, ChangeDetectorRef, OnDestroy, ViewChild, AfterViewInit, ViewEncapsulation } from '@angular/core';
 import { MediaMatcher } from '@angular/cdk/layout';
 import { MatSidenav } from '@angular/material/sidenav';
 import { SideNavService } from './StructuralComponents/side-nav.service';
@@ -6,7 +6,8 @@ import { SideNavService } from './StructuralComponents/side-nav.service';
 @Component({
   selector: "my-app",
   templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.css"]
+  styleUrls: ["./app.component.css"],
+  encapsulation: ViewEncapsulation.None
 })
 
 export class AppComponent implements OnDestroy, AfterViewInit {
@@ -22,12 +23,12 @@ export class AppComponent implements OnDestroy, AfterViewInit {
     media: MediaMatcher,
     private leftNavMenuService: SideNavService
   ) {
-    this.mobileQuery = media.matchMedia("(max-width: 768px)");
+    this.mobileQuery = media.matchMedia("(max-width: 991px)");
     this._mobileQueryListener = () => changeDetectorRef.detectChanges();
     this.mobileQuery.addListener(this._mobileQueryListener);
 
 
-    this.tabletQuery = media.matchMedia("(max-width: 900px)");
+    this.tabletQuery = media.matchMedia("(max-width: 991px)");
     this._tabletQueryListener = () => changeDetectorRef.detectChanges();
     this.tabletQuery.addListener(this._tabletQueryListener);
   }

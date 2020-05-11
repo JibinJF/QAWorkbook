@@ -22,24 +22,29 @@
 }
 
 .qaWBContainer {
+    display: flex;
+    flex-flow:row wrap;
+    flex-direction: column;
+}
+
+.qaWbListContainer a {
     flex: auto;
-    background-color: #424242;
-    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #424242;
     margin-bottom: 5px;
 }
 
-
 .qaWbListContainer :hover {
-    cursor: pointer;
     margin-left: 5px;
-}
-
-.qaWBContainer a {
-    text-decoration: none;
-    color: white;
 }
 
 .qaWbNumber {
     color: #FFD700;
+    margin-right: 5px;
 }

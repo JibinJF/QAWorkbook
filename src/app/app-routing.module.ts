@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/StoneAgeQA', component: StoneAgeQAComponent },
   { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/ChalcolithicFarmingCulturesQA', component: ChalcolithicFarmingCulturesQAComponent },
   { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/HarappanCultureBronzeAgeCivilizationQA', component: HarappanCultureBronzeAgeCivilizationQAComponent },  
-  { path: '', redirectTo: '/AncientIndianHistoryQA', pathMatch: 'full' },
+  { path: '', redirectTo: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA', pathMatch: 'full' },
 ];
 
 @NgModule({

@@ -13,11 +13,29 @@
    right: 0;
    }
 
-.main-sidenav-container {
-   /* When the sidenav is not fixed, stretch the sidenav container to fill the available space. This
-   causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
-   flex: 1;
+   mat-sidenav {
+    flex: auto;
+    box-sizing: border-box;
    }
+
+   .mat-drawer-inner-container {
+    background-color: transparent;
+    /* margin-left: 5px; */
+  }
+
+  .mat-drawer {
+    background-color: transparent;
+  }
+
+   .main-sidenav-container {
+    /* When the sidenav is not fixed, stretch the sidenav container to fill the available space. This
+    causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
+    flex: 1;
+    } 
+
+    .mat-list-item-content {
+      padding: 0px 5px !important;
+  }
 
    .desktopSidenavContentContainer {
     display:flex;

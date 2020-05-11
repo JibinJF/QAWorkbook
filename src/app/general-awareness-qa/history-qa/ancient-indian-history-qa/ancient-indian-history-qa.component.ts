@@ -17,17 +17,17 @@ export class AncientIndianHistoryQAComponent implements OnInit {
   ancientIndianHistoryQAWbList: QAWbListModel[] = [{
     wbNumber: this.wbNumber++,
     wbName: `The Stone Age: The Early Man`,
-    wbRoute: '/StoneAgeQA',
+    wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/StoneAgeQA',
   },
   {
     wbNumber: this.wbNumber++,
     wbName: `Chalcolithic Farming Cultures`,
-    wbRoute: '/ChalcolithicFarmingCulturesQA',
+    wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/ChalcolithicFarmingCulturesQA',
   },
   {
     wbNumber: this.wbNumber++,
     wbName: `The Harappan Culture: Bronze Age Civilization`,
-    wbRoute: '/HarappanCultureBronzeAgeCivilizationQA',
+    wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/HarappanCultureBronzeAgeCivilizationQA',
   }
   ]
 }

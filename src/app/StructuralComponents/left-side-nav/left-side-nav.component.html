@@ -1,6 +1,6 @@
 <div *ngIf="depth==0">
   <mat-nav-list *ngFor="let leftSideNavElement of leftSideNavElements">
-    <a mat-list-item [ngStyle]="{'padding-left': (depth * 15) + 'px'}" (click)="onItemSelected(leftSideNavElement)"
+    <a mat-list-item [ngStyle]="{'margin-left': (5 + depth * 10) + 'px'}" (click)="onItemSelected(leftSideNavElement)"
       class="menu-list-item">
       {{leftSideNavElement.displayName}}
       <span fxFlex *ngIf="leftSideNavElement.children && leftSideNavElement.children.length">
@@ -19,12 +19,12 @@
 </div>
 <div *ngIf="depth>0">
   <mat-nav-list>
-    <a mat-list-item [ngStyle]="{'padding-left': (depth * 15) + 'px'}" (click)="onItemSelected(leftSideNavElement)"
+    <a mat-list-item [ngStyle]="{'margin-left': (5 + depth * 10) + 'px'}" (click)="onItemSelected(leftSideNavElement)"
       class="menu-list-item">
       {{leftSideNavElement.displayName}}
       <span fxFlex *ngIf="leftSideNavElement.children && leftSideNavElement.children.length">
         <span fxFlex></span>
-        <mat-icon [@indicatorRotate]="leftSideNavElement.expand ? 'expanded': 'collapsed'">
+        <mat-icon class="rotateIcon" [@indicatorRotate]="leftSideNavElement.expand ? 'expanded': 'collapsed'">
           expand_more
         </mat-icon>
       </span>
