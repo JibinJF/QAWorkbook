@@ -1,0 +1,7 @@
+<mat-menu #{{parentMenuName}}="matMenu">
+    <button mat-menu-item [matMenuTriggerFor]="parentMenuName">UPSC</button>
+    <div *ngIf="navMenuElement.children">
+        <app-nav-menu *ngFor="let child of navMenuElement.children" [navMenuElement]="child">
+        </app-nav-menu>
+    </div>
+</mat-menu>

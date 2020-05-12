@@ -1,16 +1,27 @@
 <mat-toolbar>
   <mat-toolbar-row class="top-toolbar-row">
-    <button class="sideNavButton" mat-icon-button (click)="toggleLeftNavMenu()">
-      <mat-icon>menu</mat-icon>
-    </button>
-    <a>
-      <div>
-        <img class="toolbarQAWorkbookLogo" src="\assets\QAWorkbook-Logo.png" width="60" height="60">
-      </div>
-    </a>
-    <div class="toolbarWbTitle">Workbook</div>
-    <a class="topToolbarMenuItem" [matMenuTriggerFor]="appMenu">Syllabi</a>
-    <mat-menu #appMenu="matMenu">
+
+
+    <div class="mainNavMenuButtonContainer">
+      <button class="sideNavButton" mat-icon-button (click)="toggleLeftNavMenu()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div>
+
+    <!-- <div class="logoNameContainer"> -->
+      <a>
+        <div>
+          <img class="toolbarQAWorkbookLogo" src="\assets\QAWorkbook-Logo.png" width="60" height="60">
+        </div>
+      </a>
+      <div class="toolbarWbTitle">Workbook</div>
+    <!-- </div> -->
+
+    <div class="syllabiMenuButtonContainer">
+      <a class="topToolbarMenuItem" [matMenuTriggerFor]="appMenu">Syllabi</a>
+    </div>
+
+    <mat-menu #appMenu="matMenu" xPosition="after">
       <button mat-menu-item [matMenuTriggerFor]="upscSubMenu">UPSC</button>
       <button mat-menu-item [matMenuTriggerFor]="statePscSubMenu">State PSC</button>
     </mat-menu>

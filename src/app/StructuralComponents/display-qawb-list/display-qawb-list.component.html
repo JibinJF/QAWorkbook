@@ -5,12 +5,8 @@
         </div>
     </div>
     <div class="qaWbListContainer">
-        <!-- <div *ngFor="let qaWb of qaWbList"> -->
-            <!-- <div class="qaWBContainer"> -->
-                <a class="qaWBContainer" *ngFor="let qaWb of qaWbList" routerLink={{qaWb.wbRoute}}>
-                    <span class="qaWbNumber">#{{qaWb.wbNumber}} </span>{{qaWb.wbName}}
-                </a>
-            <!-- </div> -->
-        <!-- </div> -->
+        <a class="qaWBContainer" *ngFor="let qaWb of qaWbList" routerLink={{qaWb.wbRoute}}>
+            <span class="qaWbNumber">#{{qaWb.wbNumber}} </span>{{qaWb.wbName}}
+        </a>
     </div>
 </div>

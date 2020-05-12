@@ -1,7 +1,6 @@
 export interface NavElementModel {
   displayName: string;
-  disabled?: boolean;
-  iconName?: string;
+  menuName?: string;
   route?: string;
   expand?: boolean;
   children?: NavElementModel[];

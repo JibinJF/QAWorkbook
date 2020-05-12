@@ -5,9 +5,11 @@ import { AncientIndianHistoryQAComponent } from './general-awareness-qa/history-
 import { StoneAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/stone-age-qa/stone-age-qa.component';
 import { HarappanCultureBronzeAgeCivilizationQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/harappan-culture-bronze-age-civilization-qa/harappan-culture-bronze-age-civilization-qa.component';
 import { ChalcolithicFarmingCulturesQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/chalcolithic-farming-cultures-qa/chalcolithic-farming-cultures-qa.component';
+import { GeneralAwarenessQAComponent } from './general-awareness-qa/general-awareness-qa.component';
 
 const routes: Routes = [
   { path: 'TodaysNewsRelatedQA', component: TodaysNewsRelatedQAComponent },
+  { path: 'GeneralAwarenessQA', component: GeneralAwarenessQAComponent },
   { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA', component: AncientIndianHistoryQAComponent },
   { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/StoneAgeQA', component: StoneAgeQAComponent },
   { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/ChalcolithicFarmingCulturesQA', component: ChalcolithicFarmingCulturesQAComponent },

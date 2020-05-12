@@ -28,6 +28,7 @@ import { StoneAgeQAComponent } from './general-awareness-qa/history-qa/ancient-i
 import { ChalcolithicFarmingCulturesQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/chalcolithic-farming-cultures-qa/chalcolithic-farming-cultures-qa.component';
 import { HarappanCultureBronzeAgeCivilizationQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/harappan-culture-bronze-age-civilization-qa/harappan-culture-bronze-age-civilization-qa.component';
 import { DisplayQAWbListComponent } from './StructuralComponents/display-qawb-list/display-qawb-list.component';
+import { NavMenuComponent } from './StructuralComponents/nav-menu/nav-menu.component';
 
 
 @NgModule({
@@ -60,6 +61,7 @@ import { DisplayQAWbListComponent } from './StructuralComponents/display-qawb-li
     ChalcolithicFarmingCulturesQAComponent,
     HarappanCultureBronzeAgeCivilizationQAComponent,
     DisplayQAWbListComponent,
+    NavMenuComponent,
   ],
   bootstrap: [
     AppComponent

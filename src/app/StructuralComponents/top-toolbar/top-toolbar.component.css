@@ -18,12 +18,33 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
     font-weight: lighter;
-    margin-left: 20px;
 }
 
 .topToolbarMenuItem:hover {
     cursor: pointer;
 }
+
+.mainNavMenuButtonContainer {
+    flex: 1 1 auto;
+    align-self: center;
+    text-align: center  ;
+}
+/* .logoNameContainer {
+    flex: 1 1 auto;
+    align-self: center;
+    flex-wrap: nowrap;
+} */
+
+.syllabiMenuButtonContainer {
+    flex: 1 1 auto;
+    align-self: center;
+    text-align: center;
+}
+
+
+/* .cdk-overlay-pane {
+    align-self: center;
+} */
 
 .mat-menu-item:hover {
     background-color:black;
@@ -34,8 +55,8 @@
     color: white;
     border: none;
     outline: none;
-    margin-left: -10px;
-    padding-right: 9px;
+    flex: 1 1 auto;
+    text-align: center;
 }
 
 .sideNavButton:hover {
