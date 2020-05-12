@@ -6,6 +6,7 @@
   .mat-toolbar-row {
     min-height: 56px !important; 
     height: 56px !important;
+    padding: 0 !important;
   }
 
 .top-toolbar-row {
@@ -40,11 +41,6 @@
     align-self: center;
     text-align: center;
 }
-
-
-/* .cdk-overlay-pane {
-    align-self: center;
-} */
 
 .mat-menu-item:hover {
     background-color:black;

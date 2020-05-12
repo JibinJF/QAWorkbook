@@ -17,13 +17,13 @@
       <div class="toolbarWbTitle">Workbook</div>
     <!-- </div> -->
 
-    <div class="syllabiMenuButtonContainer">
-      <a class="topToolbarMenuItem" [matMenuTriggerFor]="appMenu">Syllabi</a>
+    <div class="syllabiMenuButtonContainer">      
+      <a class="topToolbarMenuItem" [matMenuTriggerFor]="appMenu"><mat-icon>whatshot</mat-icon></a>
     </div>
 
     <mat-menu #appMenu="matMenu" xPosition="after">
-      <button mat-menu-item [matMenuTriggerFor]="upscSubMenu">UPSC</button>
-      <button mat-menu-item [matMenuTriggerFor]="statePscSubMenu">State PSC</button>
+      <button mat-menu-item [matMenuTriggerFor]="upscSubMenu">UPSC Syllabus</button>
+      <button mat-menu-item [matMenuTriggerFor]="statePscSubMenu">State PSC Syllabus</button>
     </mat-menu>
     <mat-menu #upscSubMenu="matMenu">
       <button mat-menu-item>Civil Services</button>
