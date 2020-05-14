@@ -1,21 +1,91 @@
-.total-container {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+* {
+   box-sizing: border-box;
+   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.main-sidenav-container {
+.total-container {
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   }
+
+   .main-sidenav-container {
     /* When the sidenav is not fixed, stretch the sidenav container to fill the available space. This
-       causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
+    causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
     flex: 1;
+    }
+
+   .desktopSidenavContentContainer {
+    display:flex;
+    flex-flow:row wrap;
+    flex-direction: row;
+   }
+
+   .mobileSidenavContentContainer
+   {
+    display:flex;
+    flex-flow:row wrap;
+    flex-direction: row;
+   }
+
+  app-left-top-sidebar,
+  app-right-top-sidebar,
+  app-left-sidebar,
+  app-main,
+  app-left-bottom-sidebar,
+  app-right-bottom-sidebar,
+  app-right-sidebar {
+    padding: 5px;
   }
-  
-  .device-is-mobile .main-sidenav-container {
-    /* When the sidenav is fixed, don't constrain the height of the sidenav container. This allows the
-       `<body>` to be our scrolling element for mobile layouts. */
-    flex: 1 0 auto;
+
+  app-left-top-sidebar,
+  app-right-top-sidebar,
+  app-left-sidebar,
+  app-left-bottom-sidebar,
+  app-right-bottom-sidebar,
+  app-right-sidebar {
+    margin: 0;
+    text-align: center;
   }
+
+  app-main {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    line-height: 35px;
+    letter-spacing: 1px;
+  }
+
+  .desktopSidenavContentContainer app-left-sidebar {
+    order:1;
+    flex: auto;
+    float: left;
+    width: 20%;
+  }
+
+ .desktopSidenavContentContainer app-main {
+  order:2;
+  flex: auto;
+  float: left;
+  width: 60%;
+} 
+
+.desktopSidenavContentContainer app-right-sidebar {
+  order:2;
+   flex: auto;
+   float: right;
+   width: 20%;
+}
+
+.mobileSidenavContentContainer
+app-left-top-sidebar,
+app-right-top-sidebar,
+app-main,
+app-left-bottom-sidebar,
+app-right-bottom-sidebar {
+  flex: unset;
+  width: 100%;
+}

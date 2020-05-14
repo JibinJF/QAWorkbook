@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { SideNavService } from '../side-nav.service';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-top-toolbar',
@@ -8,9 +7,6 @@ import { SideNavService } from '../side-nav.service';
 })
 export class TopToolbarComponent {
 
-  constructor(private leftNavMenuService: SideNavService) { }
+  constructor() { }
 
-  toggleLeftNavMenu() {
-    this.leftNavMenuService.toggleSideNav();
-  }
 }
