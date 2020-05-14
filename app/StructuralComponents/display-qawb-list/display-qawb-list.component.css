@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+.outerContainer {
+    display: flex;
+    flex-flow:row wrap;
+    flex-direction: column;
+}
+
+.pageTitleContainer {
+    align-self: center;
+    align-content: center;
+    color: #FFD700;
+    margin-bottom: 5px;
+    font-size: larger;
+    text-align: center;
+    background-color: #424242;
+    box-shadow: 0px .5px black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.qaWBContainer {
+    display: flex;
+    flex-flow:row wrap;
+    flex-direction: column;
+}
+
+.qaWbListContainer a {
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #424242;
+    margin-bottom: 5px;
+}
+
+.qaWbListContainer :hover {
+    margin-left: 5px;
+}
+
+.qaWbNumber {
+    color: #FFD700;
+    margin-right: 5px;
+}

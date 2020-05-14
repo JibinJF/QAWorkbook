@@ -1,0 +1,79 @@
+.mat-toolbar {
+    min-height: 56px !important; 
+    height: 56px !important;
+  }
+  
+  .mat-toolbar-row {
+    min-height: 56px !important; 
+    height: 56px !important;
+    padding: 0 !important;
+  }
+
+.top-toolbar-row {
+    position: fixed;
+    /* Make sure the toolbar will stay on top of the content as it scrolls past. */
+    z-index: 2;
+}
+
+.topToolbarMenuItem {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+.topToolbarMenuItem:hover {
+    cursor: pointer;
+}
+
+.mainNavMenuButtonContainer {
+    flex: 1 1 auto;
+    align-self: center;
+    text-align: center  ;
+}
+
+.syllabiMenuButtonContainer {
+    flex: 1 1 auto;
+    align-self: center;
+    text-align: center;
+}
+
+.mat-menu-item:hover {
+    background-color:black;
+}
+
+.sideNavButton {
+    background-color: rgb(34, 31, 31);
+    color: white;
+    border: none;
+    outline: none;
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 0;
+}
+
+.sideNavButton:hover {
+    cursor: pointer;
+}
+
+.toolbarQAWorkbookLogo {
+    vertical-align: middle;
+}
+
+.toolbarQAWorkbookLogo:hover {
+    cursor: pointer;
+}
+
+.toolbarWbTitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant-caps: petite-caps;
+    font-size: x-large;
+    color: #FFD700;
+}
+
+.toolbarWbTitle:hover {
+    cursor: pointer;
+}
+
+.mat-icon {
+    vertical-align: sub;
+}

@@ -1,0 +1,10 @@
+<mat-menu>
+    <button mat-menu-item [matMenuTriggerFor]="upscSubMenu">UPSC Syllabus</button>
+    <button mat-menu-item [matMenuTriggerFor]="statePscSubMenu">State PSC Syllabus</button>
+</mat-menu>
+<mat-menu #upscSubMenu="matMenu">
+    <button mat-menu-item>Civil Services</button>
+</mat-menu>
+<mat-menu #statePscSubMenu="matMenu">
+    <button mat-menu-item>Kerala PSC</button>
+</mat-menu>
