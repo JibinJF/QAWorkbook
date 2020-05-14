@@ -9,10 +9,8 @@ import { QAModel } from '../qamodel';
 })
 export class DisplayQAComponent {
 
-  @Input() chapterName: string;
-  @Input() qas: QAModel;
-
-  
+  @Input() workbookName: string;
+  @Input() qas: QAModel;  
 
   constructor() {
   }

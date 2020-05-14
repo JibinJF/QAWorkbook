@@ -1,17 +1,12 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { SideNavService } from '../side-nav.service';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-top-toolbar',
   templateUrl: './top-toolbar.component.html',
-  styleUrls: ['./top-toolbar.component.css'],
-  encapsulation: ViewEncapsulation.None
+  styleUrls: ['./top-toolbar.component.css']
 })
 export class TopToolbarComponent {
 
-  constructor(private leftNavMenuService: SideNavService) { }
+  constructor() { }
 
-  toggleLeftNavMenu() {
-    this.leftNavMenuService.toggleSideNav();
-  }
 }

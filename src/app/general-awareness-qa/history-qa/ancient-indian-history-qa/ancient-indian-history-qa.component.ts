@@ -3,12 +3,12 @@ import { QAWbListModel } from 'src/app/StructuralComponents/qawb-list-model';
 
 @Component({
   selector: 'app-ancient-indian-history-qa',
-  templateUrl: './ancient-indian-history-qa.component.html',
-  styleUrls: ['./ancient-indian-history-qa.component.css']
+  template: `<app-display-qawb-list [qaWbList]="ancientIndianHistoryQAWbList" [workbookName]="workbookName"></app-display-qawb-list>`
 })
 export class AncientIndianHistoryQAComponent implements OnInit {
 
   wbNumber: number = 1;
+  workbookName: string = `Ancient Indian History`;
   constructor() { }
 
   ngOnInit(): void {

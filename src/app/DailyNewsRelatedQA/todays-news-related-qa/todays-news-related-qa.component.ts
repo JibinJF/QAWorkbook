@@ -3,13 +3,12 @@ import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
   selector: 'app-todays-news-related-qa',
-  templateUrl: './todays-news-related-qa.component.html',
-  styleUrls: ['./todays-news-related-qa.component.css']
+  template: `<app-display-qa [workbookName]="workbookName" [qas]="todaysNewsRelatedQAs"></app-display-qa>`
 })
 export class TodaysNewsRelatedQAComponent {
 
   qaNumber: number = 1;
-  chapterName: string = `Todays's News Related`;
+  workbookName: string = `Todays's News Related`;
 
   constructor() { }
 

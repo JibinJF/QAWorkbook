@@ -6,15 +6,17 @@ import { StoneAgeQAComponent } from './general-awareness-qa/history-qa/ancient-i
 import { HarappanCultureBronzeAgeCivilizationQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/harappan-culture-bronze-age-civilization-qa/harappan-culture-bronze-age-civilization-qa.component';
 import { ChalcolithicFarmingCulturesQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/chalcolithic-farming-cultures-qa/chalcolithic-farming-cultures-qa.component';
 import { GeneralAwarenessQAComponent } from './general-awareness-qa/general-awareness-qa.component';
+import { HistoryQAComponent } from './general-awareness-qa/history-qa/history-qa.component';
 
 const routes: Routes = [
   { path: 'TodaysNewsRelatedQA', component: TodaysNewsRelatedQAComponent },
   { path: 'GeneralAwarenessQA', component: GeneralAwarenessQAComponent },
+  { path: 'GeneralAwarenessQA/HistoryQA', component: HistoryQAComponent },
   { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA', component: AncientIndianHistoryQAComponent },
   { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/StoneAgeQA', component: StoneAgeQAComponent },
   { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/ChalcolithicFarmingCulturesQA', component: ChalcolithicFarmingCulturesQAComponent },
   { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/HarappanCultureBronzeAgeCivilizationQA', component: HarappanCultureBronzeAgeCivilizationQAComponent },  
-  { path: '', redirectTo: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA', pathMatch: 'full' },
+  { path: '', redirectTo: 'TodaysNewsRelatedQA', pathMatch: 'full' },
 ];
 
 @NgModule({

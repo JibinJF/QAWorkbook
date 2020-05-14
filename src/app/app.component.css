@@ -13,14 +13,6 @@
    right: 0;
    }
 
-   .mat-drawer-inner-container {
-    background-color: transparent;
-  }
-
-  .mat-drawer {
-    background-color: transparent;
-  }
-
    .main-sidenav-container {
     /* When the sidenav is not fixed, stretch the sidenav container to fill the available space. This
     causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
@@ -40,11 +32,24 @@
     flex-direction: row;
    }
 
+  app-left-top-sidebar,
   app-right-top-sidebar,
+  app-left-sidebar,
   app-main,
+  app-left-bottom-sidebar,
   app-right-bottom-sidebar,
   app-right-sidebar {
     padding: 5px;
+  }
+
+  app-left-top-sidebar,
+  app-right-top-sidebar,
+  app-left-sidebar,
+  app-left-bottom-sidebar,
+  app-right-bottom-sidebar,
+  app-right-sidebar {
+    margin: 0;
+    text-align: center;
   }
 
   app-main {
@@ -54,23 +59,32 @@
     letter-spacing: 1px;
   }
 
+  .desktopSidenavContentContainer app-left-sidebar {
+    order:1;
+    flex: auto;
+    float: left;
+    width: 20%;
+  }
+
  .desktopSidenavContentContainer app-main {
-  order:1;
+  order:2;
   flex: auto;
   float: left;
-  width: 70%;
+  width: 60%;
 } 
 
 .desktopSidenavContentContainer app-right-sidebar {
   order:2;
    flex: auto;
    float: right;
-   width: 30%;
+   width: 20%;
 }
 
 .mobileSidenavContentContainer
+app-left-top-sidebar,
 app-right-top-sidebar,
 app-main,
+app-left-bottom-sidebar,
 app-right-bottom-sidebar {
   flex: unset;
   width: 100%;

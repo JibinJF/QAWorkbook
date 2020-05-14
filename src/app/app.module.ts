@@ -10,8 +10,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatExpansionModule } from '@angular/material/expansion';
 
 import { AppComponent } from './app.component';
-import { SideNavService } from './StructuralComponents/side-nav.service';
-import { LeftSideNavComponent } from './StructuralComponents/left-side-nav/left-side-nav.component';
 import { TopToolbarComponent } from './StructuralComponents/top-toolbar/top-toolbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -28,7 +26,11 @@ import { StoneAgeQAComponent } from './general-awareness-qa/history-qa/ancient-i
 import { ChalcolithicFarmingCulturesQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/chalcolithic-farming-cultures-qa/chalcolithic-farming-cultures-qa.component';
 import { HarappanCultureBronzeAgeCivilizationQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/harappan-culture-bronze-age-civilization-qa/harappan-culture-bronze-age-civilization-qa.component';
 import { DisplayQAWbListComponent } from './StructuralComponents/display-qawb-list/display-qawb-list.component';
-import { NavMenuComponent } from './StructuralComponents/nav-menu/nav-menu.component';
+import { SyllabusNavMenuComponent } from './StructuralComponents/syllabus-nav-menu/syllabus-nav-menu.component';
+import { MainNavMenuComponent } from './StructuralComponents/main-nav-menu/main-nav-menu.component';
+import { LeftSidebarComponent } from './StructuralComponents/left-sidebar/left-sidebar.component';
+import { LeftTopSidebarComponent } from './StructuralComponents/left-top-sidebar/left-top-sidebar.component';
+import { LeftBottomSidebarComponent } from './StructuralComponents/left-bottom-sidebar/left-bottom-sidebar.component';
 
 
 @NgModule({
@@ -46,7 +48,6 @@ import { NavMenuComponent } from './StructuralComponents/nav-menu/nav-menu.compo
   ],
   declarations: [
     AppComponent,
-    LeftSideNavComponent,
     TopToolbarComponent,
     TodaysNewsRelatedQAComponent,
     RightTopSidebarComponent,
@@ -61,13 +62,15 @@ import { NavMenuComponent } from './StructuralComponents/nav-menu/nav-menu.compo
     ChalcolithicFarmingCulturesQAComponent,
     HarappanCultureBronzeAgeCivilizationQAComponent,
     DisplayQAWbListComponent,
-    NavMenuComponent,
+    SyllabusNavMenuComponent,
+    MainNavMenuComponent,
+    LeftSidebarComponent,
+    LeftTopSidebarComponent,
+    LeftBottomSidebarComponent,
   ],
   bootstrap: [
     AppComponent
   ],
-  providers: [
-    SideNavService
-  ]
+  providers: []
 })
 export class AppModule { }
