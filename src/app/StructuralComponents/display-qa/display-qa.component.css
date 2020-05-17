@@ -1,3 +1,10 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
 .qaContainer{
     display:flex;
     flex-wrap: wrap;
@@ -6,7 +13,6 @@
 }
 
 .pageTitleContainer {
-    align-self: center;
     align-content: center;
     color: #FFD700;
     margin-bottom: 5px;

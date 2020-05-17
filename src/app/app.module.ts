@@ -14,8 +14,8 @@ import { TopToolbarComponent } from './StructuralComponents/top-toolbar/top-tool
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TodaysNewsRelatedQAComponent } from './DailyNewsRelatedQA/todays-news-related-qa/todays-news-related-qa.component';
-import { RightTopSidebarComponent } from './StructuralComponents/right-top-sidebar/right-top-sidebar.component';
-import { RightBottomSidebarComponent } from './StructuralComponents/right-bottom-sidebar/right-bottom-sidebar.component';
+import { RightTopSidebarComponent } from './StructuralComponents/right-sidebar/right-top-sidebar/right-top-sidebar.component';
+import { RightBottomSidebarComponent } from './StructuralComponents/right-sidebar/right-bottom-sidebar/right-bottom-sidebar.component';
 import { MainComponent } from './StructuralComponents/main/main.component';
 import { RightSidebarComponent } from './StructuralComponents/right-sidebar/sidebar.component';
 import { DisplayQAComponent } from './StructuralComponents/display-qa/display-qa.component';
@@ -26,11 +26,14 @@ import { StoneAgeQAComponent } from './general-awareness-qa/history-qa/ancient-i
 import { ChalcolithicFarmingCulturesQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/chalcolithic-farming-cultures-qa/chalcolithic-farming-cultures-qa.component';
 import { HarappanCultureBronzeAgeCivilizationQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/harappan-culture-bronze-age-civilization-qa/harappan-culture-bronze-age-civilization-qa.component';
 import { DisplayQAWbListComponent } from './StructuralComponents/display-qawb-list/display-qawb-list.component';
-import { SyllabusNavMenuComponent } from './StructuralComponents/syllabus-nav-menu/syllabus-nav-menu.component';
+import { SyllabusNavMenuComponent } from './StructuralComponents/whatshot-nav-menu/whatshot-nav-menu.component';
 import { MainNavMenuComponent } from './StructuralComponents/main-nav-menu/main-nav-menu.component';
 import { LeftSidebarComponent } from './StructuralComponents/left-sidebar/left-sidebar.component';
-import { LeftTopSidebarComponent } from './StructuralComponents/left-top-sidebar/left-top-sidebar.component';
-import { LeftBottomSidebarComponent } from './StructuralComponents/left-bottom-sidebar/left-bottom-sidebar.component';
+import { LeftTopSidebarComponent } from './StructuralComponents/left-sidebar/left-top-sidebar/left-top-sidebar.component';
+import { LeftBottomSidebarComponent } from './StructuralComponents/left-sidebar/left-bottom-sidebar/left-bottom-sidebar.component';
+import { TermsAndConditionsComponent } from './StructuralComponents/terms-and-conditions/terms-and-conditions.component';
+import { ContactInfoComponent } from './StructuralComponents/contact-info/contact-info.component';
+import { AboutQAWorkbookComponent } from './StructuralComponents/about-qaworkbook/about-qaworkbook.component';
 
 
 @NgModule({
@@ -67,6 +70,9 @@ import { LeftBottomSidebarComponent } from './StructuralComponents/left-bottom-s
     LeftSidebarComponent,
     LeftTopSidebarComponent,
     LeftBottomSidebarComponent,
+    TermsAndConditionsComponent,
+    ContactInfoComponent,
+    AboutQAWorkbookComponent
   ],
   bootstrap: [
     AppComponent

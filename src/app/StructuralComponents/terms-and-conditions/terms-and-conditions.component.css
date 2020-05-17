@@ -1,0 +1,33 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+.tAndCTitle {
+    color: #FFD700;
+    text-align: center;
+    background-color: #424242;
+    box-shadow: 0px .5px black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.title {
+    color: #FFD700;
+    background-color: #424242;
+    box-shadow: 0px .5px black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.description {
+    background-color: #424242;
+    box-shadow: 0px .5px black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
