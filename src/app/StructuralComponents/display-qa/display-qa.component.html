@@ -19,16 +19,16 @@
                         <div class="answerLabel">
                             Answer:
                         </div>
-                        <div class="answer">
-                            {{qa.answer}}
+                        <div class="answer" [innerHTML]="qa.answer">
+                            <!-- {{qa.answer}} -->
                         </div>
                     </div>
                     <div *ngIf="qa.description" class="descriptionContainer">
                         <div class="descriptionLabel">
                             Description:
                         </div>
-                        <div class="description">
-                            {{qa.description}}
+                        <div class="description" [innerHTML]="qa.description">
+                            <!-- {{qa.description}} -->
                         </div>
                     </div>
                 </mat-expansion-panel>
