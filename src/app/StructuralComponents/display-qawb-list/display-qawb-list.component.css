@@ -4,6 +4,7 @@
     font-size: large;
     line-height: 35px;
     letter-spacing: 1px;
+    font-variant-numeric: lining-nums;
 }
 
 .outerContainer {

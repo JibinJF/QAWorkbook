@@ -1,16 +1,5 @@
 <mat-menu>
-    <button mat-menu-item [matMenuTriggerFor]="syllabusSubMenu">Syllabus</button>
     <button mat-menu-item routerLink="About">About QAWorkbook</button>
     <button mat-menu-item routerLink="T&C">Terms & Conditions</button>
     <button mat-menu-item routerLink="ContactInfo">Contact Info</button>
-</mat-menu>
-<mat-menu #syllabusSubMenu="matMenu">
-    <button mat-menu-item [matMenuTriggerFor]="upscSubMenu">UPSC</button>
-    <button mat-menu-item [matMenuTriggerFor]="statePscSubMenu">State PSC</button>
-</mat-menu>
-<mat-menu #upscSubMenu="matMenu">
-    <button mat-menu-item>Civil Services</button>
-</mat-menu>
-<mat-menu #statePscSubMenu="matMenu">
-    <button mat-menu-item>Kerala PSC</button>
 </mat-menu>
