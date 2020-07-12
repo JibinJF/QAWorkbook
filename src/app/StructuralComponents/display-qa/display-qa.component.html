@@ -16,11 +16,11 @@
                         </div>
                     </mat-expansion-panel-header>
                     <div class="answerContainer">
-                        <div class="answerLabel">
+                        <span class="answerLabel">
                             Answer:
-                        </div>
-                        <div class="answer" [innerHTML]="qa.answer">
-                        </div>
+                        </span>
+                        <span class="answer" [innerHTML]="qa.answer">
+                        </span>
                     </div>
                     <div *ngIf="qa.description" class="descriptionContainer">
                         <div class="descriptionLabel">

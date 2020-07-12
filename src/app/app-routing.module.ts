@@ -10,6 +10,7 @@ import { HistoryQAComponent } from './general-awareness-qa/history-qa/history-qa
 import { AboutQAWorkbookComponent } from './StructuralComponents/about-qaworkbook/about-qaworkbook.component';
 import { ContactInfoComponent } from './StructuralComponents/contact-info/contact-info.component';
 import { TermsAndConditionsComponent } from './StructuralComponents/terms-and-conditions/terms-and-conditions.component';
+import { AryansAndRigVedaQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/aryans-and-rig-veda-qa/aryans-and-rig-veda-qa.component';
 
 const routes: Routes = [
   { path: 'TodaysNewsRelatedQA', component: TodaysNewsRelatedQAComponent },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/StoneAgeQA', component: StoneAgeQAComponent },
   { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/ChalcolithicFarmingCulturesQA', component: ChalcolithicFarmingCulturesQAComponent },
   { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/HarappanCultureBronzeAgeCivilizationQA', component: HarappanCultureBronzeAgeCivilizationQAComponent },
+  { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/AryansAndRigVedaQA', component: AryansAndRigVedaQAComponent },
   { path: '', redirectTo: 'TodaysNewsRelatedQA', pathMatch: 'full' },
 ];
 

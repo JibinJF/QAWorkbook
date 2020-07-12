@@ -34,6 +34,7 @@ import { LeftBottomSidebarComponent } from './StructuralComponents/left-sidebar/
 import { TermsAndConditionsComponent } from './StructuralComponents/terms-and-conditions/terms-and-conditions.component';
 import { ContactInfoComponent } from './StructuralComponents/contact-info/contact-info.component';
 import { AboutQAWorkbookComponent } from './StructuralComponents/about-qaworkbook/about-qaworkbook.component';
+import { AryansAndRigVedaQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/aryans-and-rig-veda-qa/aryans-and-rig-veda-qa.component';
 
 
 @NgModule({
@@ -72,7 +73,8 @@ import { AboutQAWorkbookComponent } from './StructuralComponents/about-qaworkboo
     LeftBottomSidebarComponent,
     TermsAndConditionsComponent,
     ContactInfoComponent,
-    AboutQAWorkbookComponent
+    AboutQAWorkbookComponent,
+    AryansAndRigVedaQAComponent
   ],
   bootstrap: [
     AppComponent

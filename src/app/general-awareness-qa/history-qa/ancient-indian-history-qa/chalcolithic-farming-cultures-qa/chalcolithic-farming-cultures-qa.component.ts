@@ -8,7 +8,7 @@ import { QAModel } from 'src/app/StructuralComponents/qamodel';
 export class ChalcolithicFarmingCulturesQAComponent implements OnInit {
 
   qaNumber: number = 1;
-  workbookName: string = `Chalcolithic Farming Cultures`;
+  workbookName: string = `Chalcolithic Age`;
 
   constructor() { }
 

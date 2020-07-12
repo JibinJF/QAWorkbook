@@ -1,7 +1,7 @@
 <mat-menu>
-    <button mat-menu-item [matMenuTriggerFor]="syllabusSubMenu">Syllabus</button>
     <button mat-menu-item routerLink="TodaysNewsRelatedQA">Today's News Related QA</button>
     <button mat-menu-item [matMenuTriggerFor]="generalAwarenessQA">General Awareness QA</button>
+    <button mat-menu-item [matMenuTriggerFor]="syllabusSubMenu">Syllabus</button>
 </mat-menu>
 
 <mat-menu #syllabusSubMenu="matMenu">
@@ -44,12 +44,13 @@
     <button mat-menu-item routerLink="GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/StoneAgeQA">Stone Age
         QA</button>
     <button mat-menu-item
-        routerLink="GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/ChalcolithicFarmingCulturesQA">Chalcolithic
-        Farming
-        Cultures QA</button>
+        routerLink="GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/ChalcolithicFarmingCulturesQA">Chalcolithic Age
+        QA</button>
     <button mat-menu-item
-        routerLink="GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/HarappanCultureBronzeAgeCivilizationQA">Harappan
-        Culture: Bronze Age Civilization QA</button>
+        routerLink="GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/HarappanCultureBronzeAgeCivilizationQA">Bronze
+        Age and Harappan Civilization QA</button>
+    <button mat-menu-item routerLink="GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/AryansAndRigVedaQA">Aryans and
+        Rig Veda QA</button>
 </mat-menu>
 <mat-menu #medievalIndianHistoryQA="matMenu">
     <button mat-menu-item></button>

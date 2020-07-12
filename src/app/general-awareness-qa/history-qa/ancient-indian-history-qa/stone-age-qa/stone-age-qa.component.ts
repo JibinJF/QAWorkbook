@@ -8,7 +8,7 @@ import { QAModel } from 'src/app/StructuralComponents/qamodel';
 export class StoneAgeQAComponent implements OnInit {
 
   qaNumber: number = 1;
-  workbookName: string = `Stone Age And The Early Man`;
+  workbookName: string = `Stone Age`;
 
   constructor() { }
 
