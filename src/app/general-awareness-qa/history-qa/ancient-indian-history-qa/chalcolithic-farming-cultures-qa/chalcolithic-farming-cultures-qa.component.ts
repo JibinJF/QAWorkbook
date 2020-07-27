@@ -5,7 +5,7 @@ import { QAModel } from 'src/app/StructuralComponents/qamodel';
   selector: 'app-chalcolithic-farming-cultures-qa',
   template: `<app-display-qa [qas]="chalcolithicFarmingCulturesQAs" [workbookName]="workbookName"></app-display-qa>`
 })
-export class ChalcolithicFarmingCulturesQAComponent implements OnInit {
+export class ChalcolithicAgeQAComponent implements OnInit {
 
   qaNumber: number = 1;
   workbookName: string = `Chalcolithic Age`;

@@ -23,8 +23,8 @@ import { GeneralAwarenessQAComponent } from './general-awareness-qa/general-awar
 import { HistoryQAComponent } from './general-awareness-qa/history-qa/history-qa.component';
 import { AncientIndianHistoryQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/ancient-indian-history-qa.component';
 import { StoneAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/stone-age-qa/stone-age-qa.component';
-import { ChalcolithicFarmingCulturesQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/chalcolithic-farming-cultures-qa/chalcolithic-farming-cultures-qa.component';
-import { HarappanCultureBronzeAgeCivilizationQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/harappan-culture-bronze-age-civilization-qa/harappan-culture-bronze-age-civilization-qa.component';
+import { ChalcolithicAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/chalcolithic-farming-cultures-qa/chalcolithic-farming-cultures-qa.component';
+import { BronzeAgeAndHarappanCivilizationQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/harappan-culture-bronze-age-civilization-qa/harappan-culture-bronze-age-civilization-qa.component';
 import { DisplayQAWbListComponent } from './StructuralComponents/display-qawb-list/display-qawb-list.component';
 import { SyllabusNavMenuComponent } from './StructuralComponents/whatshot-nav-menu/whatshot-nav-menu.component';
 import { MainNavMenuComponent } from './StructuralComponents/main-nav-menu/main-nav-menu.component';
@@ -34,7 +34,8 @@ import { LeftBottomSidebarComponent } from './StructuralComponents/left-sidebar/
 import { TermsAndConditionsComponent } from './StructuralComponents/terms-and-conditions/terms-and-conditions.component';
 import { ContactInfoComponent } from './StructuralComponents/contact-info/contact-info.component';
 import { AboutQAWorkbookComponent } from './StructuralComponents/about-qaworkbook/about-qaworkbook.component';
-import { AryansAndRigVedaQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/aryans-and-rig-veda-qa/aryans-and-rig-veda-qa.component';
+import { VedicAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/vedic-age-qa/vedic-age-qa.component';
+import { JainismAndBuddhismQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/jainism-and-buddhism-qa/jainism-and-buddhism-qa.component';
 
 
 @NgModule({
@@ -63,8 +64,8 @@ import { AryansAndRigVedaQAComponent } from './general-awareness-qa/history-qa/a
     HistoryQAComponent,
     AncientIndianHistoryQAComponent,
     StoneAgeQAComponent,
-    ChalcolithicFarmingCulturesQAComponent,
-    HarappanCultureBronzeAgeCivilizationQAComponent,
+    ChalcolithicAgeQAComponent,
+    BronzeAgeAndHarappanCivilizationQAComponent,
     DisplayQAWbListComponent,
     SyllabusNavMenuComponent,
     MainNavMenuComponent,
@@ -74,7 +75,8 @@ import { AryansAndRigVedaQAComponent } from './general-awareness-qa/history-qa/a
     TermsAndConditionsComponent,
     ContactInfoComponent,
     AboutQAWorkbookComponent,
-    AryansAndRigVedaQAComponent
+    VedicAgeQAComponent,
+    JainismAndBuddhismQAComponent
   ],
   bootstrap: [
     AppComponent

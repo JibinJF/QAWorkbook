@@ -5,7 +5,7 @@ import { QAModel } from 'src/app/StructuralComponents/qamodel';
   selector: 'app-harappan-culture-bronze-age-civilization-qa',
   template: `<app-display-qa [qas]="harappanCultureBronzeAgeCivilizationQAs" [workbookName]="workbookName"></app-display-qa>`
 })
-export class HarappanCultureBronzeAgeCivilizationQAComponent implements OnInit {
+export class BronzeAgeAndHarappanCivilizationQAComponent implements OnInit {
 
   qaNumber: number = 1;
   workbookName: string = `Bronze Age and Harappan Civilization`;
