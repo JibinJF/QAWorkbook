@@ -22,17 +22,22 @@ export class AncientIndianHistoryQAComponent implements OnInit {
   {
     wbNumber: this.wbNumber++,
     wbName: `Chalcolithic Age`,
-    wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/ChalcolithicFarmingCulturesQA',
+    wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/ChalcolithicAgeQA',
   },
   {
     wbNumber: this.wbNumber++,
-    wbName: `Bronze Age and Harappan Civilization`,
-    wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/HarappanCultureBronzeAgeCivilizationQA',
+    wbName: `Bronze Age And Harappan Civilization`,
+    wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/BronzeAgeAndHarappanCivilizationQA',
   },
   {
     wbNumber: this.wbNumber++,
-    wbName: `Aryans And Rig Veda`,
-    wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/AryansAndRigVedaQA',
-  }
+    wbName: `Vedic Age`,
+    wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/VedicAgeQA',
+  },
+  {
+    wbNumber: this.wbNumber++,
+    wbName: `Jainism And Buddhism`,
+    wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/JainismAndBuddhismQA',
+  },
   ]
 }
