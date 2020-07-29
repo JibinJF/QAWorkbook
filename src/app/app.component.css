@@ -3,7 +3,7 @@
    font-family: Georgia, 'Times New Roman', Times, serif;
    font-size: 18px;
    line-height: 35px;
-   letter-spacing: 1px;
+   letter-spacing: 1.25px;
 }
 
 .total-container {
@@ -59,7 +59,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     line-height: 35px;
-    letter-spacing: 1px;
+    letter-spacing: 1.25px;
   }
 
   .desktopSidenavContentContainer app-left-sidebar {

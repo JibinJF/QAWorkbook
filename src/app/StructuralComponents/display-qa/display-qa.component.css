@@ -2,7 +2,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     line-height: 35px;
-    letter-spacing: 1px;
+    letter-spacing: 1.25px;
     font-variant-numeric: lining-nums;
 }
 
@@ -39,7 +39,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     font-size: 18px !important;
     line-height: 35px !important;
-    letter-spacing: 1px !important;
+    letter-spacing: 1.25px !important;
     font-variant-numeric: lining-nums !important; 
 }
 
@@ -48,7 +48,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     font-size: 18px !important;
     line-height: 35px !important;
-    letter-spacing: 1px !important;
+    letter-spacing: 1.25px !important;
     font-variant-numeric: lining-nums !important;
 }
 
