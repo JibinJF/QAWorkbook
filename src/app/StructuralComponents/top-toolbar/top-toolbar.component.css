@@ -15,12 +15,6 @@
     z-index: 2;
 }
 
-.topToolbarMenuItem {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: larger;
-    font-weight: lighter;
-}
-
 .topToolbarMenuItem:hover {
     cursor: pointer;
 }
@@ -37,12 +31,8 @@
     text-align: center;
 }
 
-.mat-menu-item:hover {
-    background-color:black;
-}
-
 .sideNavButton {
-    background-color: rgb(34, 31, 31);
+    background-color:transparent;
     color: white;
     border: none;
     outline: none;
@@ -66,7 +56,7 @@
 .toolbarWbTitle {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-variant-caps: petite-caps;
-    font-size: x-large;
+    font-size: 27px;
     color: #FFD700;
 }
 
@@ -75,5 +65,10 @@
 }
 
 .mat-icon {
-    vertical-align: sub;
+    vertical-align: middle;
+}
+
+.sideNavButton,
+.whatshotNavButton {
+    vertical-align: middle;
 }

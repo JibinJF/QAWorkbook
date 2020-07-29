@@ -11,7 +11,8 @@
                     <mat-expansion-panel-header>
                         <div class="questionContainer">
                             <div class="question">
-                                <span style="color: #FFD700;">#{{qa.qaNumber}} </span>{{qa.question}}
+                                <span style="color: #FFD700;">#{{qa.qaNumber}} </span>
+                                <span [innerHTML]="qa.question"></span>
                             </div>
                         </div>
                     </mat-expansion-panel-header>
