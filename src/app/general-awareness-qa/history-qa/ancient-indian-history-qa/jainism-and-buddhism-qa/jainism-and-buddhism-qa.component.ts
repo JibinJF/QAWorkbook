@@ -53,42 +53,39 @@ export class JainismAndBuddhismQAComponent implements OnInit {
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
+      question: `Jainas consider ______ as the first tirthankara or great teacher?`,
+      answer: `Rishabhadev.`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
+      question: `_____ is the 23rd tirthankara or great teacher of Jainas?`,
+      answer: `Parshvanath.`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
+      question: `The last, 24th, tirthankara or great teacher of Jainas is _____?`,
+      answer: `Vardhamana Mahavira.`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
+      question: `How many doctrines are taught by Jainism?`,
+      answer: `5.`,
+      description: `<ol>
+      <li>Do not commit violence.</li>
+      <li>Do not speak a lie.</li>
+      <li>Do not steal.</li>
+      <li>Do not acquire property.</li>
+      <li>Observe continence (brahmacharya).</li>
+      </ol>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Jainism was divided into 2 sects: _____ or those who put on white dress, and _____ or those who 
+      keep themselves naked?`,
+      answer: `Shvetambaras and Digambaras.`,
       description: `<ul>
-      <li></li>
+      <li>While Parshvanath had asked his followers to cover the upper and lower portions of their body, 
+      Mahavira asked them to discard clothes altogether.</li>
       </ul>`
     },
     {
