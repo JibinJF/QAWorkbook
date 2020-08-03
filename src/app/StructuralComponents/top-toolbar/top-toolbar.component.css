@@ -41,7 +41,8 @@
     padding: 0;
 }
 
-.sideNavButton:hover {
+.sideNavButton:hover,
+.whatshotNavButton:hover {
     cursor: pointer;
 }
 

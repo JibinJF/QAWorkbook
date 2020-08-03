@@ -14,7 +14,7 @@
 .contactInfoTitle {
     color: #FFD700;
     text-align: center;
-    background-color: #424242;
+    background-color: #383838;
     box-shadow: 0px .5px black;
     border-radius: 5px;
     padding: 5px;
@@ -24,8 +24,8 @@
 .contactDetails {
     padding: 5px;
     border-radius: 5px;
-    color: white;
-    background-color: #424242;
+    color: #D3D3D3;
+    background-color: #383838;
     font-variant: lining-nums;
     margin-bottom: 5px;
 }

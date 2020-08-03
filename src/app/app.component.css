@@ -20,6 +20,8 @@
     /* When the sidenav is not fixed, stretch the sidenav container to fill the available space. This
     causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
     flex: 1;
+    background-color: #282828;
+    color: #D3D3D3;
     }
 
    .desktopSidenavContentContainer {

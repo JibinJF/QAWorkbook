@@ -36,6 +36,7 @@ import { ContactInfoComponent } from './StructuralComponents/contact-info/contac
 import { AboutQAWorkbookComponent } from './StructuralComponents/about-qaworkbook/about-qaworkbook.component';
 import { VedicAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/vedic-age-qa/vedic-age-qa.component';
 import { JainismAndBuddhismQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/jainism-and-buddhism-qa/jainism-and-buddhism-qa.component';
+import { MahajanapadasQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/mahajanapadasQA/mahajanapadas-qa.component';
 
 
 @NgModule({
@@ -76,7 +77,8 @@ import { JainismAndBuddhismQAComponent } from './general-awareness-qa/history-qa
     ContactInfoComponent,
     AboutQAWorkbookComponent,
     VedicAgeQAComponent,
-    JainismAndBuddhismQAComponent
+    JainismAndBuddhismQAComponent,
+    MahajanapadasQAComponent
   ],
   bootstrap: [
     AppComponent

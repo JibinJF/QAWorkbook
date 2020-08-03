@@ -80,7 +80,7 @@ export class JainismAndBuddhismQAComponent implements OnInit {
     },
     {
       qaNumber: this.qaNumber++,
-      question: `Jainism was divided into 2 sects: _____ or those who put on white dress, and _____ or those who 
+      question: `Jainas were divided into 2 sects: _____ or those who put on white dress, and _____ or those who 
       keep themselves naked?`,
       answer: `Shvetambaras and Digambaras.`,
       description: `<ul>
@@ -90,27 +90,99 @@ export class JainismAndBuddhismQAComponent implements OnInit {
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `According to Jaina tradition, the spread of Jainism in Karnataka is attributed to _____?`,
+      answer: `Chandragupta Maurya.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `The early Jainas, discarded Sanskrit language mainly patronized by the brahmanas, and adopted 
+      _____ language of the common people to preach their doctrines?`,
+      answer: `Prakrit.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `The religious literature of the early Jainas were written in _____?`,
+      answer: `Ardhamagadhi.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `The Jaina texts were compiled in the 6th century A.D. in Gujarat at a place called _____?`,
+      answer: `Valabhi.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `According to Buddhist tradition, Gautama Buddha was born in _____ in Nepal.?`,
+      answer: `Lumbini.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Gautama attained enlightment at _____, under a pipal tree?`,
+      answer: `Bodh Gaya.`,
       description: `<ul>
-      <li></li>
+      <li>After that Gautama began to be called the Buddha or the enlightened.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Gautama Buddha delivered his first sermons at _____ in Banaras?`,
+      answer: `Sarnath.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `According to Buddhist tradition, Gautama Buddha passed away at a place called _____ in Uttar Pradesh?`,
+      answer: `Kushinagar.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Gautama Buddha recommended _____ or an 8 fold path for the elimination of human misery?`,
+      answer: `Ashtangika marga.`,
+      description: `<ol>
+      <li>Right observation.</li>
+      <li>Right determination.</li>
+      <li>Right speech.</li>
+      <li>Right action.</li>
+      <li>Right livelihood.</li>
+      <li>Right exercise.</li>
+      <li>Right memory.</li>
+      <li>Right meditation.</li>
+      </ol>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Gautama Buddha advised people to follow extreme austerity. State true or false?`,
+      answer: `False.`,
       description: `<ul>
-      <li></li>
+      <li>Gautama taught that a person should avoid the excess of both luxury and austerity. He 
+      prescribed the middle path.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
+      question: `The use of _____, the language of the common people, contributed to the spread of Buddhism?`,
+      answer: `Pali.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Gautama Buddha organized the sangha or the religious order, whose doors were kept open to 
+      everybody, irrespective of caste and sex. State true or false?`,
+      answer: `True.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `3 main elements in Buddhism are Buddha, sangha, and _____?`,
+      answer: `Dhamma.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `The Buddhist text _____ declares the cattle to be givers of food, beauty, and happiness 
+      (annada, vannada, sukhada), and thus pleads for their protection?`,
+      answer: `Suttanipata.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `The Greek and the Indian sculptors worked together to create a new kind of art on the 
+      north-west frontier of India, which is known as the _____?`,
+      answer: `Gandhara Art.`,
     },
     {
       qaNumber: this.qaNumber++,
@@ -121,5 +193,4 @@ export class JainismAndBuddhismQAComponent implements OnInit {
       </ul>`
     },
   ];
-
 }

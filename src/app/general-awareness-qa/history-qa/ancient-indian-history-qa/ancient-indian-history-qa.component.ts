@@ -39,5 +39,10 @@ export class AncientIndianHistoryQAComponent implements OnInit {
     wbName: `Jainism And Buddhism`,
     wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/JainismAndBuddhismQA',
   },
+  {
+    wbNumber: this.wbNumber++,
+    wbName: `Mahajanapadas`,
+    wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/MahajanapadasQA',
+  },
   ]
 }

@@ -12,6 +12,7 @@ import { ContactInfoComponent } from './StructuralComponents/contact-info/contac
 import { TermsAndConditionsComponent } from './StructuralComponents/terms-and-conditions/terms-and-conditions.component';
 import { VedicAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/vedic-age-qa/vedic-age-qa.component';
 import { JainismAndBuddhismQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/jainism-and-buddhism-qa/jainism-and-buddhism-qa.component';
+import { MahajanapadasQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/mahajanapadasQA/mahajanapadas-qa.component';
 
 const routes: Routes = [
   { path: 'TodaysNewsRelatedQA', component: TodaysNewsRelatedQAComponent },
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/BronzeAgeAndHarappanCivilizationQA', component: BronzeAgeAndHarappanCivilizationQAComponent },
   { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/VedicAgeQA', component: VedicAgeQAComponent },
   { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/JainismAndBuddhismQA', component: JainismAndBuddhismQAComponent },
+  { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/MahajanapadasQA', component: MahajanapadasQAComponent },
   { path: '', redirectTo: 'TodaysNewsRelatedQA', pathMatch: 'full' },
 ];
 
