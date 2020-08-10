@@ -13,7 +13,7 @@ import { AppComponent } from './app.component';
 import { TopToolbarComponent } from './StructuralComponents/top-toolbar/top-toolbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { TodaysNewsRelatedQAComponent } from './DailyNewsRelatedQA/todays-news-related-qa/todays-news-related-qa.component';
+import { HomeComponent } from './Home/home.component';
 import { RightTopSidebarComponent } from './StructuralComponents/right-sidebar/right-top-sidebar/right-top-sidebar.component';
 import { RightBottomSidebarComponent } from './StructuralComponents/right-sidebar/right-bottom-sidebar/right-bottom-sidebar.component';
 import { MainComponent } from './StructuralComponents/main/main.component';
@@ -37,6 +37,10 @@ import { AboutQAWorkbookComponent } from './StructuralComponents/about-qaworkboo
 import { VedicAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/vedic-age-qa/vedic-age-qa.component';
 import { JainismAndBuddhismQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/jainism-and-buddhism-qa/jainism-and-buddhism-qa.component';
 import { MahajanapadasQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/mahajanapadasQA/mahajanapadas-qa.component';
+import { PolityQAComponent } from './general-awareness-qa/polity-qa/polity-qa.component';
+import { IndianPolityQAComponent } from './general-awareness-qa/polity-qa/indian-polity-qa/indian-polity-qa.component';
+import { InternationalInstitutionsQAComponent } from './general-awareness-qa/polity-qa/international-institutions-qa/international-institutions-qa.component';
+import { InternationalAgreementsQAComponent } from './general-awareness-qa/polity-qa/international-agreements-qa/international-agreements-qa.component';
 
 
 @NgModule({
@@ -55,7 +59,7 @@ import { MahajanapadasQAComponent } from './general-awareness-qa/history-qa/anci
   declarations: [
     AppComponent,
     TopToolbarComponent,
-    TodaysNewsRelatedQAComponent,
+    HomeComponent,
     RightTopSidebarComponent,
     RightBottomSidebarComponent,
     MainComponent,
@@ -78,7 +82,11 @@ import { MahajanapadasQAComponent } from './general-awareness-qa/history-qa/anci
     AboutQAWorkbookComponent,
     VedicAgeQAComponent,
     JainismAndBuddhismQAComponent,
-    MahajanapadasQAComponent
+    MahajanapadasQAComponent,
+    PolityQAComponent,
+    IndianPolityQAComponent,
+    InternationalInstitutionsQAComponent,
+    InternationalAgreementsQAComponent
   ],
   bootstrap: [
     AppComponent

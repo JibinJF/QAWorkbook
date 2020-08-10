@@ -31,7 +31,8 @@
     text-align: center;
 }
 
-.sideNavButton {
+.sideNavButton,
+.whatshotNavButton {
     background-color:transparent;
     color: white;
     border: none;
@@ -59,6 +60,7 @@
     font-variant-caps: petite-caps;
     font-size: 27px;
     color: #FFD700;
+    text-decoration: none;    
 }
 
 .toolbarWbTitle:hover {

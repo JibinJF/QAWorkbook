@@ -8,7 +8,7 @@ import { QAWbListModel } from 'src/app/StructuralComponents/qawb-list-model';
 export class HistoryQAComponent implements OnInit {
 
   wbNumber: number = 1;
-  workbookName: string = `History`
+  workbookName: string = `History`;
 
   constructor() { }
 
@@ -18,7 +18,7 @@ export class HistoryQAComponent implements OnInit {
   historyQAWbList: QAWbListModel[] = [
     {
       wbNumber: this.wbNumber++,
-      wbName: `Ancient Indian History`,
+      wbName: `Ancient Indian History QAWorkbook`,
       wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA'
     },
   ];

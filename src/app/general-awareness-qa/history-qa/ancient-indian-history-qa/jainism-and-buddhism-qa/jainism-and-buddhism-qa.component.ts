@@ -184,13 +184,5 @@ export class JainismAndBuddhismQAComponent implements OnInit {
       north-west frontier of India, which is known as the _____?`,
       answer: `Gandhara Art.`,
     },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
-    },
   ];
 }

@@ -1,0 +1,12 @@
+<div class="outerContainer">
+    <div class="pageTitleContainer">
+        <div class="homeTitle">
+            {{qaWbHomeTitle}}
+        </div>
+    </div>
+    <div class="qaWbListContainer">
+        <a class="qaWBContainer" *ngFor="let qaWbHomeContent of qaWbHomeContentList" routerLink={{qaWbHomeContent.wbRoute}}>
+            <span class="qaWbNumber">#{{qaWbHomeContent.wbNumber}} </span>{{qaWbHomeContent.wbName}}
+        </a>
+    </div>
+</div>

@@ -16,12 +16,12 @@ export class AncientIndianHistoryQAComponent implements OnInit {
 
   ancientIndianHistoryQAWbList: QAWbListModel[] = [{
     wbNumber: this.wbNumber++,
-    wbName: `Stone Age`,
+    wbName: `Stone Age QAWorkbook`,
     wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/StoneAgeQA',
   },
   {
     wbNumber: this.wbNumber++,
-    wbName: `Chalcolithic Age`,
+    wbName: `Chalcolithic Age QAWorkbook`,
     wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/ChalcolithicAgeQA',
   },
   {
@@ -31,17 +31,17 @@ export class AncientIndianHistoryQAComponent implements OnInit {
   },
   {
     wbNumber: this.wbNumber++,
-    wbName: `Vedic Age`,
+    wbName: `Vedic Age QAWorkbook`,
     wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/VedicAgeQA',
   },
   {
     wbNumber: this.wbNumber++,
-    wbName: `Jainism And Buddhism`,
+    wbName: `Jainism And Buddhism QAWorkbook`,
     wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/JainismAndBuddhismQA',
   },
   {
     wbNumber: this.wbNumber++,
-    wbName: `Mahajanapadas`,
+    wbName: `Mahajanapadas QAWorkbook`,
     wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/MahajanapadasQA',
   },
   ]

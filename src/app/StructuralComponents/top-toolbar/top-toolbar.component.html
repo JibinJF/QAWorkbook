@@ -7,17 +7,14 @@
       </button>
     </div>
 
-    <a>
-      <div>
-        <img class="toolbarQAWorkbookLogo" src="\assets\QAWorkbook-Logo.png" width="60" height="60">
-      </div>
+    <a routerLink=''>
+      <img class="toolbarQAWorkbookLogo" src="\assets\QAWorkbook-Logo.png" width="60" height="60">
     </a>
-    <div class="toolbarWbTitle">Workbook</div>
-
+    <a routerLink='' class="toolbarWbTitle">Workbook</a>
     <div class="syllabiMenuButtonContainer">
-      <a mat-icon-button class="whatshotNavButton" [matMenuTriggerFor]="y.menu">
+      <button mat-icon-button class="whatshotNavButton" [matMenuTriggerFor]="y.menu">
         <mat-icon>whatshot</mat-icon>
-      </a>
+      </button>
     </div>
 
   </mat-toolbar-row>

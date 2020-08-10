@@ -1,6 +1,6 @@
 import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { TodaysNewsRelatedQAComponent } from './DailyNewsRelatedQA/todays-news-related-qa/todays-news-related-qa.component';
+import { HomeComponent } from './Home/home.component';
 import { AncientIndianHistoryQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/ancient-indian-history-qa.component';
 import { StoneAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/stone-age-qa/stone-age-qa.component';
 import { BronzeAgeAndHarappanCivilizationQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/harappan-culture-bronze-age-civilization-qa/harappan-culture-bronze-age-civilization-qa.component';
@@ -13,9 +13,13 @@ import { TermsAndConditionsComponent } from './StructuralComponents/terms-and-co
 import { VedicAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/vedic-age-qa/vedic-age-qa.component';
 import { JainismAndBuddhismQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/jainism-and-buddhism-qa/jainism-and-buddhism-qa.component';
 import { MahajanapadasQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/mahajanapadasQA/mahajanapadas-qa.component';
+import { PolityQAComponent } from './general-awareness-qa/polity-qa/polity-qa.component';
+import { IndianPolityQAComponent } from './general-awareness-qa/polity-qa/indian-polity-qa/indian-polity-qa.component';
+import { InternationalAgreementsQAComponent } from './general-awareness-qa/polity-qa/international-agreements-qa/international-agreements-qa.component';
+import { InternationalInstitutionsQAComponent } from './general-awareness-qa/polity-qa/international-institutions-qa/international-institutions-qa.component';
 
 const routes: Routes = [
-  { path: 'TodaysNewsRelatedQA', component: TodaysNewsRelatedQAComponent },
+  { path: '', component: HomeComponent },
   { path: 'About', component: AboutQAWorkbookComponent },
   { path: 'ContactInfo', component: ContactInfoComponent },
   { path: 'T&C', component: TermsAndConditionsComponent },
@@ -28,7 +32,11 @@ const routes: Routes = [
   { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/VedicAgeQA', component: VedicAgeQAComponent },
   { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/JainismAndBuddhismQA', component: JainismAndBuddhismQAComponent },
   { path: 'GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/MahajanapadasQA', component: MahajanapadasQAComponent },
-  { path: '', redirectTo: 'TodaysNewsRelatedQA', pathMatch: 'full' },
+  { path: 'GeneralAwarenessQA/PolityQA', component: PolityQAComponent },
+  { path: 'GeneralAwarenessQA/PolityQA/IndianPolityQA', component: IndianPolityQAComponent },
+  { path: 'GeneralAwarenessQA/PolityQA/InternationalInstitutionsQA', component: InternationalInstitutionsQAComponent },
+  { path: 'GeneralAwarenessQA/PolityQA/InternationalAgreementsQA', component: InternationalAgreementsQAComponent },
+  { path: '', redirectTo: '', pathMatch: 'full' },
 ];
 
 @NgModule({
