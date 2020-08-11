@@ -18,8 +18,8 @@ export class HistoryQAComponent implements OnInit {
   historyQAWbList: QAWbListModel[] = [
     {
       wbNumber: this.wbNumber++,
-      wbName: `Ancient Indian History QAWorkbook`,
-      wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA'
+      wbName: `Ancient Indian History QA`,
+      wbRoute: '/HistoryQA/AncientIndianHistoryQA'
     },
   ];
 }

@@ -16,33 +16,33 @@ export class AncientIndianHistoryQAComponent implements OnInit {
 
   ancientIndianHistoryQAWbList: QAWbListModel[] = [{
     wbNumber: this.wbNumber++,
-    wbName: `Stone Age QAWorkbook`,
-    wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/StoneAgeQA',
+    wbName: `Stone Age QA`,
+    wbRoute: '/HistoryQA/AncientIndianHistoryQA/StoneAgeQA',
   },
   {
     wbNumber: this.wbNumber++,
-    wbName: `Chalcolithic Age QAWorkbook`,
-    wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/ChalcolithicAgeQA',
+    wbName: `Chalcolithic Age QA`,
+    wbRoute: '/HistoryQA/AncientIndianHistoryQA/ChalcolithicAgeQA',
   },
   {
     wbNumber: this.wbNumber++,
-    wbName: `Bronze Age And Harappan Civilization`,
-    wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/BronzeAgeAndHarappanCivilizationQA',
+    wbName: `Bronze Age And Harappan Civilization QA`,
+    wbRoute: '/HistoryQA/AncientIndianHistoryQA/BronzeAgeAndHarappanCivilizationQA',
   },
   {
     wbNumber: this.wbNumber++,
-    wbName: `Vedic Age QAWorkbook`,
-    wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/VedicAgeQA',
+    wbName: `Vedic Age QA`,
+    wbRoute: '/HistoryQA/AncientIndianHistoryQA/VedicAgeQA',
   },
   {
     wbNumber: this.wbNumber++,
-    wbName: `Jainism And Buddhism QAWorkbook`,
-    wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/JainismAndBuddhismQA',
+    wbName: `Jainism And Buddhism QA`,
+    wbRoute: '/HistoryQA/AncientIndianHistoryQA/JainismAndBuddhismQA',
   },
   {
     wbNumber: this.wbNumber++,
-    wbName: `Mahajanapadas QAWorkbook`,
-    wbRoute: '/GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/MahajanapadasQA',
+    wbName: `Mahajanapadas QA`,
+    wbRoute: '/HistoryQA/AncientIndianHistoryQA/MahajanapadasQA',
   },
   ]
 }

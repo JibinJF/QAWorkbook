@@ -19,7 +19,6 @@ import { RightBottomSidebarComponent } from './StructuralComponents/right-sideba
 import { MainComponent } from './StructuralComponents/main/main.component';
 import { RightSidebarComponent } from './StructuralComponents/right-sidebar/sidebar.component';
 import { DisplayQAComponent } from './StructuralComponents/display-qa/display-qa.component';
-import { GeneralAwarenessQAComponent } from './general-awareness-qa/general-awareness-qa.component';
 import { HistoryQAComponent } from './general-awareness-qa/history-qa/history-qa.component';
 import { AncientIndianHistoryQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/ancient-indian-history-qa.component';
 import { StoneAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/stone-age-qa/stone-age-qa.component';
@@ -37,10 +36,12 @@ import { AboutQAWorkbookComponent } from './StructuralComponents/about-qaworkboo
 import { VedicAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/vedic-age-qa/vedic-age-qa.component';
 import { JainismAndBuddhismQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/jainism-and-buddhism-qa/jainism-and-buddhism-qa.component';
 import { MahajanapadasQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/mahajanapadasQA/mahajanapadas-qa.component';
-import { PolityQAComponent } from './general-awareness-qa/polity-qa/polity-qa.component';
-import { IndianPolityQAComponent } from './general-awareness-qa/polity-qa/indian-polity-qa/indian-polity-qa.component';
-import { InternationalInstitutionsQAComponent } from './general-awareness-qa/polity-qa/international-institutions-qa/international-institutions-qa.component';
-import { InternationalAgreementsQAComponent } from './general-awareness-qa/polity-qa/international-agreements-qa/international-agreements-qa.component';
+import { PoliticalScienceQAComponent } from './general-awareness-qa/political-science-qa/political-science-qa.component';
+import { IndianPolityQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-polity-qa.component';
+import { InternationalInstitutionsQAComponent } from './general-awareness-qa/political-science-qa/international-institutions-qa/international-institutions-qa.component';
+import { InternationalAgreementsQAComponent } from './general-awareness-qa/political-science-qa/international-agreements-qa/international-agreements-qa.component';
+import { EconomicsQAComponent } from './general-awareness-qa/economics-qa/economics-qa.component';
+import { GeographyQAComponent } from './general-awareness-qa/geography-qa/geography-qa.component';
 
 
 @NgModule({
@@ -65,7 +66,6 @@ import { InternationalAgreementsQAComponent } from './general-awareness-qa/polit
     MainComponent,
     RightSidebarComponent,
     DisplayQAComponent,
-    GeneralAwarenessQAComponent,
     HistoryQAComponent,
     AncientIndianHistoryQAComponent,
     StoneAgeQAComponent,
@@ -83,10 +83,12 @@ import { InternationalAgreementsQAComponent } from './general-awareness-qa/polit
     VedicAgeQAComponent,
     JainismAndBuddhismQAComponent,
     MahajanapadasQAComponent,
-    PolityQAComponent,
+    PoliticalScienceQAComponent,
     IndianPolityQAComponent,
     InternationalInstitutionsQAComponent,
-    InternationalAgreementsQAComponent
+    InternationalAgreementsQAComponent,
+    EconomicsQAComponent,
+    GeographyQAComponent
   ],
   bootstrap: [
     AppComponent

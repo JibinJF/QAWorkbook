@@ -1,25 +1,8 @@
 <mat-menu>
-    <button mat-menu-item routerLink="TodaysNewsRelatedQA">Today's News Related QA</button>
-    <button mat-menu-item [matMenuTriggerFor]="generalAwarenessQA">General Awareness QA</button>
-    <button mat-menu-item [matMenuTriggerFor]="syllabusSubMenu">Syllabus</button>
-</mat-menu>
-
-<mat-menu #syllabusSubMenu="matMenu">
-    <button mat-menu-item [matMenuTriggerFor]="upscSubMenu">UPSC</button>
-    <button mat-menu-item [matMenuTriggerFor]="statePscSubMenu">State PSC</button>
-</mat-menu>
-<mat-menu #upscSubMenu="matMenu">
-    <button mat-menu-item>Civil Services</button>
-</mat-menu>
-<mat-menu #statePscSubMenu="matMenu">
-    <button mat-menu-item>Kerala PSC</button>
-</mat-menu>
-
-<mat-menu #generalAwarenessQA="matMenu">
-    <button mat-menu-item [matMenuTriggerFor]="historyQA">History QA</button>
+    <button mat-menu-item [matMenuTriggerFor]="economyQA">Economics QA</button>
     <button mat-menu-item [matMenuTriggerFor]="geographyQA">Geography QA</button>
-    <button mat-menu-item [matMenuTriggerFor]="economyQA">Economy QA</button>
-    <button mat-menu-item [matMenuTriggerFor]="polityQA">Polity QA</button>
+    <button mat-menu-item [matMenuTriggerFor]="historyQA">History QA</button>
+    <button mat-menu-item [matMenuTriggerFor]="polityQA">Political Science QA</button>
 </mat-menu>
 
 <mat-menu #historyQA="matMenu">
@@ -43,17 +26,17 @@
 </mat-menu>
 
 <mat-menu #ancientIndianHistoryQA="matMenu">
-    <button mat-menu-item routerLink="GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/StoneAgeQA">Stone Age
+    <button mat-menu-item routerLink="HistoryQA/AncientIndianHistoryQA/StoneAgeQA">Stone Age
         QA</button>
     <button mat-menu-item
-        routerLink="GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/ChalcolithicAgeQA">Chalcolithic Age
+        routerLink="HistoryQA/AncientIndianHistoryQA/ChalcolithicAgeQA">Chalcolithic Age
         QA</button>
     <button mat-menu-item
-        routerLink="GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/BronzeAgeAndHarappanCivilizationQA">Bronze
+        routerLink="HistoryQA/AncientIndianHistoryQA/BronzeAgeAndHarappanCivilizationQA">Bronze
         Age and Harappan Civilization QA</button>
-    <button mat-menu-item routerLink="GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/VedicAgeQA">Vedic Age QA</button>
-    <button mat-menu-item routerLink="GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/JainismAndBuddhismQA">Jainism And Buddhism QA</button>
-    <button mat-menu-item routerLink="GeneralAwarenessQA/HistoryQA/AncientIndianHistoryQA/MahajanapadasQA">Mahajanapadas QA</button>
+    <button mat-menu-item routerLink="HistoryQA/AncientIndianHistoryQA/VedicAgeQA">Vedic Age QA</button>
+    <button mat-menu-item routerLink="HistoryQA/AncientIndianHistoryQA/JainismAndBuddhismQA">Jainism And Buddhism QA</button>
+    <button mat-menu-item routerLink="HistoryQA/AncientIndianHistoryQA/MahajanapadasQA">Mahajanapadas QA</button>
 </mat-menu>
 <mat-menu #medievalIndianHistoryQA="matMenu">
     <button mat-menu-item></button>
