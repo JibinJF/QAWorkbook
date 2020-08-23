@@ -21,17 +21,22 @@ export class PoliticalScienceQAComponent implements OnInit {
     {
       wbNumber: this.wbNumber++,
       wbName: `Indian Polity QA`,
-      wbRoute: '/PolityQA/IndianPolityQA'
+      wbRoute: '/PoliticalScienceQA/IndianPolityQA'
     },
     {
       wbNumber: this.wbNumber++,
-      wbName: `International Institutions QA`,
-      wbRoute: '/PolityQA/InternationalInstitutionsQA'
+      wbName: `International Institutions And Agencies QA`,
+      wbRoute: '/PoliticalScienceQA/InternationalInstitutionsAndAgenciesQA'
     },
     {
       wbNumber: this.wbNumber++,
-      wbName: `International Agreements QA`,
-      wbRoute: '/PolityQA/InternationalAgreementsQA'
+      wbName: `International Agreements And Groupings QA`,
+      wbRoute: '/PoliticalScienceQA/InternationalAgreementsAndGroupingsQA'
+    },
+    {
+      wbNumber: this.wbNumber++,
+      wbName: `Other Countries - Rules And Developments QA`,
+      wbRoute: '/PoliticalScienceQA/OtherCountriesRulesAndDevelopmentsQA'
     },
   ];
 }

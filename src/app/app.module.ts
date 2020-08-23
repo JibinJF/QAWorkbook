@@ -38,10 +38,16 @@ import { JainismAndBuddhismQAComponent } from './general-awareness-qa/history-qa
 import { MahajanapadasQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/mahajanapadasQA/mahajanapadas-qa.component';
 import { PoliticalScienceQAComponent } from './general-awareness-qa/political-science-qa/political-science-qa.component';
 import { IndianPolityQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-polity-qa.component';
-import { InternationalInstitutionsQAComponent } from './general-awareness-qa/political-science-qa/international-institutions-qa/international-institutions-qa.component';
-import { InternationalAgreementsQAComponent } from './general-awareness-qa/political-science-qa/international-agreements-qa/international-agreements-qa.component';
+import { InternationalInstitutionsAndAgenciesQAComponent } from './general-awareness-qa/political-science-qa/international-institutions-and-agencies-qa/international-institutions-and-agencies-qa.component';
+import { InternationalAgreementsAndGroupingsQAComponent } from './general-awareness-qa/political-science-qa/international-agreements-and-groupings-qa/international-agreements-and-groupings-qa.component';
 import { EconomicsQAComponent } from './general-awareness-qa/economics-qa/economics-qa.component';
 import { GeographyQAComponent } from './general-awareness-qa/geography-qa/geography-qa.component';
+import { OtherCountriesRulesAndDevelopmentsQAComponent } from './general-awareness-qa/political-science-qa/other-countries-rules-and-developments-qa/other-countries-rules-and-developments-qa.component';
+import { UnitedStatesOfAmericaQAComponent } from './general-awareness-qa/political-science-qa/other-countries-rules-and-developments-qa/united-states-of-america-qa/united-states-of-america-qa.component';
+import { IndianGeographyQAComponent } from './general-awareness-qa/geography-qa/indian-geography-qa/indian-geography-qa.component';
+import { DrainageSystemQAComponent } from './general-awareness-qa/geography-qa/indian-geography-qa/drainage-system-qa/drainage-system-qa.component';
+import { RegulatoryAuthoritiesQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/regulatory-authorities-qa/regulatory-authorities-qa.component';
+import { NotForProfitCompaniesQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/not-for-profit-companies-qa/not-for-profit-companies-qa.component';
 
 
 @NgModule({
@@ -85,10 +91,16 @@ import { GeographyQAComponent } from './general-awareness-qa/geography-qa/geogra
     MahajanapadasQAComponent,
     PoliticalScienceQAComponent,
     IndianPolityQAComponent,
-    InternationalInstitutionsQAComponent,
-    InternationalAgreementsQAComponent,
+    InternationalInstitutionsAndAgenciesQAComponent,
+    InternationalAgreementsAndGroupingsQAComponent,
     EconomicsQAComponent,
-    GeographyQAComponent
+    GeographyQAComponent,
+    OtherCountriesRulesAndDevelopmentsQAComponent,
+    UnitedStatesOfAmericaQAComponent,
+    IndianGeographyQAComponent,
+    DrainageSystemQAComponent,
+    RegulatoryAuthoritiesQAComponent,
+    NotForProfitCompaniesQAComponent
   ],
   bootstrap: [
     AppComponent

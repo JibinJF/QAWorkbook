@@ -20,43 +20,53 @@ export class IndianPolityQAComponent implements OnInit {
   indianPolityQAWbList: QAWbListModel[] = [
     {
       wbNumber: this.wbNumber++,
-      wbName: `Indian Constitution QAWorkbook`,
+      wbName: `Indian Constitution QA`,
       wbRoute: ''
     },
     {
       wbNumber: this.wbNumber++,
-      wbName: `Union Government QAWorkbook`,
+      wbName: `Union Government QA`,
       wbRoute: ''
     },
     {
       wbNumber: this.wbNumber++,
-      wbName: `State Government QAWorkbook`,
+      wbName: `State Government QA`,
       wbRoute: ''
     },
     {
       wbNumber: this.wbNumber++,
-      wbName: `Local Government QAWorkbook`,
+      wbName: `Local Government QA`,
       wbRoute: ''
     },
     {
       wbNumber: this.wbNumber++,
-      wbName: `Union Territories QAWorkbook`,
+      wbName: `Union Territories QA`,
       wbRoute: ''
     },
     {
       wbNumber: this.wbNumber++,
-      wbName: `Constitutional Bodies QAWorkbook`,
+      wbName: `Constitutional Bodies QA`,
       wbRoute: ''
     },
     {
       wbNumber: this.wbNumber++,
-      wbName: `Statutory Bodies QAWorkbook`,
+      wbName: `Statutory Bodies QA`,
       wbRoute: ''
     },
     {
       wbNumber: this.wbNumber++,
-      wbName: `Non-Constitutional And Non-Statutory Bodies QAWorkbook`,
+      wbName: `Non-Constitutional And Non-Statutory Bodies QA`,
       wbRoute: ''
-    },  
+    },
+    {
+      wbNumber: this.wbNumber++,
+      wbName: `Regulatory Authorities QA`,
+      wbRoute: '/PoliticalScienceQA/IndianPolityQA/RegulatoryAuthoritiesQA'
+    },{
+      wbNumber: this.wbNumber++,
+      wbName: `Not For Profit Companies QA`,
+      wbRoute: '/PoliticalScienceQA/IndianPolityQA/NotForProfitCompaniesQA'
+    },
+
   ];
 }

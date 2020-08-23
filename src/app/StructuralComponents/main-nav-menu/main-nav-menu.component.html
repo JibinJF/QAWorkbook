@@ -1,8 +1,20 @@
 <mat-menu>
-    <button mat-menu-item [matMenuTriggerFor]="economyQA">Economics QA</button>
+    <button mat-menu-item [matMenuTriggerFor]="economicsQA">Economics QA</button>
     <button mat-menu-item [matMenuTriggerFor]="geographyQA">Geography QA</button>
     <button mat-menu-item [matMenuTriggerFor]="historyQA">History QA</button>
-    <button mat-menu-item [matMenuTriggerFor]="polityQA">Political Science QA</button>
+    <button mat-menu-item [matMenuTriggerFor]="polityScienceQA">Political Science QA</button>
+</mat-menu>
+
+<mat-menu #economicsQA="matMenu">
+    <button mat-menu-item></button>
+</mat-menu>
+
+<mat-menu #geographyQA="matMenu">
+    <button mat-menu-item [matMenuTriggerFor]="indianGeographyQA">Indian Geography QA</button>
+</mat-menu>
+
+<mat-menu #indianGeographyQA="matMenu">
+    <button mat-menu-item routerLink="GeographyQA/IndianGeographyQA/DrainageSystemQA">Drainage System QA</button>
 </mat-menu>
 
 <mat-menu #historyQA="matMenu">
@@ -11,36 +23,50 @@
     <button mat-menu-item [matMenuTriggerFor]="modernIndianHistoryQA">Modern Indian History QA</button>
 </mat-menu>
 
-<mat-menu #geographyQA="matMenu">
-    <button mat-menu-item></button>
-</mat-menu>
-
-<mat-menu #economyQA="matMenu">
-    <button mat-menu-item></button>
-</mat-menu>
-
-<mat-menu #polityQA="matMenu">
-    <button mat-menu-item>Indian Polity QA</button>
-    <button mat-menu-item>International Institutions QA</button>
-    <button mat-menu-item>International Agreements QA</button>
-</mat-menu>
-
 <mat-menu #ancientIndianHistoryQA="matMenu">
-    <button mat-menu-item routerLink="HistoryQA/AncientIndianHistoryQA/StoneAgeQA">Stone Age
-        QA</button>
-    <button mat-menu-item
-        routerLink="HistoryQA/AncientIndianHistoryQA/ChalcolithicAgeQA">Chalcolithic Age
-        QA</button>
-    <button mat-menu-item
-        routerLink="HistoryQA/AncientIndianHistoryQA/BronzeAgeAndHarappanCivilizationQA">Bronze
-        Age and Harappan Civilization QA</button>
+    <button mat-menu-item routerLink="HistoryQA/AncientIndianHistoryQA/StoneAgeQA">Stone Age QA</button>
+    <button mat-menu-item routerLink="HistoryQA/AncientIndianHistoryQA/ChalcolithicAgeQA">Chalcolithic Age QA</button>
+    <button mat-menu-item routerLink="HistoryQA/AncientIndianHistoryQA/BronzeAgeAndHarappanCivilizationQA">Bronze Age and Harappan Civilization QA</button>
     <button mat-menu-item routerLink="HistoryQA/AncientIndianHistoryQA/VedicAgeQA">Vedic Age QA</button>
     <button mat-menu-item routerLink="HistoryQA/AncientIndianHistoryQA/JainismAndBuddhismQA">Jainism And Buddhism QA</button>
     <button mat-menu-item routerLink="HistoryQA/AncientIndianHistoryQA/MahajanapadasQA">Mahajanapadas QA</button>
 </mat-menu>
+
 <mat-menu #medievalIndianHistoryQA="matMenu">
     <button mat-menu-item></button>
 </mat-menu>
+
 <mat-menu #modernIndianHistoryQA="matMenu">
     <button mat-menu-item></button>
+</mat-menu>
+
+<mat-menu #polityScienceQA="matMenu">
+    <button mat-menu-item [matMenuTriggerFor]="indianPolityQA">Indian Polity QA</button>
+    <button mat-menu-item routerLink="PoliticalScienceQA/InternationalInstitutionsAndAgenciesQA">International Institutions And Agencies QA</button>
+    <button mat-menu-item routerLink="PoliticalScienceQA/InternationalAgreementsAndGroupingsQA">International Agreements And Groupings QA</button>
+    <button mat-menu-item [matMenuTriggerFor]="otherCountriesRulesAndDevelopmentsQA">Other Countries - Rules And Developments QA</button>
+</mat-menu>
+<mat-menu #indianPolityQA="matMenu">
+    <button mat-menu-item routerLink="">Indian Constitution QA</button>
+    <button mat-menu-item routerLink="">Union Government QA</button>
+    <button mat-menu-item routerLink="">State Government QA</button>
+    <button mat-menu-item routerLink="">Local Government QA</button>
+    <button mat-menu-item routerLink="">Union Territories QA</button>
+    <button mat-menu-item routerLink="">Constitutional Bodies QA</button>
+    <button mat-menu-item routerLink="">Statutory Bodies QA</button>
+    <button mat-menu-item routerLink="">Non-Constitutional And Non-Statutory Bodies QA</button>
+    <button mat-menu-item routerLink="PoliticalScienceQA/IndianPolityQA/RegulatoryAuthoritiesQA">Regulatory Authorities QA</button>
+    <button mat-menu-item routerLink="PoliticalScienceQA/IndianPolityQA/NotForProfitCompaniesQA">Not For Profit Companies QA</button>
+</mat-menu>
+
+<mat-menu #internationalInstitutionsAndAgenciesQA="matMenu">
+    <button mat-menu-item></button>
+</mat-menu>
+
+<mat-menu #internationalAgreementsAndGroupingsQA="matMenu">
+    <button mat-menu-item></button>
+</mat-menu>
+
+<mat-menu #otherCountriesRulesAndDevelopmentsQA="matMenu">
+    <button mat-menu-item routerLink="PoliticalScienceQA/OtherCountriesRulesAndDevelopmentsQA/UnitedStatesOfAmericaQA">United States Of America QA</button>
 </mat-menu>
