@@ -24,6 +24,10 @@ import { IndianGeographyQAComponent } from './general-awareness-qa/geography-qa/
 import { DrainageSystemQAComponent } from './general-awareness-qa/geography-qa/indian-geography-qa/drainage-system-qa/drainage-system-qa.component';
 import { RegulatoryAuthoritiesQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/regulatory-authorities-qa/regulatory-authorities-qa.component';
 import { NotForProfitCompaniesQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/not-for-profit-companies-qa/not-for-profit-companies-qa.component';
+import { FATFQAComponent } from './general-awareness-qa/political-science-qa/international-institutions-and-agencies-qa/fatfqa/fatfqa.component';
+import { ILOQAComponent } from './general-awareness-qa/political-science-qa/international-institutions-and-agencies-qa/iloqa/iloqa.component';
+import { EMGFQAComponent } from './general-awareness-qa/political-science-qa/international-institutions-and-agencies-qa/emgfqa/emgfqa.component';
+import { FSDCQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/regulatory-authorities-qa/fsdcqa/fsdcqa.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -45,8 +49,12 @@ const routes: Routes = [
   { path: 'PoliticalScienceQA', component: PoliticalScienceQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA', component: IndianPolityQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA/RegulatoryAuthoritiesQA', component: RegulatoryAuthoritiesQAComponent },
+  { path: 'PoliticalScienceQA/IndianPolityQA/RegulatoryAuthoritiesQA/FSDCQA', component: FSDCQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA/NotForProfitCompaniesQA', component: NotForProfitCompaniesQAComponent },
   { path: 'PoliticalScienceQA/InternationalInstitutionsAndAgenciesQA', component: InternationalInstitutionsAndAgenciesQAComponent },
+  { path: 'PoliticalScienceQA/InternationalInstitutionsAndAgenciesQA/FATFQA', component: FATFQAComponent },
+  { path: 'PoliticalScienceQA/InternationalInstitutionsAndAgenciesQA/EMGFQA', component: EMGFQAComponent },
+  { path: 'PoliticalScienceQA/InternationalInstitutionsAndAgenciesQA/ILOQA', component: ILOQAComponent },
   { path: 'PoliticalScienceQA/InternationalAgreementsAndGroupingsQA', component: InternationalAgreementsAndGroupingsQAComponent },
   { path: 'PoliticalScienceQA/OtherCountriesRulesAndDevelopmentsQA', component: OtherCountriesRulesAndDevelopmentsQAComponent },
   { path: 'PoliticalScienceQA/OtherCountriesRulesAndDevelopmentsQA/UnitedStatesOfAmericaQA', component: UnitedStatesOfAmericaQAComponent },

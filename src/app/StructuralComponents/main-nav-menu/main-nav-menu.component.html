@@ -42,29 +42,71 @@
 
 <mat-menu #politicalScienceQA="matMenu">
     <button mat-menu-item [matMenuTriggerFor]="indianPolityQA">Indian Polity QA</button>
-    <button mat-menu-item routerLink="PoliticalScienceQA/InternationalInstitutionsAndAgenciesQA">International Institutions And Agencies QA</button>
-    <button mat-menu-item routerLink="PoliticalScienceQA/InternationalAgreementsAndGroupingsQA">International Agreements And Groupings QA</button>
+    <button mat-menu-item [matMenuTriggerFor]="internationalInstitutionsAndAgenciesQA">International Institutions And Agencies QA</button>
+    <button mat-menu-item [matMenuTriggerFor]="internationalAgreementsAndGroupingsQA">International Agreements And Groupings QA</button>
     <button mat-menu-item [matMenuTriggerFor]="otherCountriesRulesAndDevelopmentsQA">Other Countries - Rules And Developments QA</button>
 </mat-menu>
 <mat-menu #indianPolityQA="matMenu">
-    <button mat-menu-item routerLink="">Indian Constitution QA</button>
-    <button mat-menu-item routerLink="">Union Government QA</button>
-    <button mat-menu-item routerLink="">State Government QA</button>
-    <button mat-menu-item routerLink="">Local Government QA</button>
-    <button mat-menu-item routerLink="">Union Territories QA</button>
-    <button mat-menu-item routerLink="">Constitutional Bodies QA</button>
-    <button mat-menu-item routerLink="">Statutory Bodies QA</button>
-    <button mat-menu-item routerLink="">Non-Constitutional And Non-Statutory Bodies QA</button>
-    <button mat-menu-item routerLink="PoliticalScienceQA/IndianPolityQA/RegulatoryAuthoritiesQA">Regulatory Authorities QA</button>
-    <button mat-menu-item routerLink="PoliticalScienceQA/IndianPolityQA/NotForProfitCompaniesQA">Not For Profit Companies QA</button>
+    <button mat-menu-item [matMenuTriggerFor]="indianConstitutionQA">Indian Constitution QA</button>
+    <button mat-menu-item [matMenuTriggerFor]="unionGovernmentQA">Union Government QA</button>
+    <button mat-menu-item [matMenuTriggerFor]="stateGovernmentQA">State Government QA</button>
+    <button mat-menu-item [matMenuTriggerFor]="localGovernmentQA">Local Government QA</button>
+    <button mat-menu-item [matMenuTriggerFor]="unionTerritoriesQA">Union Territories QA</button>
+    <button mat-menu-item [matMenuTriggerFor]="constitutionalBodiesQA">Constitutional Bodies QA</button>
+    <button mat-menu-item [matMenuTriggerFor]="statutoryBodiesQA">Statutory Bodies QA</button>
+    <button mat-menu-item [matMenuTriggerFor]="nonConstitutionalAndNonStatutoryBodiesQA">Non-Constitutional And Non-Statutory Bodies QA</button>
+    <button mat-menu-item [matMenuTriggerFor]="regulatoryAuthoritiesQA">Regulatory Authorities QA</button>
+    <button mat-menu-item [matMenuTriggerFor]="notForProfitCompaniesQA">Not For Profit Companies QA</button>
+</mat-menu>
+
+<mat-menu #indianConstitutionQA="matMenu">
+    <button mat-menu-item routerLink=""></button>
+</mat-menu>
+
+<mat-menu #unionGovernmentQA="matMenu">
+    <button mat-menu-item routerLink=""></button>
+</mat-menu>
+
+<mat-menu #stateGovernmentQA="matMenu">
+    <button mat-menu-item routerLink=""></button>
+</mat-menu>
+
+<mat-menu #localGovernmentQA="matMenu">
+    <button mat-menu-item routerLink=""></button>
+</mat-menu>
+
+<mat-menu #unionTerritoriesQA="matMenu">
+    <button mat-menu-item routerLink=""></button>
+</mat-menu>
+
+<mat-menu #constitutionalBodiesQA="matMenu">
+    <button mat-menu-item routerLink=""></button>
+</mat-menu>
+
+<mat-menu #statutoryBodiesQA="matMenu">
+    <button mat-menu-item routerLink=""></button>
+</mat-menu>
+
+<mat-menu #nonConstitutionalAndNonStatutoryBodiesQA="matMenu">
+    <button mat-menu-item routerLink=""></button>
+</mat-menu>
+
+<mat-menu #regulatoryAuthoritiesQA="matMenu">
+    <button mat-menu-item routerLink="PoliticalScienceQA/IndianPolityQA/RegulatoryAuthoritiesQA/FSDCQA">FSDC QA</button>
+</mat-menu>
+
+<mat-menu #notForProfitCompaniesQA="matMenu">
+    <button mat-menu-item routerLink=""></button>
 </mat-menu>
 
 <mat-menu #internationalInstitutionsAndAgenciesQA="matMenu">
-    <button mat-menu-item></button>
+    <button mat-menu-item routerLink="PoliticalScienceQA/InternationalInstitutionsAndAgenciesQA/FATFQA">FATF QA</button>
+    <button mat-menu-item routerLink="PoliticalScienceQA/InternationalInstitutionsAndAgenciesQA/ILOQA">ILO QA</button>
+    <button mat-menu-item routerLink="PoliticalScienceQA/InternationalInstitutionsAndAgenciesQA/EMGFQA">EMGF QA</button>
 </mat-menu>
 
 <mat-menu #internationalAgreementsAndGroupingsQA="matMenu">
-    <button mat-menu-item></button>
+    <button mat-menu-item routerLink=""></button>
 </mat-menu>
 
 <mat-menu #otherCountriesRulesAndDevelopmentsQA="matMenu">

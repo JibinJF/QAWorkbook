@@ -48,6 +48,10 @@ import { IndianGeographyQAComponent } from './general-awareness-qa/geography-qa/
 import { DrainageSystemQAComponent } from './general-awareness-qa/geography-qa/indian-geography-qa/drainage-system-qa/drainage-system-qa.component';
 import { RegulatoryAuthoritiesQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/regulatory-authorities-qa/regulatory-authorities-qa.component';
 import { NotForProfitCompaniesQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/not-for-profit-companies-qa/not-for-profit-companies-qa.component';
+import { FATFQAComponent } from './general-awareness-qa/political-science-qa/international-institutions-and-agencies-qa/fatfqa/fatfqa.component';
+import { EMGFQAComponent } from './general-awareness-qa/political-science-qa/international-institutions-and-agencies-qa/emgfqa/emgfqa.component';
+import { ILOQAComponent } from './general-awareness-qa/political-science-qa/international-institutions-and-agencies-qa/iloqa/iloqa.component';
+import { FSDCQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/regulatory-authorities-qa/fsdcqa/fsdcqa.component';
 
 
 @NgModule({
@@ -100,7 +104,11 @@ import { NotForProfitCompaniesQAComponent } from './general-awareness-qa/politic
     IndianGeographyQAComponent,
     DrainageSystemQAComponent,
     RegulatoryAuthoritiesQAComponent,
-    NotForProfitCompaniesQAComponent
+    NotForProfitCompaniesQAComponent,
+    FATFQAComponent,
+    EMGFQAComponent,
+    ILOQAComponent,
+    FSDCQAComponent
   ],
   bootstrap: [
     AppComponent
