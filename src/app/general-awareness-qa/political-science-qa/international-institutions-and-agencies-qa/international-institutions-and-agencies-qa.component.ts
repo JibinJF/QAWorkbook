@@ -20,17 +20,17 @@ export class InternationalInstitutionsAndAgenciesQAComponent implements OnInit {
   internationalInstitutionsAndAgenciesQAsindianPolityQAWbList: QAWbListModel[] = [
     {
       wbNumber: this.wbNumber++,
-      wbName: `FATF QA`,
+      wbName: `Financial Action Task Force (FATF) QA`,
       wbRoute: '/PoliticalScienceQA/InternationalInstitutionsAndAgenciesQA/FATFQA'
     },
     {
       wbNumber: this.wbNumber++,
-      wbName: `ILO QA`,
+      wbName: `International Labour Organization (ILO) QA`,
       wbRoute: '/PoliticalScienceQA/InternationalInstitutionsAndAgenciesQA/ILOQA'
     },
     {
       wbNumber: this.wbNumber++,
-      wbName: `EMGF QA`,
+      wbName: `EastMed Gas Forum (EMGF) QA`,
       wbRoute: '/PoliticalScienceQA/InternationalInstitutionsAndAgenciesQA/EMGFQA'
     },
   ];

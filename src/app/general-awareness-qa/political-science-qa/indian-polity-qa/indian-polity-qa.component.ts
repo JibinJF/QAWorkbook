@@ -62,7 +62,13 @@ export class IndianPolityQAComponent implements OnInit {
       wbNumber: this.wbNumber++,
       wbName: `Regulatory Authorities QA`,
       wbRoute: '/PoliticalScienceQA/IndianPolityQA/RegulatoryAuthoritiesQA'
-    },{
+    },
+    {
+      wbNumber: this.wbNumber++,
+      wbName: `Policies And Strategies QA`,
+      wbRoute: '/PoliticalScienceQA/IndianPolityQA/PoliciesAndStrategiesQA'
+    },
+    {
       wbNumber: this.wbNumber++,
       wbName: `Not For Profit Companies QA`,
       wbRoute: '/PoliticalScienceQA/IndianPolityQA/NotForProfitCompaniesQA'

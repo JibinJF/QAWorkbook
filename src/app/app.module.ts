@@ -52,6 +52,9 @@ import { FATFQAComponent } from './general-awareness-qa/political-science-qa/int
 import { EMGFQAComponent } from './general-awareness-qa/political-science-qa/international-institutions-and-agencies-qa/emgfqa/emgfqa.component';
 import { ILOQAComponent } from './general-awareness-qa/political-science-qa/international-institutions-and-agencies-qa/iloqa/iloqa.component';
 import { FSDCQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/regulatory-authorities-qa/fsdcqa/fsdcqa.component';
+import { NCFEQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/not-for-profit-companies-qa/ncfeqa/ncfeqa.component';
+import { PoliciesAndStrategiesQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/policies-and-strategies-qa/policies-and-strategies-qa.component';
+import { NSFEQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/policies-and-strategies-qa/nsfeqa/nsfeqa.component';
 
 
 @NgModule({
@@ -108,7 +111,10 @@ import { FSDCQAComponent } from './general-awareness-qa/political-science-qa/ind
     FATFQAComponent,
     EMGFQAComponent,
     ILOQAComponent,
-    FSDCQAComponent
+    FSDCQAComponent,
+    NCFEQAComponent,
+    PoliciesAndStrategiesQAComponent,
+    NSFEQAComponent
   ],
   bootstrap: [
     AppComponent

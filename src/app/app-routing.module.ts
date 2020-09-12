@@ -28,6 +28,9 @@ import { FATFQAComponent } from './general-awareness-qa/political-science-qa/int
 import { ILOQAComponent } from './general-awareness-qa/political-science-qa/international-institutions-and-agencies-qa/iloqa/iloqa.component';
 import { EMGFQAComponent } from './general-awareness-qa/political-science-qa/international-institutions-and-agencies-qa/emgfqa/emgfqa.component';
 import { FSDCQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/regulatory-authorities-qa/fsdcqa/fsdcqa.component';
+import { NCFEQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/not-for-profit-companies-qa/ncfeqa/ncfeqa.component';
+import { PoliciesAndStrategiesQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/policies-and-strategies-qa/policies-and-strategies-qa.component';
+import { NSFEQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/policies-and-strategies-qa/nsfeqa/nsfeqa.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -51,6 +54,9 @@ const routes: Routes = [
   { path: 'PoliticalScienceQA/IndianPolityQA/RegulatoryAuthoritiesQA', component: RegulatoryAuthoritiesQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA/RegulatoryAuthoritiesQA/FSDCQA', component: FSDCQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA/NotForProfitCompaniesQA', component: NotForProfitCompaniesQAComponent },
+  { path: 'PoliticalScienceQA/IndianPolityQA/NotForProfitCompaniesQA/NCFEQA', component: NCFEQAComponent },
+  { path: 'PoliticalScienceQA/IndianPolityQA/PoliciesAndStrategiesQA', component: PoliciesAndStrategiesQAComponent },
+  { path: 'PoliticalScienceQA/IndianPolityQA/PoliciesAndStrategiesQA/NSFEQA', component: NSFEQAComponent },
   { path: 'PoliticalScienceQA/InternationalInstitutionsAndAgenciesQA', component: InternationalInstitutionsAndAgenciesQAComponent },
   { path: 'PoliticalScienceQA/InternationalInstitutionsAndAgenciesQA/FATFQA', component: FATFQAComponent },
   { path: 'PoliticalScienceQA/InternationalInstitutionsAndAgenciesQA/EMGFQA', component: EMGFQAComponent },

@@ -20,7 +20,7 @@ export class RegulatoryAuthoritiesQAComponent implements OnInit {
   regulatoryAuthoritiesQAWbList: QAWbListModel[] = [
     {
       wbNumber: this.wbNumber++,
-      wbName: `FSDC QA`,
+      wbName: `Financial Stability and Development Council (FSDC) QA`,
       wbRoute: '/PoliticalScienceQA/IndianPolityQA/RegulatoryAuthoritiesQA/FSDCQA'
     },
   ];
