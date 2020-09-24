@@ -37,13 +37,29 @@
     flex-direction: row;
    }
 
-  app-left-top-sidebar,
-  app-right-top-sidebar,
-  app-left-sidebar,
-  app-main,
-  app-quick-nav,
-  app-right-bottom-sidebar,
-  app-right-sidebar {
+   .desktopSidenavContentContainer app-main {
+     padding: 5px;
+   }
+
+   .desktopSidenavContentContainer app-left-top-sidebar,
+   .desktopSidenavContentContainer app-quick-nav,
+   .desktopSidenavContentContainer app-left-sidebar {
+    padding-left: 5px;
+  }
+
+   .desktopSidenavContentContainer app-right-top-sidebar,
+   .desktopSidenavContentContainer app-right-bottom-sidebar,
+   .desktopSidenavContentContainer app-right-sidebar {
+    padding-right: 5px;
+  }
+
+  .mobileSidenavContentContainer app-left-top-sidebar,
+  .mobileSidenavContentContainer app-right-top-sidebar,
+  .mobileSidenavContentContainer app-left-sidebar,
+  .mobileSidenavContentContainer app-main,
+  .mobileSidenavContentContainer app-quick-nav,
+  .mobileSidenavContentContainer app-right-bottom-sidebar,
+  .mobileSidenavContentContainer app-right-sidebar {
     padding: 5px;
   }
 
