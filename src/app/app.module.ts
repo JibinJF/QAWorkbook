@@ -55,6 +55,7 @@ import { FSDCQAComponent } from './general-awareness-qa/political-science-qa/ind
 import { NCFEQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/not-for-profit-companies-qa/ncfeqa/ncfeqa.component';
 import { PoliciesAndStrategiesQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/policies-and-strategies-qa/policies-and-strategies-qa.component';
 import { NSFEQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/policies-and-strategies-qa/nsfeqa/nsfeqa.component';
+import { BottomAdBarComponent } from './StructuralComponents/bottom-ad-bar/bottom-ad-bar.component';
 
 
 @NgModule({
@@ -114,7 +115,8 @@ import { NSFEQAComponent } from './general-awareness-qa/political-science-qa/ind
     FSDCQAComponent,
     NCFEQAComponent,
     PoliciesAndStrategiesQAComponent,
-    NSFEQAComponent
+    NSFEQAComponent,
+    BottomAdBarComponent
   ],
   bootstrap: [
     AppComponent

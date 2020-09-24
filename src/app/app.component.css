@@ -72,18 +72,18 @@
   }
 
  .desktopSidenavContentContainer app-main {
-  order:2;
-  flex: auto;
-  float: left;
-  width: 55%;
-} 
+    order:2;
+    flex: auto;
+    float: left;
+    width: 55%;
+  }
 
 .desktopSidenavContentContainer app-right-sidebar {
-  order:2;
-   flex: auto;
-   float: right;
-   width: 22.5%;
-}
+    order:3;
+    flex: auto;
+    float: right;
+    width: 22.5%;
+  }
 
 .mobileSidenavContentContainer
 app-left-top-sidebar,
