@@ -29,7 +29,7 @@ import { SyllabusNavMenuComponent } from './StructuralComponents/whatshot-nav-me
 import { MainNavMenuComponent } from './StructuralComponents/main-nav-menu/main-nav-menu.component';
 import { LeftSidebarComponent } from './StructuralComponents/left-sidebar/left-sidebar.component';
 import { LeftTopSidebarComponent } from './StructuralComponents/left-sidebar/left-top-sidebar/left-top-sidebar.component';
-import { LeftBottomSidebarComponent } from './StructuralComponents/left-sidebar/left-bottom-sidebar/left-bottom-sidebar.component';
+import { QuickNavComponent } from './StructuralComponents/left-sidebar/quick-nav/quick-nav.component';
 import { TermsAndConditionsComponent } from './StructuralComponents/terms-and-conditions/terms-and-conditions.component';
 import { ContactInfoComponent } from './StructuralComponents/contact-info/contact-info.component';
 import { AboutQAWorkbookComponent } from './StructuralComponents/about-qaworkbook/about-qaworkbook.component';
@@ -90,7 +90,7 @@ import { BottomAdBarComponent } from './StructuralComponents/bottom-ad-bar/botto
     MainNavMenuComponent,
     LeftSidebarComponent,
     LeftTopSidebarComponent,
-    LeftBottomSidebarComponent,
+    QuickNavComponent,
     TermsAndConditionsComponent,
     ContactInfoComponent,
     AboutQAWorkbookComponent,
