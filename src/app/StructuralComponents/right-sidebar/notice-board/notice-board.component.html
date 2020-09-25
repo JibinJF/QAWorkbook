@@ -1,0 +1,10 @@
+<div class="outerContainer">
+    <div class="pageTitleContainer">        
+            Notice Board
+    </div>
+    <div class="noticeBoardContainer">
+        <a class="noticeContainer" *ngFor="let notice of noticeItems">
+            👉<span [innerHTML]="notice"></span>
+        </a>
+    </div>
+</div>

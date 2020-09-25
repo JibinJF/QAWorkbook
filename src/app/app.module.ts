@@ -15,7 +15,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './Home/home.component';
 import { RightTopSidebarComponent } from './StructuralComponents/right-sidebar/right-top-sidebar/right-top-sidebar.component';
-import { RightBottomSidebarComponent } from './StructuralComponents/right-sidebar/right-bottom-sidebar/right-bottom-sidebar.component';
+import { NoticeBoardComponent } from './StructuralComponents/right-sidebar/notice-board/notice-board.component';
 import { MainComponent } from './StructuralComponents/main/main.component';
 import { RightSidebarComponent } from './StructuralComponents/right-sidebar/sidebar.component';
 import { DisplayQAComponent } from './StructuralComponents/display-qa/display-qa.component';
@@ -76,7 +76,7 @@ import { BottomAdBarComponent } from './StructuralComponents/bottom-ad-bar/botto
     TopToolbarComponent,
     HomeComponent,
     RightTopSidebarComponent,
-    RightBottomSidebarComponent,
+    NoticeBoardComponent,
     MainComponent,
     RightSidebarComponent,
     DisplayQAComponent,

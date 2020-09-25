@@ -3,11 +3,11 @@
   <mat-sidenav-container class="main-sidenav-container" [style.marginTop.px]="0" autosize>
     <mat-sidenav-content>
       <div *ngIf="mobileQuery.matches" class="mobileSidenavContentContainer">
-        <app-left-top-sidebar></app-left-top-sidebar>
-        <app-right-top-sidebar></app-right-top-sidebar>
+        <app-left-top-sidebar></app-left-top-sidebar>        
         <app-main></app-main>
-        <app-quick-nav></app-quick-nav>
-        <app-right-bottom-sidebar></app-right-bottom-sidebar>
+        <app-notice-board></app-notice-board>
+        <app-right-top-sidebar></app-right-top-sidebar>
+        <app-quick-nav></app-quick-nav>        
       </div>
       <div *ngIf="!mobileQuery.matches" class="desktopSidenavContentContainer">
         <app-left-sidebar></app-left-sidebar>

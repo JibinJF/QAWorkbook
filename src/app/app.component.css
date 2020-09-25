@@ -48,7 +48,7 @@
   }
 
    .desktopSidenavContentContainer app-right-top-sidebar,
-   .desktopSidenavContentContainer app-right-bottom-sidebar,
+   .desktopSidenavContentContainer app-notice-board,
    .desktopSidenavContentContainer app-right-sidebar {
     padding-right: 5px;
   }
@@ -58,7 +58,7 @@
   .mobileSidenavContentContainer app-left-sidebar,
   .mobileSidenavContentContainer app-main,
   .mobileSidenavContentContainer app-quick-nav,
-  .mobileSidenavContentContainer app-right-bottom-sidebar,
+  .mobileSidenavContentContainer app-notice-board,
   .mobileSidenavContentContainer app-right-sidebar {
     padding: 5px;
   }
@@ -67,10 +67,10 @@
   app-right-top-sidebar,
   app-left-sidebar,
   app-quick-nav,
-  app-right-bottom-sidebar,
+  app-notice-board,
   app-right-sidebar {
     margin: 0;
-    text-align: center;
+    text-align: left;
   }
 
   app-main {
@@ -106,7 +106,7 @@ app-left-top-sidebar,
 app-right-top-sidebar,
 app-main,
 app-quick-nav,
-app-right-bottom-sidebar {
+app-notice-board {
   flex: unset;
   width: 100%;
 }

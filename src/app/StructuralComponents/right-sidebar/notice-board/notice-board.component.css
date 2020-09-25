@@ -25,13 +25,13 @@
     padding: 5px;
 }
 
-.qaWBContainer {
+.noticeContainer {
     display: flex;
     flex-flow:row wrap;
     flex-direction: column;
 }
 
-.qaWbListContainer a {
+.noticeBoardContainer a {
     flex: auto;
     display: flex;
     flex-direction: row;
@@ -43,6 +43,6 @@
     margin-bottom: 5px;
 }
 
-.qaWbListContainer :hover {
+.noticeBoardContainer :hover {
     margin-left: 5px;
 }
