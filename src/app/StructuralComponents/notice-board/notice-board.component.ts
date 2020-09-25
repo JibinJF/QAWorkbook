@@ -14,7 +14,7 @@ export class NoticeBoardComponent implements OnInit {
 
   noticeItems: string[] = [
     `QAWorkbook is still in its infant stage. We are adding and updating contents regularly.`,
-    `Q: How to use the site?<br>A:
+    `How to use the site?
       <ol>
         <li>Select a QAWorkbook.</li>
         <li>Read a question.</li>
