@@ -45,12 +45,14 @@
    .desktopSidenavContentContainer app-quick-nav,
    .desktopSidenavContentContainer app-left-sidebar {
     padding-left: 5px;
+    padding-top: 5px;
   }
 
    .desktopSidenavContentContainer app-right-top-sidebar,
    .desktopSidenavContentContainer app-notice-board,
    .desktopSidenavContentContainer app-right-sidebar {
     padding-right: 5px;
+    padding-top: 5px;
   }
 
   .mobileSidenavContentContainer app-left-top-sidebar,
@@ -85,6 +87,7 @@
     flex: auto;
     float: left;
     width: 22.5%;
+    overflow-wrap: anywhere;
   }
 
  .desktopSidenavContentContainer app-main {
@@ -92,6 +95,7 @@
     flex: auto;
     float: left;
     width: 55%;
+    overflow-wrap: anywhere;
   }
 
 .desktopSidenavContentContainer app-right-sidebar {
@@ -99,6 +103,7 @@
     flex: auto;
     float: right;
     width: 22.5%;
+    overflow-wrap: anywhere;
   }
 
 .mobileSidenavContentContainer

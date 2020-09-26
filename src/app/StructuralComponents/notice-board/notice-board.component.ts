@@ -18,8 +18,8 @@ export class NoticeBoardComponent implements OnInit {
       <ol>
         <li>Select a QAWorkbook.</li>
         <li>Read a question.</li>
-        <li>Guess an answer.</li>
-        <li>Click the dropdown arrow against the question to see answer and description (if any).</li>
+        <li>Guess the answer.</li>
+        <li>Click anywhere on the question to see answer and description (if any).</li>
       </ol>`,
   ];
 }
