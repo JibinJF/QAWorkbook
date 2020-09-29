@@ -10,7 +10,7 @@ import { QAWbListModel } from 'src/app/StructuralComponents/qawb-list-model';
 export class IndianGeographyQAComponent implements OnInit {
 
   wbNumber: number = 1;
-  workbookName: string = `Geography`;
+  workbookName: string = `Indian Geography`;
 
   constructor() { }
 
@@ -18,6 +18,11 @@ export class IndianGeographyQAComponent implements OnInit {
   }
 
   indianGeographyQAWbList: QAWbListModel[] = [
+    {
+      wbNumber: this.wbNumber++,
+      wbName: `Location And Size QA`,
+      wbRoute: '/GeographyQA/IndianGeographyQA/LocationAndSizeQA'
+    }, 
     {
       wbNumber: this.wbNumber++,
       wbName: `Drainage System QA`,

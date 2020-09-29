@@ -31,6 +31,7 @@ import { FSDCQAComponent } from './general-awareness-qa/political-science-qa/ind
 import { NCFEQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/not-for-profit-companies-qa/ncfeqa/ncfeqa.component';
 import { PoliciesAndStrategiesQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/policies-and-strategies-qa/policies-and-strategies-qa.component';
 import { NSFEQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/policies-and-strategies-qa/nsfeqa/nsfeqa.component';
+import { LocationAndSizeQAComponent } from './general-awareness-qa/geography-qa/indian-geography-qa/location-and-size-qa/location-and-size-qa.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -40,6 +41,7 @@ const routes: Routes = [
   { path: 'EconomicsQA', component: EconomicsQAComponent },
   { path: 'GeographyQA', component: GeographyQAComponent },
   { path: 'GeographyQA/IndianGeographyQA', component: IndianGeographyQAComponent },
+  { path: 'GeographyQA/IndianGeographyQA/LocationAndSizeQA', component: LocationAndSizeQAComponent },
   { path: 'GeographyQA/IndianGeographyQA/DrainageSystemQA', component: DrainageSystemQAComponent },
   { path: 'HistoryQA', component: HistoryQAComponent },
   { path: 'HistoryQA/AncientIndianHistoryQA', component: AncientIndianHistoryQAComponent },
