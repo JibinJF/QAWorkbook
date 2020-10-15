@@ -21,7 +21,7 @@
     causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
     flex: 1;
     background-color: #282828;
-    color: #DCDCDC;
+    color: #F5F5F5;
     }
 
    .desktopSidenavContentContainer {
