@@ -32,6 +32,8 @@ import { NCFEQAComponent } from './general-awareness-qa/political-science-qa/ind
 import { PoliciesAndStrategiesQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/policies-and-strategies-qa/policies-and-strategies-qa.component';
 import { NSFEQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/policies-and-strategies-qa/nsfeqa/nsfeqa.component';
 import { LocationAndSizeQAComponent } from './general-awareness-qa/geography-qa/indian-geography-qa/location-and-size-qa/location-and-size-qa.component';
+import { FactsQAComponent } from './general-awareness-qa/facts-qa/facts-qa.component';
+import { BooksAndAuthorsQAComponent } from './general-awareness-qa/facts-qa/books-and-authors-qa/books-and-authors-qa.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -66,6 +68,8 @@ const routes: Routes = [
   { path: 'PoliticalScienceQA/InternationalAgreementsAndGroupingsQA', component: InternationalAgreementsAndGroupingsQAComponent },
   { path: 'PoliticalScienceQA/OtherCountriesRulesAndDevelopmentsQA', component: OtherCountriesRulesAndDevelopmentsQAComponent },
   { path: 'PoliticalScienceQA/OtherCountriesRulesAndDevelopmentsQA/UnitedStatesOfAmericaQA', component: UnitedStatesOfAmericaQAComponent },
+  { path: 'FactsQA', component: FactsQAComponent },
+  { path: 'FactsQA/BooksAndAuthorsQA', component: BooksAndAuthorsQAComponent },
   { path: '', redirectTo: '', pathMatch: 'full' },
 ];
 

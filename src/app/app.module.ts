@@ -57,6 +57,8 @@ import { PoliciesAndStrategiesQAComponent } from './general-awareness-qa/politic
 import { NSFEQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/policies-and-strategies-qa/nsfeqa/nsfeqa.component';
 import { BottomAdBarComponent } from './StructuralComponents/bottom-ad-bar/bottom-ad-bar.component';
 import { LocationAndSizeQAComponent } from './general-awareness-qa/geography-qa/indian-geography-qa/location-and-size-qa/location-and-size-qa.component';
+import { FactsQAComponent } from './general-awareness-qa/facts-qa/facts-qa.component';
+import { BooksAndAuthorsQAComponent } from './general-awareness-qa/facts-qa/books-and-authors-qa/books-and-authors-qa.component';
 
 
 @NgModule({
@@ -118,7 +120,9 @@ import { LocationAndSizeQAComponent } from './general-awareness-qa/geography-qa/
     PoliciesAndStrategiesQAComponent,
     NSFEQAComponent,
     BottomAdBarComponent,
-    LocationAndSizeQAComponent
+    LocationAndSizeQAComponent,
+    FactsQAComponent,
+    BooksAndAuthorsQAComponent
   ],
   bootstrap: [
     AppComponent

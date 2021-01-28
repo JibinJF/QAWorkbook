@@ -35,5 +35,10 @@ export class QuickNavComponent implements OnInit {
       wbName: `Political Science QA`,
       wbRoute: '/PoliticalScienceQA'
     },
+    {
+      wbNumber: this.wbNumber++,
+      wbName: `Facts QA`,
+      wbRoute: '/FactsQA'
+    },
   ];
 }
