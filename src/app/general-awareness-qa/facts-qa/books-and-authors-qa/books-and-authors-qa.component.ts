@@ -28,6 +28,11 @@ export class BooksAndAuthorsQAComponent implements OnInit {
       qaNumber: this.qaNumber++,
       question: `Who is the author of the book, 'Poverty and un-British rule in India'?`,
       answer: `Dadabhai Naoroji.`,
+    },    
+    {
+      qaNumber: this.qaNumber++,
+      question: `Who is the author of the book, 'The Discovery of India'?`,
+      answer: `Jawaharlal Nehru.`,
     },
     {
       qaNumber: this.qaNumber++,
@@ -36,6 +41,11 @@ export class BooksAndAuthorsQAComponent implements OnInit {
       description: `<ul>
       <li>1936.</li>
       </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Who is the author of the book, 'India's Message'?`,
+      answer: `M N Roy.`,
     },
     {
       qaNumber: this.qaNumber++,
@@ -60,6 +70,11 @@ export class BooksAndAuthorsQAComponent implements OnInit {
       description: `<ul>
       <li>1957.</li>
       </ul>`
+    },    
+    {
+      qaNumber: this.qaNumber++,
+      question: `Who is the author of the book, 'Letters from a Father to his Daughter'?`,
+      answer: `Jawaharlal Nehru.`,
     },
     {
       qaNumber: this.qaNumber++,
@@ -95,12 +110,16 @@ export class BooksAndAuthorsQAComponent implements OnInit {
     },
     {
       qaNumber: this.qaNumber++,
-      question: `Who is the author of the book, ''?`,
-      answer: `.`,
+      question: `Who is the author of the book, 'Glimpses of World History'?`,
+      answer: `Jawaharlal Nehru.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Who is the author of the book, 'Toward- Freedom'?`,
+      answer: `Jawaharlal Nehru.`,
       description: `<ul>
-      <li>.</li>
+      <li>An Autobiography of Jawaharlal Nehru.</li>
       </ul>`
     },
   ];
-
 }
