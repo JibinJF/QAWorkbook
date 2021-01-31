@@ -59,6 +59,7 @@ import { BottomAdBarComponent } from './StructuralComponents/bottom-ad-bar/botto
 import { LocationAndSizeQAComponent } from './general-awareness-qa/geography-qa/indian-geography-qa/location-and-size-qa/location-and-size-qa.component';
 import { FactsQAComponent } from './general-awareness-qa/facts-qa/facts-qa.component';
 import { BooksAndAuthorsQAComponent } from './general-awareness-qa/facts-qa/books-and-authors-qa/books-and-authors-qa.component';
+import { OrganizationsAssociationsAndMovementsQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/organizations-associations-and-movements-qa/organizations-associations-and-movements-qa.component';
 
 
 @NgModule({
@@ -122,7 +123,8 @@ import { BooksAndAuthorsQAComponent } from './general-awareness-qa/facts-qa/book
     BottomAdBarComponent,
     LocationAndSizeQAComponent,
     FactsQAComponent,
-    BooksAndAuthorsQAComponent
+    BooksAndAuthorsQAComponent,
+    OrganizationsAssociationsAndMovementsQAComponent
   ],
   bootstrap: [
     AppComponent

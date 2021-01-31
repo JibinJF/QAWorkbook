@@ -101,15 +101,6 @@ export class BooksAndAuthorsQAComponent implements OnInit {
     },
     {
       qaNumber: this.qaNumber++,
-      question: `Who is the author of the book, 'The Problem of the Rupee: its origin 
-      and its solution'?`,
-      answer: `Dr. B. R. Ambedkar.`,
-      description: `<ul>
-      <li>1923.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
       question: `Who is the author of the book, 'Glimpses of World History'?`,
       answer: `Jawaharlal Nehru.`,
     },
