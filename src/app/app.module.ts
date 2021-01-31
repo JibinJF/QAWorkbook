@@ -60,6 +60,7 @@ import { LocationAndSizeQAComponent } from './general-awareness-qa/geography-qa/
 import { FactsQAComponent } from './general-awareness-qa/facts-qa/facts-qa.component';
 import { BooksAndAuthorsQAComponent } from './general-awareness-qa/facts-qa/books-and-authors-qa/books-and-authors-qa.component';
 import { OrganizationsAssociationsAndMovementsQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/organizations-associations-and-movements-qa/organizations-associations-and-movements-qa.component';
+import { AllIndiaKisanSabhaQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/organizations-associations-and-movements-qa/all-india-kisan-sabha-qa/all-india-kisan-sabha-qa.component';
 
 
 @NgModule({
@@ -124,7 +125,8 @@ import { OrganizationsAssociationsAndMovementsQAComponent } from './general-awar
     LocationAndSizeQAComponent,
     FactsQAComponent,
     BooksAndAuthorsQAComponent,
-    OrganizationsAssociationsAndMovementsQAComponent
+    OrganizationsAssociationsAndMovementsQAComponent,
+    AllIndiaKisanSabhaQAComponent
   ],
   bootstrap: [
     AppComponent

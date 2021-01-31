@@ -3,7 +3,8 @@ import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
   selector: 'app-books-and-authors-qa',
-  template: `<app-display-qa [qas]="booksAndAuthorsQAs" [workbookName]="workbookName"></app-display-qa>`,
+  template: `<app-display-qa [qas]="booksAndAuthorsQAs" [workbookName]="workbookName">
+  </app-display-qa>`,
   styles: [
   ]
 })

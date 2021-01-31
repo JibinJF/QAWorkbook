@@ -3,7 +3,8 @@ import { QAWbListModel } from 'src/app/StructuralComponents/qawb-list-model';
 
 @Component({
   selector: 'app-facts-qa',
-  template: `<app-display-qawb-list [qaWbList]="factsQAWbList" [workbookName]="workbookName"></app-display-qawb-list>`,
+  template: `<app-display-qawb-list [qaWbList]="factsQAWbList" [workbookName]="workbookName">
+  </app-display-qawb-list>`,
   styles: [
   ]
 })
