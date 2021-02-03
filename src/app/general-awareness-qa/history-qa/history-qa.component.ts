@@ -21,5 +21,10 @@ export class HistoryQAComponent implements OnInit {
       wbName: `Ancient Indian History QA`,
       wbRoute: '/HistoryQA/AncientIndianHistoryQA'
     },
+    {
+      wbNumber: this.wbNumber++,
+      wbName: `Modern Indian History QA`,
+      wbRoute: '/HistoryQA/ModernIndianHistoryQA'
+    },
   ];
 }

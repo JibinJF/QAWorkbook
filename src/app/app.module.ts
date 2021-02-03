@@ -61,6 +61,8 @@ import { FactsQAComponent } from './general-awareness-qa/facts-qa/facts-qa.compo
 import { BooksAndAuthorsQAComponent } from './general-awareness-qa/facts-qa/books-and-authors-qa/books-and-authors-qa.component';
 import { OrganizationsAssociationsAndMovementsQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/organizations-associations-and-movements-qa/organizations-associations-and-movements-qa.component';
 import { AllIndiaKisanSabhaQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/organizations-associations-and-movements-qa/all-india-kisan-sabha-qa/all-india-kisan-sabha-qa.component';
+import { ModernIndianHistoryQAComponent } from './general-awareness-qa/history-qa/modern-indian-history-qa/modern-indian-history-qa.component';
+import { DeclineOfTheMughalEmpireQAComponent } from './general-awareness-qa/history-qa/modern-indian-history-qa/decline-of-the-mughal-empire-qa/decline-of-the-mughal-empire-qa.component';
 
 
 @NgModule({
@@ -126,7 +128,9 @@ import { AllIndiaKisanSabhaQAComponent } from './general-awareness-qa/political-
     FactsQAComponent,
     BooksAndAuthorsQAComponent,
     OrganizationsAssociationsAndMovementsQAComponent,
-    AllIndiaKisanSabhaQAComponent
+    AllIndiaKisanSabhaQAComponent,
+    ModernIndianHistoryQAComponent,
+    DeclineOfTheMughalEmpireQAComponent
   ],
   bootstrap: [
     AppComponent
