@@ -70,8 +70,8 @@ export class IndianPolityQAComponent implements OnInit {
     },
     {
       wbNumber: this.wbNumber++,
-      wbName: `Not For Profit Companies QA`,
-      wbRoute: '/PoliticalScienceQA/IndianPolityQA/NotForProfitCompaniesQA'
+      wbName: `Not For Profit Companies And Trusts QA`,
+      wbRoute: '/PoliticalScienceQA/IndianPolityQA/NotForProfitCompaniesAndTrustsQA'
     },
     {
       wbNumber: this.wbNumber++,

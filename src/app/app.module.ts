@@ -47,12 +47,12 @@ import { UnitedStatesOfAmericaQAComponent } from './general-awareness-qa/politic
 import { IndianGeographyQAComponent } from './general-awareness-qa/geography-qa/indian-geography-qa/indian-geography-qa.component';
 import { DrainageSystemQAComponent } from './general-awareness-qa/geography-qa/indian-geography-qa/drainage-system-qa/drainage-system-qa.component';
 import { RegulatoryAuthoritiesQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/regulatory-authorities-qa/regulatory-authorities-qa.component';
-import { NotForProfitCompaniesQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/not-for-profit-companies-qa/not-for-profit-companies-qa.component';
+import { NotForProfitCompaniesAndTrustsQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/not-for-profit-companies-and-trusts-qa/not-for-profit-companies-and-trusts-qa.component';
 import { FATFQAComponent } from './general-awareness-qa/political-science-qa/international-institutions-and-agencies-qa/fatfqa/fatfqa.component';
 import { EMGFQAComponent } from './general-awareness-qa/political-science-qa/international-institutions-and-agencies-qa/emgfqa/emgfqa.component';
 import { ILOQAComponent } from './general-awareness-qa/political-science-qa/international-institutions-and-agencies-qa/iloqa/iloqa.component';
 import { FSDCQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/regulatory-authorities-qa/fsdcqa/fsdcqa.component';
-import { NCFEQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/not-for-profit-companies-qa/ncfeqa/ncfeqa.component';
+import { NCFEQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/not-for-profit-companies-and-trusts-qa/ncfeqa/ncfeqa.component';
 import { PoliciesAndStrategiesQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/policies-and-strategies-qa/policies-and-strategies-qa.component';
 import { NSFEQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/policies-and-strategies-qa/nsfeqa/nsfeqa.component';
 import { BottomAdBarComponent } from './StructuralComponents/bottom-ad-bar/bottom-ad-bar.component';
@@ -115,7 +115,7 @@ import { DeclineOfTheMughalEmpireQAComponent } from './general-awareness-qa/hist
     IndianGeographyQAComponent,
     DrainageSystemQAComponent,
     RegulatoryAuthoritiesQAComponent,
-    NotForProfitCompaniesQAComponent,
+    NotForProfitCompaniesAndTrustsQAComponent,
     FATFQAComponent,
     EMGFQAComponent,
     ILOQAComponent,
