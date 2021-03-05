@@ -38,6 +38,8 @@ import { OrganizationsAssociationsAndMovementsQAComponent } from './general-awar
 import { AllIndiaKisanSabhaQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/organizations-associations-and-movements-qa/all-india-kisan-sabha-qa/all-india-kisan-sabha-qa.component';
 import { ModernIndianHistoryQAComponent } from './general-awareness-qa/history-qa/modern-indian-history-qa/modern-indian-history-qa.component';
 import { DeclineOfTheMughalEmpireQAComponent } from './general-awareness-qa/history-qa/modern-indian-history-qa/decline-of-the-mughal-empire-qa/decline-of-the-mughal-empire-qa.component';
+import { IndianConstitutionQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/indian-constitution-qa.component';
+import { FundamentalRightsQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/fundamental-rights-qa/fundamental-rights-qa.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -61,6 +63,8 @@ const routes: Routes = [
   { path: 'HistoryQA/ModernIndianHistoryQA/DeclineOfTheMughalEmpireQA', component: DeclineOfTheMughalEmpireQAComponent },
   { path: 'PoliticalScienceQA', component: PoliticalScienceQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA', component: IndianPolityQAComponent },
+  { path: 'PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA', component: IndianConstitutionQAComponent },
+  { path: 'PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA/FundamentalRightsQA', component: FundamentalRightsQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA/RegulatoryAuthoritiesQA', component: RegulatoryAuthoritiesQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA/RegulatoryAuthoritiesQA/FSDCQA', component: FSDCQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA/NotForProfitCompaniesAndTrustsQA', component: NotForProfitCompaniesAndTrustsQAComponent },

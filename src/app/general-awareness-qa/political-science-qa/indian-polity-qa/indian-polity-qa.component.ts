@@ -21,7 +21,7 @@ export class IndianPolityQAComponent implements OnInit {
     {
       wbNumber: this.wbNumber++,
       wbName: `Indian Constitution QA`,
-      wbRoute: ''
+      wbRoute: '/PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA'
     },
     {
       wbNumber: this.wbNumber++,
