@@ -20,6 +20,251 @@ export class FundamentalRightsQAComponent implements OnInit {
   fundamentalRightsQAs: QAModel[] = [
     {
       qaNumber: this.qaNumber++,
+      question: `Fundamental Rights are defined in which part of the Constitution 
+      of India?`,
+      answer: `Part III.`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `What does Article 13 deal with?`,
+      answer: `Laws inconsistent with or in derogation of the fundamental rights.`,
+      description: `<ul>
+        <li>As per Article 13, laws inconsistent with or in derogation of the fundamental 
+        rights shall, to the extent of such inconsistency or contravention, be void.
+        </li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `How many fundamental rights are provided by the Constitution of India?`,
+      answer: `5.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `What are the fundamental rights provided by the Constitution of India?`,
+      answer: `<ol>
+      <li>Right to Equality (Article 14 to 18).</li>
+      <li> (Article )</li>
+      <li> (Article )</li>
+      <li> (Article )</li>
+      <li> (Article )</li>
+      </ol>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Article 14 deals with _____, which comes under the Right to Equality 
+      guaranteed by the Constitution of India`,
+      answer: `Equality before law.`,
+      description: `<ul>
+        <li>Article 14: The State shall not deny to any person equality before 
+        the law or the equal protection of the laws within the territory of India.
+        </li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Article 15 deals with _____, which comes under the Right to Equality 
+      guaranteed by the Constitution of India?`,
+      answer: `Prohibition of discrimination on grounds only of religion, race, caste, 
+      sex or place of birth.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
       question: `?`,
       answer: `.`,
       description: `<ul>
