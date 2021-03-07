@@ -44,7 +44,7 @@ export class FundamentalRightsQAComponent implements OnInit {
       question: `What are the fundamental rights provided by the Constitution of India?`,
       answer: `<ol>
       <li>Right to Equality (Article 14 to 18).</li>
-      <li> (Article )</li>
+      <li>Right to Freedom (Article 19 to )</li>
       <li> (Article )</li>
       <li> (Article )</li>
       <li> (Article )</li>
@@ -67,30 +67,24 @@ export class FundamentalRightsQAComponent implements OnInit {
       guaranteed by the Constitution of India?`,
       answer: `Prohibition of discrimination on grounds only of religion, race, caste, 
       sex or place of birth.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
+      question: `Article 16 deals with _____, which comes under the Right to Equality 
+      guaranteed by the Constitution of India?`,
+      answer: `Equality of opportunity in matters of public employment.`,
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
+      question: `Article 17 deals with _____, which comes under the Right to Equality 
+      guaranteed by the Constitution of India?`,
+      answer: `Abolition of Untouchability.`,
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Article 18 deals with _____, which comes under the Right to Equality 
+      guaranteed by the Constitution of India?`,
+      answer: `Abolition of titles.`,
       description: `<ul>
       <li></li>
       </ul>`
