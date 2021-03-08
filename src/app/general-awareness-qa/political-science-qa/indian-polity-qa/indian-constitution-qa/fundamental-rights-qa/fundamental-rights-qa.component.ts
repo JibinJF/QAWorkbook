@@ -91,6 +91,85 @@ export class FundamentalRightsQAComponent implements OnInit {
     },
     {
       qaNumber: this.qaNumber++,
+      question: `Article 19 deals with _____, which comes under the Right to Freedom 
+      guaranteed by the Constitution of India?`,
+      answer: `Protection of certain rights regarding freedom of speech, etc..`,
+      description: `<ul >
+        <li>As per Article 19(1): All citizens shall have the right—
+        <ol type="a">
+          <li>to freedom of speech and expression;</li>
+          <li>to assemble peaceably and without arms;</li>
+          <li>to form associations or unions;</li>
+          <li>to move freely throughout the territory of India;</li>
+          <li>to reside and settle in any part of the territory of India;</li>
+          <li>Repealed;</li>
+          <li>to practise any profession, or to carry on any occupation, trade or business.</li>
+        </ol>
+        </li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Article 19(1)(a) guarantees that all citizens shall have the right
+      to _____?`,
+      answer: `Freedom of speech and expression.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Article 19(1)(b) guarantees that all citizens shall have the right
+      to _____?`,
+      answer: `Assemble peaceably and without arms.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Article 19(1)(c) guarantees that all citizens shall have the right
+      to _____?`,
+      answer: `Form associations or unions.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Article 19(1)(d) guarantees that all citizens shall have the right
+      to _____?`,
+      answer: `Move freely throughout the territory of India.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Article 19(1)(e) guarantees that all citizens shall have the right
+      to _____?`,
+      answer: `Reside and settle in any part of the territory of India.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Article 19(1)(g) guarantees that all citizens shall have the right
+      to _____?`,
+      answer: `Practise any profession, or to carry on any occupation, trade or business.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
       question: `?`,
       answer: `.`,
       description: `<ul>
