@@ -146,10 +146,30 @@ export class FundamentalRightsQAComponent implements OnInit {
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Article 20 deals with _____, which comes under the Right to Freedom 
+      guaranteed by the Constitution of India?`,
+      answer: `Protection in respect of conviction for offences.`,
       description: `<ul>
-      <li></li>
+        <li>Article 20(1): No ex post facto laws.
+          <ul>
+          <li>No person shall be convicted of any offence except for violation of a law 
+          in force at the time of the commission of the Act charged as an offence, nor be
+          subjected to a penalty greater than that which might have been inflicted under 
+          the law in force at the time of the commission of the offence.</li>
+          </ul>
+        </li>
+        <li>Article 20(2): No double jeopardy.
+          <ul>
+          <li>No person shall be prosecuted and punished for the same offence more 
+          than once.</li>
+          </ul>
+        </li>
+        <li>Article 20(3): No self incrimination.
+          <ul>
+          <li>No person accused of any offence shall be compelled to be a witness against 
+          himself.</li>
+          </ul>
+        </li>
       </ul>`
     },
     {
