@@ -43,12 +43,36 @@ export class FundamentalRightsQAComponent implements OnInit {
       qaNumber: this.qaNumber++,
       question: `What are the fundamental rights provided by the Constitution of India?`,
       answer: `<ol>
-      <li>Right to Equality (Article 14 to 18).</li>
-      <li>Right to Freedom (Article 19 to )</li>
-      <li> (Article )</li>
-      <li> (Article )</li>
-      <li> (Article )</li>
+      <li>Right to Equality.</li>
+      <li>Right to Freedom.</li>
+      <li>Right against Exploitation.</li>
+      <li>Right to Freedom of Religion.</li>
+      <li>.</li>
       </ol>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Right to Equality is guaranteed by the Constitution of India through 
+      articles _____ to _____ ?`,
+      answer: `Article 14 to 18.`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Right to Freedom is guaranteed by the Constitution of India through 
+      articles _____ to _____ ?`,
+      answer: `Article 19 to 22.`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Right against Exploitation is guaranteed by the Constitution of India 
+      through articles _____ to _____ ?`,
+      answer: `Article 23 to 24.`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Right to Freedom of Religion is guaranteed by the Constitution of India 
+      through articles _____ to _____ ?`,
+      answer: `Article 25 to 28.`
     },
     {
       qaNumber: this.qaNumber++,
@@ -174,72 +198,88 @@ export class FundamentalRightsQAComponent implements OnInit {
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Article 21 deals with _____, which comes under the Right to Freedom 
+      guaranteed by the Constitution of India?`,
+      answer: `Protection of life and personal liberty.`,
       description: `<ul>
-      <li></li>
+      <li>Article 21: No person shall be deprived of his life or personal liberty except
+       according to procedure established by law.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Article 21A deals with _____, which comes under the Right to Freedom 
+      guaranteed by the Constitution of India?`,
+      answer: `Right to education.`,
       description: `<ul>
-      <li></li>
+      <li>Article 21A is inserted by the Constitution (Eighty-sixth Amendment) Act, 2002.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Right to education is guaranteed by the Constitution of India to all 
+      children of the age of _____ to _____ years?`,
+      answer: `6 to 14 years.`,
       description: `<ul>
-      <li></li>
+      <li>Article 21A: The State shall provide free and compulsory education to all 
+      children of the age of six to fourteen years in such manner as the State may, by law, 
+      determine.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Article 22 deals with _____, which comes under the Right to Freedom 
+      guaranteed by the Constitution of India?`,
+      answer: `Protection against arrest and detention in certain cases.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `As per Article 22(2) of the Constitution of India, arrested person 
+      shall be produced before magistrate within a period of _____ hours of such arrest?`,
+      answer: `24 hours.`,
       description: `<ul>
-      <li></li>
+      <li>Article 22(2): Every person who is arrested and detained in custody shall be 
+      produced before the nearest magistrate within a period of twenty-four hours of such 
+      arrest excluding the time necessary for the journey from the place of arrest to the 
+      court of the magistrate and no such person shall be detained in custody beyond the 
+      said period without the authority of a magistrate.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Article 23 deals with _____, which comes under the Right against 
+      Exploitation guaranteed by the Constitution of India?`,
+      answer: `Prohibition of traffic in human beings and forced labour.`,
       description: `<ul>
-      <li></li>
+      <li>Article 23(1): Traffic in human beings and begar and other similar forms of 
+      forced labour are prohibited and any contravention of this provision shall be an 
+      offence punishable in accordance with law.</li>
+      <li>State can impose compulsory service for public purposes without any 
+      discrimination.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Article 24 deals with _____, which comes under the Right against 
+      Exploitation guaranteed by the Constitution of India?`,
+      answer: `Prohibition of employment of children in factories, etc.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Constitution of India prohibits employment of children under _____ 
+      years of age in hazardous employment?`,
+      answer: `14 years.`,
       description: `<ul>
-      <li></li>
+      <li>Article 24: No child below the age of fourteen years shall be employed 
+      to work in any factory or mine or engaged in any other hazardous employment.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Article 25 deals with _____, which comes under the Right to Freedom 
+      of Religion guaranteed by the Constitution of India?`,
+      answer: `Freedom of conscience and free profession, practice and propagation of
+      religion.`,
       description: `<ul>
       <li></li>
       </ul>`
