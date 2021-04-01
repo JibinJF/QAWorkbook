@@ -37,7 +37,7 @@ export class FundamentalRightsQAComponent implements OnInit {
     {
       qaNumber: this.qaNumber++,
       question: `How many fundamental rights are provided by the Constitution of India?`,
-      answer: `5.`,
+      answer: `6.`,
     },
     {
       qaNumber: this.qaNumber++,
@@ -47,7 +47,8 @@ export class FundamentalRightsQAComponent implements OnInit {
       <li>Right to Freedom.</li>
       <li>Right against Exploitation.</li>
       <li>Right to Freedom of Religion.</li>
-      <li>.</li>
+      <li>Cultural and Educational Rights.</li>
+      <li>Right to Constitutional Remedies.</li>
       </ol>`
     },
     {
@@ -73,6 +74,18 @@ export class FundamentalRightsQAComponent implements OnInit {
       question: `Right to Freedom of Religion is guaranteed by the Constitution of India 
       through articles _____ to _____ ?`,
       answer: `Article 25 to 28.`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Cultural and Educational Rights is guaranteed by the Constitution of India 
+      through articles _____ to _____ ?`,
+      answer: `Article 29 to 31.`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Right to Constitutional Remedies is guaranteed by the Constitution of India 
+      through article _____ ?`,
+      answer: `Article 32.`
     },
     {
       qaNumber: this.qaNumber++,
@@ -109,9 +122,6 @@ export class FundamentalRightsQAComponent implements OnInit {
       question: `Article 18 deals with _____, which comes under the Right to Equality 
       guaranteed by the Constitution of India?`,
       answer: `Abolition of titles.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
     },
     {
       qaNumber: this.qaNumber++,
@@ -280,128 +290,49 @@ export class FundamentalRightsQAComponent implements OnInit {
       of Religion guaranteed by the Constitution of India?`,
       answer: `Freedom of conscience and free profession, practice and propagation of
       religion.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
+      question: `Article 26 deals with _____, which comes under the Right to Freedom 
+      of Religion guaranteed by the Constitution of India?`,
+      answer: `Freedom to manage religious affairs.`,
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
+      question: `Article 27 deals with _____, which comes under the Right to Freedom 
+      of Religion guaranteed by the Constitution of India?`,
+      answer: `Freedom as to payment of taxes for promotion of any particular religion.`,
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
+      question: `Article 28 deals with _____, which comes under the Right to Freedom 
+      of Religion guaranteed by the Constitution of India?`,
+      answer: `Freedom as to attendance at religious instruction or religious worship 
+      in certain educational institutions.`,
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
+      question: `Article 29 deals with _____, which comes under the Right to Cultural 
+      and Educational Rights guaranteed by the Constitution of India?`,
+      answer: `Protection of interests of minorities.`,
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
+      question: `Article 30 deals with _____, which comes under the Cultural and 
+      Educational Rights guaranteed by the Constitution of India?`,
+      answer: `Right of minorities to establish and administer educational institutions.`,
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Article 32 deals with _____, which comes under the Right to Constitutional 
+      Remedies guaranteed by the Constitution of India?`,
+      answer: `Remedies for enforcement of rights conferred by the Part III of the Indian 
+      Constitution.`,
       description: `<ul>
-      <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li></li>
+      <li>Article 32(2): The Supreme Court shall have power to issue directions or orders 
+      or writs, including writs in the nature of habeas corpus, mandamus, prohibition, 
+      quo warranto and certiorari, whichever may be appropriate, for the enforcement of any 
+      of the rights conferred by this Part.</li>
       </ul>`
     },
   ];

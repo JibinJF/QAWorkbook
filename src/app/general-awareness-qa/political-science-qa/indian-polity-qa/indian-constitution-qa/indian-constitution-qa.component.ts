@@ -22,6 +22,11 @@ export class IndianConstitutionQAComponent implements OnInit {
       wbNumber: this.wbNumber++,
       wbName: `Fundamental Rights QA`,
       wbRoute: '/PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA/FundamentalRightsQA'
+    },
+    {
+      wbNumber: this.wbNumber++,
+      wbName: `Directive Principles Of State Policy QA`,
+      wbRoute: '/PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA/DPSPQA'
     }, 
   ];
 }
