@@ -55,6 +55,11 @@
     cursor: pointer;
 }
 
+img.toolbarQAWorkbookLogo {
+    width: 56px;
+    height: 56px;
+}
+
 .toolbarWbTitle {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-variant-caps: petite-caps;
