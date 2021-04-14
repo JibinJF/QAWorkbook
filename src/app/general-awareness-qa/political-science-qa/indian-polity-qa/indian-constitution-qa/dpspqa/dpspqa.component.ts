@@ -168,7 +168,7 @@ export class DPSPQAComponent implements OnInit {
     },
     {
       qaNumber: this.qaNumber++,
-      question: `Article _____ of the Constitution of India instructs the State to promote 
+      question: `Which Article of the Constitution of India instructs the State to promote 
       cottage industries?`,
       answer: `Article 43.`,
       description: `<ul>
@@ -182,10 +182,69 @@ export class DPSPQAComponent implements OnInit {
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Article 43A of the Constitution of India deals with _____ ?`,
+      answer: `Participation of workers in management of industries.`,
       description: `<ul>
-        <li></li>
+        <li>Article 43A: The State shall take steps, by suitable legislation or in any 
+        other way, to secure the participation of workers in the management of undertakings, 
+        establishments or other organisations engaged in any industry.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Article 44 of the Constitution of India deals with _____ ?`,
+      answer: `Uniform civil code for the citizens.`,
+      description: `<ul>
+        <li>Article 44: The State shall endeavour to secure for the citizens a uniform civil 
+        code throughout the territory of India.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Article 45 of the Constitution of India deals with _____ ?`,
+      answer: `Provision for free and compulsory education for children.`,
+      description: `<ul>
+       <li>Article 45: The State shall endeavour to provide, within a period of ten years 
+       from the commencement of this Constitution, for free and compulsory education for all
+       children until they complete the age of fourteen years.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Article 46 of the Constitution of India deals with _____ ?`,
+      answer: `Promotion of educational and economic interests of Scheduled Castes, Scheduled 
+      Tribes and other weaker sections.`,
+      description: `<ul>
+        <li>Article 46: The State shall promote with special care the educational and economic 
+        interests of the weaker sections of the people, and, in particular, of the Scheduled 
+        Castes and the Scheduled Tribes, and shall protect them from social injustice and all 
+        forms of exploitation.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Article 47 of the Constitution of India deals with _____ ?`,
+      answer: `Duty of the State to raise the level of nutrition and the standard of living 
+      and to improve public health.`,
+      description: `<ul>
+        <li>Article 47: The State shall regard the raising of the level of nutrition and the 
+        standard of living of its people and the improvement of public health as among its 
+        primary duties and, in particular, the State shall endeavour to bring about 
+        prohibition of the consumption except for medicinal purposes of intoxicating drinks 
+        and of drugs which are injurious to health.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Which Article of the Constitution of India urges the State to bring about 
+      prohibition of the consumption of intoxicating drinks and drugs?`,
+      answer: `Article 47.`,
+      description: `<ul>
+        <li>Article 47: The State shall regard the raising of the level of nutrition and the 
+        standard of living of its people and the improvement of public health as among its 
+        primary duties and, in particular, the State shall endeavour to bring about 
+        prohibition of the consumption except for medicinal purposes of intoxicating drinks 
+        and of drugs which are injurious to health.</li>
       </ul>`
     },
     {
@@ -218,6 +277,30 @@ export class DPSPQAComponent implements OnInit {
       answer: `.`,
       description: `<ul>
         <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+        <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+        <li></li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+       <li></li>
       </ul>`
     },
     {
