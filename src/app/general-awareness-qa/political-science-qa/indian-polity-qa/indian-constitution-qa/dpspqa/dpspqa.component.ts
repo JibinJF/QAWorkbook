@@ -230,7 +230,7 @@ export class DPSPQAComponent implements OnInit {
         <li>Article 47: The State shall regard the raising of the level of nutrition and the 
         standard of living of its people and the improvement of public health as among its 
         primary duties and, in particular, the State shall endeavour to bring about 
-        prohibition of the consumption except for medicinal purposes of intoxicating drinks 
+        prohibition of the consumption, except for medicinal purposes, of intoxicating drinks 
         and of drugs which are injurious to health.</li>
       </ul>`
     },
@@ -243,137 +243,66 @@ export class DPSPQAComponent implements OnInit {
         <li>Article 47: The State shall regard the raising of the level of nutrition and the 
         standard of living of its people and the improvement of public health as among its 
         primary duties and, in particular, the State shall endeavour to bring about 
-        prohibition of the consumption except for medicinal purposes of intoxicating drinks 
+        prohibition of the consumption, except for medicinal purposes, of intoxicating drinks 
         and of drugs which are injurious to health.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Article 48 of the Constitution of India deals with _____ ?`,
+      answer: `Organisation of agriculture and animal husbandry.`,
       description: `<ul>
-        <li></li>
+        <li>Article 48: The State shall endeavour to organise agriculture and animal 
+        husbandry on modern and scientific lines and shall, in particular, take steps for 
+        preserving and improving the breeds, and prohibiting the slaughter, of cows and 
+        calves and other milch and draught cattle.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Article 48A of the Constitution of India deals with _____ ?`,
+      answer: `Protection and improvement of environment and safeguarding of forests and 
+      wild life.`,
       description: `<ul>
-       <li></li>
+       <li>Article 48A: The State shall endeavour to protect and improve the environment 
+       and to safeguard the forests and wild life of the country.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Article 49 of the Constitution of India deals with _____ ?`,
+      answer: `Protection of monuments and places and objects of national importance.`,
       description: `<ul>
-        <li></li>
+        <li>Article 49: It shall be the obligation of the State to protect every monument, 
+        or place or object of artistic or historic interest, declared by or under law made 
+        by Parliament to be of national importance, from spoliation, disfigurement, 
+        destruction, removal, disposal or export, as the case may be.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Article 50 of the Constitution of India deals with _____ ?`,
+      answer: `Separation of judiciary from executive.`,
       description: `<ul>
-        <li></li>
+        <li>Article 50: The State shall take steps to separate the judiciary
+        from the executive in the public services of the State.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Article 51 of the Constitution of India deals with _____ ?`,
+      answer: `Promotion of international peace and security.`,
       description: `<ul>
-        <li></li>
+        <li>The State shall endeavour to
+          <ol type="a">
+            <li>promote international peace and security;</li>
+            <li>maintain just and honourable relations between nations;</li>
+            <li>foster respect for international law and treaty obligations in the dealings 
+            of organized peoples with one another; and</li>
+            <li>encourage settlement of international disputes by arbitration.</li>
+          </ol>
+        </li>
       </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-        <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-       <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-        <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-        <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-       <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-        <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-        <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-        <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-        <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-       <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-        <li></li>
-      </ul>`
-    },
+    },    
   ];
 }

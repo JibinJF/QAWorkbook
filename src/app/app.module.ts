@@ -62,7 +62,7 @@ import { BooksAndAuthorsQAComponent } from './general-awareness-qa/facts-qa/book
 import { OrganizationsAssociationsAndMovementsQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/organizations-associations-and-movements-qa/organizations-associations-and-movements-qa.component';
 import { AllIndiaKisanSabhaQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/organizations-associations-and-movements-qa/all-india-kisan-sabha-qa/all-india-kisan-sabha-qa.component';
 import { ModernIndianHistoryQAComponent } from './general-awareness-qa/history-qa/modern-indian-history-qa/modern-indian-history-qa.component';
-import { DeclineOfTheMughalEmpireQAComponent } from './general-awareness-qa/history-qa/modern-indian-history-qa/decline-of-the-mughal-empire-qa/decline-of-the-mughal-empire-qa.component';
+import { EighteenthCenturyIndiaQAComponent } from './general-awareness-qa/history-qa/modern-indian-history-qa/eighteenth-century-india-qa/eighteenth-century-india-qa.component';
 import { IndianConstitutionQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/indian-constitution-qa.component';
 import { FundamentalRightsQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/fundamental-rights-qa/fundamental-rights-qa.component';
 import { DPSPQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/dpspqa/dpspqa.component';
@@ -133,7 +133,7 @@ import { DPSPQAComponent } from './general-awareness-qa/political-science-qa/ind
     OrganizationsAssociationsAndMovementsQAComponent,
     AllIndiaKisanSabhaQAComponent,
     ModernIndianHistoryQAComponent,
-    DeclineOfTheMughalEmpireQAComponent,
+    EighteenthCenturyIndiaQAComponent,
     IndianConstitutionQAComponent,
     FundamentalRightsQAComponent,
     DPSPQAComponent

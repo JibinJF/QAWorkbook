@@ -21,8 +21,8 @@ export class ModernIndianHistoryQAComponent implements OnInit {
   modernIndianHistoryQAWbList: QAWbListModel[] = [
     {
       wbNumber: this.wbNumber++,
-      wbName: `Decline Of The Mughal Empire QA`,
-      wbRoute: '/HistoryQA/ModernIndianHistoryQA/DeclineOfTheMughalEmpireQA',
+      wbName: `Eighteenth Century India`,
+      wbRoute: '/HistoryQA/ModernIndianHistoryQA/EighteenthCenturyIndiaQA',
     },
   ]
 }
