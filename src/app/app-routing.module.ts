@@ -11,7 +11,7 @@ import { ContactInfoComponent } from './StructuralComponents/contact-info/contac
 import { TermsAndConditionsComponent } from './StructuralComponents/terms-and-conditions/terms-and-conditions.component';
 import { VedicAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/vedic-age-qa/vedic-age-qa.component';
 import { JainismAndBuddhismQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/jainism-and-buddhism-qa/jainism-and-buddhism-qa.component';
-import { MahajanapadasQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/mahajanapadasQA/mahajanapadas-qa.component';
+import { AgeOfMahajanapadasQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/age-of-mahajanapadasQA/age-of-mahajanapadas-qa.component';
 import { PoliticalScienceQAComponent } from './general-awareness-qa/political-science-qa/political-science-qa.component';
 import { IndianPolityQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-polity-qa.component';
 import { InternationalAgreementsAndGroupingsQAComponent } from './general-awareness-qa/political-science-qa/international-agreements-and-groupings-qa/international-agreements-and-groupings-qa.component';
@@ -41,6 +41,7 @@ import { EighteenthCenturyIndiaQAComponent } from './general-awareness-qa/histor
 import { IndianConstitutionQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/indian-constitution-qa.component';
 import { FundamentalRightsQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/fundamental-rights-qa/fundamental-rights-qa.component';
 import { DPSPQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/dpspqa/dpspqa.component';
+import { ScienceAndCivilizationLegacyQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/science-and-civilization-legacy-qa/science-and-civilization-legacy-qa.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -59,7 +60,8 @@ const routes: Routes = [
   { path: 'HistoryQA/AncientIndianHistoryQA/BronzeAgeAndHarappanCivilizationQA', component: BronzeAgeAndHarappanCivilizationQAComponent },
   { path: 'HistoryQA/AncientIndianHistoryQA/VedicAgeQA', component: VedicAgeQAComponent },
   { path: 'HistoryQA/AncientIndianHistoryQA/JainismAndBuddhismQA', component: JainismAndBuddhismQAComponent },
-  { path: 'HistoryQA/AncientIndianHistoryQA/MahajanapadasQA', component: MahajanapadasQAComponent },
+  { path: 'HistoryQA/AncientIndianHistoryQA/AgeOfMahajanapadasQA', component: AgeOfMahajanapadasQAComponent },
+  { path: 'HistoryQA/AncientIndianHistoryQA/ScienceAndCivilizationLegacyQA', component: ScienceAndCivilizationLegacyQAComponent },
   { path: 'HistoryQA/ModernIndianHistoryQA', component: ModernIndianHistoryQAComponent },
   { path: 'HistoryQA/ModernIndianHistoryQA/EighteenthCenturyIndiaQA', component: EighteenthCenturyIndiaQAComponent },
   { path: 'PoliticalScienceQA', component: PoliticalScienceQAComponent },
