@@ -36,8 +36,8 @@ export class AncientIndianHistoryQAComponent implements OnInit {
   },
   {
     wbNumber: this.wbNumber++,
-    wbName: `Jainism And Buddhism QA`,
-    wbRoute: '/HistoryQA/AncientIndianHistoryQA/JainismAndBuddhismQA',
+    wbName: `Jainism And Buddhism Age QA`,
+    wbRoute: '/HistoryQA/AncientIndianHistoryQA/JainismAndBuddhismAgeQA',
   },
   {
     wbNumber: this.wbNumber++,

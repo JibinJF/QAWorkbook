@@ -10,7 +10,7 @@ import { AboutQAWorkbookComponent } from './StructuralComponents/about-qaworkboo
 import { ContactInfoComponent } from './StructuralComponents/contact-info/contact-info.component';
 import { TermsAndConditionsComponent } from './StructuralComponents/terms-and-conditions/terms-and-conditions.component';
 import { VedicAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/vedic-age-qa/vedic-age-qa.component';
-import { JainismAndBuddhismQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/jainism-and-buddhism-qa/jainism-and-buddhism-qa.component';
+import { JainismAndBuddhismAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/jainism-and-buddhism-age-qa/jainism-and-buddhism-age-qa.component';
 import { AgeOfMahajanapadasQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/age-of-mahajanapadasQA/age-of-mahajanapadas-qa.component';
 import { PoliticalScienceQAComponent } from './general-awareness-qa/political-science-qa/political-science-qa.component';
 import { IndianPolityQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-polity-qa.component';
@@ -59,7 +59,7 @@ const routes: Routes = [
   { path: 'HistoryQA/AncientIndianHistoryQA/ChalcolithicAgeQA', component: ChalcolithicAgeQAComponent },
   { path: 'HistoryQA/AncientIndianHistoryQA/BronzeAgeAndHarappanCivilizationQA', component: BronzeAgeAndHarappanCivilizationQAComponent },
   { path: 'HistoryQA/AncientIndianHistoryQA/VedicAgeQA', component: VedicAgeQAComponent },
-  { path: 'HistoryQA/AncientIndianHistoryQA/JainismAndBuddhismQA', component: JainismAndBuddhismQAComponent },
+  { path: 'HistoryQA/AncientIndianHistoryQA/JainismAndBuddhismAgeQA', component: JainismAndBuddhismAgeQAComponent },
   { path: 'HistoryQA/AncientIndianHistoryQA/AgeOfMahajanapadasQA', component: AgeOfMahajanapadasQAComponent },
   { path: 'HistoryQA/AncientIndianHistoryQA/ScienceAndCivilizationLegacyQA', component: ScienceAndCivilizationLegacyQAComponent },
   { path: 'HistoryQA/ModernIndianHistoryQA', component: ModernIndianHistoryQAComponent },

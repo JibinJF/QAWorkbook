@@ -2,34 +2,39 @@ import { Component, OnInit } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-jainism-and-buddhism-qa',
-  template: `<app-display-qa [qas]="jainismAndBuddhismQAs" [workbookName]="workbookName"></app-display-qa>`,
+  selector: 'app-jainism-and-buddhism-age-qa',
+  template: `<app-display-qa [qas]="jainismAndBuddhismAgeQAs" [workbookName]="workbookName"></app-display-qa>`,
   styles: [
   ]
 })
-export class JainismAndBuddhismQAComponent implements OnInit {
+export class JainismAndBuddhismAgeQAComponent implements OnInit {
 
   qaNumber: number = 1;
-  workbookName: string = `Jainism And Buddhism`;
+  workbookName: string = `Jainism And Buddhism Age`;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  jainismAndBuddhismQAs: QAModel[] = [
+  jainismAndBuddhismAgeQAs: QAModel[] = [
     {
       qaNumber: this.qaNumber++,
-      question: `The earliest coins used in India which belong to the 5th century B.C. are called _____ coins?`,
+      question: `The earliest coins used in India which belong to the 5th century B.C. are called 
+      _____ coins?`,
       answer: `Punch-marked coins.`,
       description: `<ul>
+      <li>Coins made of metal appear first in the age of Gautama Buddha.</li>
+      <li>The earliest were made largely of silver though a few coppers also appear.</li>
+      <li>They are called punch-marked because pieces of these metals were punched with 
+      certain marks such as hill, tree, fish, bull, elephant, crescent, etc.</li>
       <li>They circulated for the first time in eastern Uttar Pradesh and Bihar.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `In the middle Gangetic plains, large-scale habitations began in about 600 B.C. when _____ came to be used 
-      in this area?`,
+      question: `In the middle Gangetic plains, large-scale habitations began in about 600 B.C. when 
+      _____ came to be used in this area?`,
       answer: `Iron.`,
       description: `<ul>
       <li>The use of iron tools made possible clearance, agriculture, and large settlements.</li>
@@ -183,6 +188,65 @@ export class JainismAndBuddhismQAComponent implements OnInit {
       question: `The Greek and the Indian sculptors worked together to create a new kind of art on the 
       north-west frontier of India, which is known as the _____?`,
       answer: `Gandhara Art.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Archaeologically, the 6th century B.C. marks the beginning of the _____ phase?`,
+      answer: `NBPW (Northern Black Polished Ware) phase.`,
+      description: `<ul>
+      <li>NBPW was a very glossy, shining type of pottery made of very fine fabric and apparently 
+      served as the tableware of richer people.</li>
+      <li>In association with this pottery are found iron implements, especially those meant for 
+      crafts and agriculture.</li>
+      <li>This phase also saw the beginning of metal money.</li>
+      <li>The use of burnt bricks and ringwells appreared in the middle of the NBPW phase, i.e. in 
+      the 3rd century B.C.</li>
+      <li>The NBPW phase marked the beginning of the second urbanization in India.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `The Pali texts speak of _____ types of villages ?`,
+      answer: `3.`,
+      description: `<ul>
+      <li>The first category included the typical village inhabited by various castes and 
+      communities. Its number seems to have been the largest, and it was headed by a village 
+      headman called bhojaka.</li>
+      <li>The second included suburban villages which were in the nature of craft villages; 
+      for instance, a carpenter's village or chariotmaker's village lay in the vicinity of 
+      Varanasi. Obviously these villages served as markets for the other villages and linked 
+      the towns with the countryside.</li>
+      <li>The third category consisted of border villages situated on the limits of the 
+      countryside which merged into forests. People living in these villages were mainly 
+      fowlers and hunters, who mostly lived on food gathering.</li>
+      <li>It seems that the nucleated rural settlement in which all people settled at one 
+      place with their agricultural lands mostly outside the settlement first appeared in 
+      the middle Gangetic plain in the age of Gautama Buddha.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li>.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li>.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li>.</li>
+      </ul>`
     },
   ];
 }

@@ -34,7 +34,7 @@ import { TermsAndConditionsComponent } from './StructuralComponents/terms-and-co
 import { ContactInfoComponent } from './StructuralComponents/contact-info/contact-info.component';
 import { AboutQAWorkbookComponent } from './StructuralComponents/about-qaworkbook/about-qaworkbook.component';
 import { VedicAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/vedic-age-qa/vedic-age-qa.component';
-import { JainismAndBuddhismQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/jainism-and-buddhism-qa/jainism-and-buddhism-qa.component';
+import { JainismAndBuddhismAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/jainism-and-buddhism-age-qa/jainism-and-buddhism-age-qa.component';
 import { AgeOfMahajanapadasQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/age-of-mahajanapadasQA/age-of-mahajanapadas-qa.component';
 import { PoliticalScienceQAComponent } from './general-awareness-qa/political-science-qa/political-science-qa.component';
 import { IndianPolityQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-polity-qa.component';
@@ -106,7 +106,7 @@ import { ScienceAndCivilizationLegacyQAComponent } from './general-awareness-qa/
     ContactInfoComponent,
     AboutQAWorkbookComponent,
     VedicAgeQAComponent,
-    JainismAndBuddhismQAComponent,
+    JainismAndBuddhismAgeQAComponent,
     AgeOfMahajanapadasQAComponent,
     PoliticalScienceQAComponent,
     IndianPolityQAComponent,
