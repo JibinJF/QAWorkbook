@@ -226,6 +226,39 @@ export class JainismAndBuddhismAgeQAComponent implements OnInit {
     },
     {
       qaNumber: this.qaNumber++,
+      question: `In the age of the Buddha, kings' higher officials who performed 
+      various functions such as those of the minister (mantrin), commander (senanayaka), 
+      judge, chief accountant and head of the royal harem were called _____ ?`,
+      answer: `Mahamatras.`,
+      description: `<ul>
+      <li>It is likely that a class of officers called 'ayuktas' also performed similar 
+      functions in some of the states.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `In the age of the Buddha, the rural administration was in the hands of 
+      the village headmen who functioned as leaders of the tribal regiments, and so they 
+      were called _____, which means the leader of the grama or a tribal military unit ?`,
+      answer: `Gramini.`,
+      description: `<ul>
+      <li>The village headmen were known by different titles such as gramabhojaka, gramini, 
+      or gramika.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Bali, a voluntary payment made by the tribesmen to their chiefs in Vedic 
+      times became a compulsory payment to be made by the peasants in the age of the Buddha, 
+      and officers called _____ were appointed to collect it ?`,
+      answer: `Balisadhakas.`,
+      description: `<ul>
+      <li>It seems that one-sixth of the produce was collected as tax by the king from 
+      the peasants.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
       question: `?`,
       answer: `.`,
       description: `<ul>
