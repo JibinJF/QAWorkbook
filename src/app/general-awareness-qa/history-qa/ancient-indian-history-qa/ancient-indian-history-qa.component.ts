@@ -46,6 +46,11 @@ export class AncientIndianHistoryQAComponent implements OnInit {
   },
   {
     wbNumber: this.wbNumber++,
+    wbName: `Maurya Age QA`,
+    wbRoute: '/HistoryQA/AncientIndianHistoryQA/MauryaAgeQA',
+  },
+  {
+    wbNumber: this.wbNumber++,
     wbName: `Legacy in Science And Civilization QA`,
     wbRoute: '/HistoryQA/AncientIndianHistoryQA/ScienceAndCivilizationLegacyQA',
   },

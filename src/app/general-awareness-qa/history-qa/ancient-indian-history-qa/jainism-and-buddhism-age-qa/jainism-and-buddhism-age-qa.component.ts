@@ -257,29 +257,5 @@ export class JainismAndBuddhismAgeQAComponent implements OnInit {
       the peasants.</li>
       </ul>`
     },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
   ];
 }

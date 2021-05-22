@@ -37,6 +37,7 @@
     flex-direction: row;
     flex-wrap: nowrap;    
     border-radius: 5px;
+    padding: 5px;
     text-decoration: none;
     color: #F5F5F5;
     background-color: #383838;

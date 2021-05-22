@@ -42,6 +42,7 @@ import { IndianConstitutionQAComponent } from './general-awareness-qa/political-
 import { FundamentalRightsQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/fundamental-rights-qa/fundamental-rights-qa.component';
 import { DPSPQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/dpspqa/dpspqa.component';
 import { ScienceAndCivilizationLegacyQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/science-and-civilization-legacy-qa/science-and-civilization-legacy-qa.component';
+import { MauryaAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/maurya-age-qa/maurya-age-qa.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -61,6 +62,7 @@ const routes: Routes = [
   { path: 'HistoryQA/AncientIndianHistoryQA/VedicAgeQA', component: VedicAgeQAComponent },
   { path: 'HistoryQA/AncientIndianHistoryQA/JainismAndBuddhismAgeQA', component: JainismAndBuddhismAgeQAComponent },
   { path: 'HistoryQA/AncientIndianHistoryQA/AgeOfMahajanapadasQA', component: AgeOfMahajanapadasQAComponent },
+  { path: 'HistoryQA/AncientIndianHistoryQA/MauryaAgeQA', component: MauryaAgeQAComponent },
   { path: 'HistoryQA/AncientIndianHistoryQA/ScienceAndCivilizationLegacyQA', component: ScienceAndCivilizationLegacyQAComponent },
   { path: 'HistoryQA/ModernIndianHistoryQA', component: ModernIndianHistoryQAComponent },
   { path: 'HistoryQA/ModernIndianHistoryQA/EighteenthCenturyIndiaQA', component: EighteenthCenturyIndiaQAComponent },
