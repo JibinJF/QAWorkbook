@@ -203,6 +203,4 @@ export class MauryaAgeQAComponent implements OnInit {
       </ul>`
     }
   ];
-
-
 }
