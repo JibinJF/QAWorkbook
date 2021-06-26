@@ -23,6 +23,11 @@ export class FactsQAComponent implements OnInit {
       wbNumber: this.wbNumber++,
       wbName: `Books And Authors QA`,
       wbRoute: '/FactsQA/BooksAndAuthorsQA'
+    },
+    {
+      wbNumber: this.wbNumber++,
+      wbName: `All In One QA`,
+      wbRoute: '/FactsQA/AllInOneQA'
     },    
   ];
 }

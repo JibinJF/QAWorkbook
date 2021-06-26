@@ -43,6 +43,7 @@ import { FundamentalRightsQAComponent } from './general-awareness-qa/political-s
 import { DPSPQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/dpspqa/dpspqa.component';
 import { ScienceAndCivilizationLegacyQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/science-and-civilization-legacy-qa/science-and-civilization-legacy-qa.component';
 import { MauryaAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/maurya-age-qa/maurya-age-qa.component';
+import { AllInOneQAComponent } from './general-awareness-qa/facts-qa/all-in-one-qa/all-in-one-qa.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -88,6 +89,7 @@ const routes: Routes = [
   { path: 'PoliticalScienceQA/IndianPolityQA/OrganizationsAssociationsAndMovementsQA/AllIndiaKisanSabhaQA', component: AllIndiaKisanSabhaQAComponent },
   { path: 'FactsQA', component: FactsQAComponent },
   { path: 'FactsQA/BooksAndAuthorsQA', component: BooksAndAuthorsQAComponent },
+  { path: 'FactsQA/AllInOneQA', component: AllInOneQAComponent },
   { path: '', redirectTo: '', pathMatch: 'full' },
 ];
 

@@ -68,6 +68,7 @@ import { FundamentalRightsQAComponent } from './general-awareness-qa/political-s
 import { DPSPQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/dpspqa/dpspqa.component';
 import { ScienceAndCivilizationLegacyQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/science-and-civilization-legacy-qa/science-and-civilization-legacy-qa.component';
 import { MauryaAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/maurya-age-qa/maurya-age-qa.component';
+import { AllInOneQAComponent } from './general-awareness-qa/facts-qa/all-in-one-qa/all-in-one-qa.component';
 
 
 @NgModule({
@@ -140,7 +141,8 @@ import { MauryaAgeQAComponent } from './general-awareness-qa/history-qa/ancient-
     FundamentalRightsQAComponent,
     DPSPQAComponent,
     ScienceAndCivilizationLegacyQAComponent,
-    MauryaAgeQAComponent
+    MauryaAgeQAComponent,
+    AllInOneQAComponent
   ],
   bootstrap: [
     AppComponent
