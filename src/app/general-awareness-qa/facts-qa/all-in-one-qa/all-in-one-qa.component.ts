@@ -32,11 +32,47 @@ export class AllInOneQAComponent implements OnInit {
       },
       {
         qaNumber: this.qaNumber++,
-        question: `?`,
-        answer: `.`,
+        question: `Invest India, set up in the year _____, is a non-profit venture under the 
+        Department for Promotion of Industry and Internal Trade, Ministry of Commerce and Industry, 
+        Government of India ?`,
+        answer: `2009.`,
+        description: `
+          <ul>
+            <li>It is the national investment promotion and facilitation agency.</li>
+            <li>Invest India actively works with several Indian states to build capacity as well 
+            as bring in global best practices in investment targeting, promotion and facilitation 
+            areas.</li>
+          </ul>`
+      },
+      {
+        qaNumber: this.qaNumber++,
+        question: `Indian Space Research Organisation was formed in the year _____ ?`,
+        answer: `1969.`,
+        description: `
+          <ul>
+            <li>It was superseded the erstwhile Indian National Committee for Space Research 
+            (INCOSPAR).</li>
+          </ul>`
+      },
+      {
+        qaNumber: this.qaNumber++,
+        question: `The Indian National Committee for Space Research (INCOSPAR) was set up by 
+        the Government of India under the Department of Atomic Energy (DAE) in the year _____ ?`,
+        answer: `1962`,
         description: `
           <ul>
             <li>.</li>
+          </ul>`
+      },
+      {
+        qaNumber: this.qaNumber++,
+        question: `Indian Ocean Naval Symposium (IONS) conceived by the Indian Navy in the year 
+        _____, seeks to enhance maritime cooperation among Navies of the littoral states of the 
+        Indian Ocean Region (IOR)?`,
+        answer: `2008.`,
+        description: `
+          <ul>
+            <li>A biennial event.</li>
           </ul>`
       },
       {
