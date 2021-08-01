@@ -69,6 +69,7 @@ import { DPSPQAComponent } from './general-awareness-qa/political-science-qa/ind
 import { ScienceAndCivilizationLegacyQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/science-and-civilization-legacy-qa/science-and-civilization-legacy-qa.component';
 import { MauryaAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/maurya-age-qa/maurya-age-qa.component';
 import { AllInOneQAComponent } from './general-awareness-qa/facts-qa/all-in-one-qa/all-in-one-qa.component';
+import { EuropeanPenetrationAndConquestQAComponent } from './general-awareness-qa/history-qa/modern-indian-history-qa/european-penetration-and-conquest-qa/european-penetration-and-conquest-qa.component';
 
 
 @NgModule({
@@ -142,7 +143,8 @@ import { AllInOneQAComponent } from './general-awareness-qa/facts-qa/all-in-one-
     DPSPQAComponent,
     ScienceAndCivilizationLegacyQAComponent,
     MauryaAgeQAComponent,
-    AllInOneQAComponent
+    AllInOneQAComponent,
+    EuropeanPenetrationAndConquestQAComponent
   ],
   bootstrap: [
     AppComponent

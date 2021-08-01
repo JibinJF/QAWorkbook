@@ -24,5 +24,10 @@ export class ModernIndianHistoryQAComponent implements OnInit {
       wbName: `Eighteenth Century India`,
       wbRoute: '/HistoryQA/ModernIndianHistoryQA/EighteenthCenturyIndiaQA',
     },
+    {
+      wbNumber: this.wbNumber++,
+      wbName: `European Penetration And The Conquest Of India`,
+      wbRoute: '/HistoryQA/ModernIndianHistoryQA/EuropeanPenetrationAndConquestQA',
+    },
   ]
 }
