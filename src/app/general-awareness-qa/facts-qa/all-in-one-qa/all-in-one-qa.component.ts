@@ -27,7 +27,41 @@ export class AllInOneQAComponent implements OnInit {
         answer: `.`,
         description: `
           <ul>
-            <li>.</li>
+            <li>.
+            </li>
+          </ul>`
+      },
+      {
+        qaNumber: this.qaNumber++,
+        question: `Whose prior consent is required for the Supreme Court to initiate criminal contempt 
+        action?`,
+        answer: `Attorney General of India.`,
+      },
+      {
+        qaNumber: this.qaNumber++,
+        question: `According to the Contempt of Courts Act, 1971, contempt of court can either be 
+        _____ contempt or _____ contempt?`,
+        answer: `Civil contempt or Criminal contempt.`,
+        description: `
+          <ul>
+            <li>Civil contempt means wilful disobedience to any judgment, decree, direction, order, 
+            writ or other process of a court or wilful breach of an undertaking given to a court.
+            </li>
+            <li>Criminal contempt means the publication (whether by words, spoken or written, or by 
+              signs, or by visible representations, or otherwise) of any matter or the doing of any 
+              other act whatsoever which
+              <ol>
+                <li>scandalises or tends to scandalise, or lowers or tends to lower the authority of, 
+                any court; or
+                </li>
+                <li>prejudices, or interferes or tends to interfere with, the due course of any 
+                judicial proceeding; or
+                </li>
+                <li>interferes or tends to interfere with, or obstructs or tends to obstruct, the 
+                administration of justice in any other manner.
+                </li>
+              </ol>
+            </li>
           </ul>`
       },
       {

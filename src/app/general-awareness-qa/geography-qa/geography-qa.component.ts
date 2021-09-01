@@ -23,6 +23,10 @@ export class GeographyQAComponent implements OnInit {
       wbName: `Indian Geography QA`,
       wbRoute: '/GeographyQA/IndianGeographyQA'
     },
-    
+    {
+      wbNumber: this.wbNumber++,
+      wbName: `Physical Geography QA`,
+      wbRoute: '/GeographyQA/PhysicalGeographyQA'
+    },
   ];
 }
