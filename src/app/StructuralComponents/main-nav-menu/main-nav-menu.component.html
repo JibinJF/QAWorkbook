@@ -12,12 +12,16 @@
 
 <mat-menu #geographyQA="matMenu">
     <button mat-menu-item [matMenuTriggerFor]="indianGeographyQA">Indian Geography QA</button>
-    <button mat-menu-item routerLink="GeographyQA/PhysicalGeographyQA">Physical Geography QA</button>
+    <button mat-menu-item [matMenuTriggerFor]="physicalGeographyQA">Physical Geography QA</button>
 </mat-menu>
 
 <mat-menu #indianGeographyQA="matMenu">
     <button mat-menu-item routerLink="GeographyQA/IndianGeographyQA/LocationAndSizeQA">Location And Size QA</button>
     <button mat-menu-item routerLink="GeographyQA/IndianGeographyQA/DrainageSystemQA">Drainage System QA</button>
+</mat-menu>
+
+<mat-menu #physicalGeographyQA="matMenu">
+    <button mat-menu-item routerLink="GeographyQA/PhysicalGeographyQA/EarthOriginAndEvolutionQA">Earth - Origin And Evolution QA</button>
 </mat-menu>
 
 <mat-menu #historyQA="matMenu">

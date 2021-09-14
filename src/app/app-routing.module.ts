@@ -46,6 +46,7 @@ import { MauryaAgeQAComponent } from './general-awareness-qa/history-qa/ancient-
 import { AllInOneQAComponent } from './general-awareness-qa/facts-qa/all-in-one-qa/all-in-one-qa.component';
 import { EuropeanPenetrationAndConquestQAComponent } from './general-awareness-qa/history-qa/modern-indian-history-qa/european-penetration-and-conquest-qa/european-penetration-and-conquest-qa.component';
 import { PhysicalGeographyQAComponent } from './general-awareness-qa/geography-qa/physical-geography-qa/physical-geography-qa.component';
+import { EarthOriginAndEvolutionQAComponent } from './general-awareness-qa/geography-qa/physical-geography-qa/earth-origin-and-evolution-qa/earth-origin-and-evolution-qa.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -58,6 +59,7 @@ const routes: Routes = [
   { path: 'GeographyQA/IndianGeographyQA/LocationAndSizeQA', component: LocationAndSizeQAComponent },
   { path: 'GeographyQA/IndianGeographyQA/DrainageSystemQA', component: DrainageSystemQAComponent },
   { path: 'GeographyQA/PhysicalGeographyQA', component: PhysicalGeographyQAComponent },
+  { path: 'GeographyQA/PhysicalGeographyQA/EarthOriginAndEvolutionQA', component: EarthOriginAndEvolutionQAComponent },
   { path: 'HistoryQA', component: HistoryQAComponent },
   { path: 'HistoryQA/AncientIndianHistoryQA', component: AncientIndianHistoryQAComponent },
   { path: 'HistoryQA/AncientIndianHistoryQA/StoneAgeQA', component: StoneAgeQAComponent },

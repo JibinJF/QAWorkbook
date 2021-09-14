@@ -1,18 +1,18 @@
 import { Component, OnInit } from '@angular/core';
-import { QAModel } from 'src/app/StructuralComponents/qamodel';
+import { QAWbListModel } from 'src/app/StructuralComponents/qawb-list-model';
 
 @Component({
   selector: 'app-physical-geography-qa',
   template: `
-    <app-display-qa [qas]="physicalGeographyQAs" [workbookName]="workbookName">
-    </app-display-qa>
+    <app-display-qawb-list [qaWbList]="physicalGeographyQAWbList" [workbookName]="workbookName">
+    </app-display-qawb-list>
   `,
   styles: [
   ]
 })
 export class PhysicalGeographyQAComponent implements OnInit {
 
-  qaNumber: number = 1;
+  wbNumber: number = 1;
   workbookName: string = `Physical Geography`;
 
   constructor() { }
@@ -20,38 +20,11 @@ export class PhysicalGeographyQAComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  physicalGeographyQAs: QAModel[] = [
+  physicalGeographyQAWbList: QAWbListModel[] = [
     {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-        <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-        <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-        <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-        <li></li>
-      </ul>`
-    },
+      wbNumber: this.wbNumber++,
+      wbName: `Earth - Origin and Evolution QA`,
+      wbRoute: '/GeographyQA/PhysicalGeographyQA/EarthOriginAndEvolutionQA'
+    },  
   ];
 }

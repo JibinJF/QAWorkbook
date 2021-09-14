@@ -3,7 +3,10 @@ import { QAWbListModel } from 'src/app/StructuralComponents/qawb-list-model';
 
 @Component({
   selector: 'app-indian-geography-qa',
-  template: `<app-display-qawb-list [qaWbList]="indianGeographyQAWbList" [workbookName]="workbookName"></app-display-qawb-list>`,
+  template: `
+    <app-display-qawb-list [qaWbList]="indianGeographyQAWbList" [workbookName]="workbookName">
+    </app-display-qawb-list>
+    `,
   styles: [
   ]
 })

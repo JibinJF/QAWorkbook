@@ -71,6 +71,7 @@ import { MauryaAgeQAComponent } from './general-awareness-qa/history-qa/ancient-
 import { AllInOneQAComponent } from './general-awareness-qa/facts-qa/all-in-one-qa/all-in-one-qa.component';
 import { EuropeanPenetrationAndConquestQAComponent } from './general-awareness-qa/history-qa/modern-indian-history-qa/european-penetration-and-conquest-qa/european-penetration-and-conquest-qa.component';
 import { PhysicalGeographyQAComponent } from './general-awareness-qa/geography-qa/physical-geography-qa/physical-geography-qa.component';
+import { EarthOriginAndEvolutionQAComponent } from './general-awareness-qa/geography-qa/physical-geography-qa/earth-origin-and-evolution-qa/earth-origin-and-evolution-qa.component';
 
 
 @NgModule({
@@ -146,7 +147,8 @@ import { PhysicalGeographyQAComponent } from './general-awareness-qa/geography-q
     MauryaAgeQAComponent,
     AllInOneQAComponent,
     EuropeanPenetrationAndConquestQAComponent,
-    PhysicalGeographyQAComponent
+    PhysicalGeographyQAComponent,
+    EarthOriginAndEvolutionQAComponent
   ],
   bootstrap: [
     AppComponent

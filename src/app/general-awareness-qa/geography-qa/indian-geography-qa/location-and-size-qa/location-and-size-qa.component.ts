@@ -3,7 +3,10 @@ import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
   selector: 'app-location-and-size-qa',
-  template: `<app-display-qa [qas]="locationAndSizeQAs" [workbookName]="workbookName"></app-display-qa>`,
+  template: `
+    <app-display-qa [qas]="locationAndSizeQAs" [workbookName]="workbookName">
+    </app-display-qa>
+  `,
   styles: [
   ]
 })
