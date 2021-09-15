@@ -25,6 +25,11 @@ export class PhysicalGeographyQAComponent implements OnInit {
       wbNumber: this.wbNumber++,
       wbName: `Earth - Origin and Evolution QA`,
       wbRoute: '/GeographyQA/PhysicalGeographyQA/EarthOriginAndEvolutionQA'
-    },  
+    },
+    {
+      wbNumber: this.wbNumber++,
+      wbName: `Earth - Interior QA`,
+      wbRoute: '/GeographyQA/PhysicalGeographyQA/EarthInteriorQA'
+    }, 
   ];
 }

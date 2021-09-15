@@ -80,58 +80,19 @@ export class EarthOriginAndEvolutionQAComponent implements OnInit {
     },
     {
       qaNumber: this.qaNumber++,
-      question: `Which one of the following has the longest duration?
-        <ol>
-          <li>Eons</li>
-          <li>Era</li>
-          <li>Period</li>
-          <li>Epoch</li>
-        </ol>
-      `,
-      answer: `.`,
+      question: `The primarily defined divisions of the geological time scale (GTS) are _____?`,
+      answer: `Eons.`,
       description: `<ul>
-        <li></li>
+        <li>Each eon is subsequently divided into eras, which in turn are divided into periods, 
+        which are further divided into epochs.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-        <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-        <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-        <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-        <li></li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-        <li></li>
-      </ul>`
-    },
+      question: `_____ is the process of liberation of gases from within a planet, and it may occur 
+      directly during volcanism or indirectly by the weathering of igneous rocks on a planetary 
+      surface?`,
+      answer: `Degassing.`,
+    },    
   ];
 }
