@@ -48,6 +48,7 @@ import { EuropeanPenetrationAndConquestQAComponent } from './general-awareness-q
 import { PhysicalGeographyQAComponent } from './general-awareness-qa/geography-qa/physical-geography-qa/physical-geography-qa.component';
 import { EarthOriginAndEvolutionQAComponent } from './general-awareness-qa/geography-qa/physical-geography-qa/earth-origin-and-evolution-qa/earth-origin-and-evolution-qa.component';
 import { EarthInteriorQAComponent } from './general-awareness-qa/geography-qa/physical-geography-qa/earth-interior-qa/earth-interior-qa.component';
+import { CentralAsianInfluenceQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/central-asian-influence-qa/central-asian-influence-qa.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -71,6 +72,7 @@ const routes: Routes = [
   { path: 'HistoryQA/AncientIndianHistoryQA/JainismAndBuddhismAgeQA', component: JainismAndBuddhismAgeQAComponent },
   { path: 'HistoryQA/AncientIndianHistoryQA/AgeOfMahajanapadasQA', component: AgeOfMahajanapadasQAComponent },
   { path: 'HistoryQA/AncientIndianHistoryQA/MauryaAgeQA', component: MauryaAgeQAComponent },
+  { path: 'HistoryQA/AncientIndianHistoryQA/CentralAsianInfluenceQA', component: CentralAsianInfluenceQAComponent },
   { path: 'HistoryQA/AncientIndianHistoryQA/ScienceAndCivilizationLegacyQA', component: ScienceAndCivilizationLegacyQAComponent },
   { path: 'HistoryQA/ModernIndianHistoryQA', component: ModernIndianHistoryQAComponent },
   { path: 'HistoryQA/ModernIndianHistoryQA/EighteenthCenturyIndiaQA', component: EighteenthCenturyIndiaQAComponent },

@@ -51,6 +51,11 @@ export class AncientIndianHistoryQAComponent implements OnInit {
   },
   {
     wbNumber: this.wbNumber++,
+    wbName: `Central Asian Influence QA`,
+    wbRoute: '/HistoryQA/AncientIndianHistoryQA/CentralAsianInfluenceQA',
+  },
+  {
+    wbNumber: this.wbNumber++,
     wbName: `Legacy in Science And Civilization QA`,
     wbRoute: '/HistoryQA/AncientIndianHistoryQA/ScienceAndCivilizationLegacyQA',
   },
