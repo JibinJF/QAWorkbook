@@ -140,59 +140,188 @@ export class CentralAsianInfluenceQAComponent implements OnInit {
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `The Parthians were followed by the ______, who are also called Yuechis or 
+      Tocharians?`,
+      answer: `Kushans.`,
       description: `<ul>
-      <li></li>
+      <li>Though a nomadic people from the steppes of north Central Asia living in the 
+      neighbourhood of China, their empire extended from the Oxus to the Ganga, from Khorasan 
+      in Central Asia to Varanasi in Uttar Pradesh.</li>
+      <li>A good part of Central Asia now included in the Commonwealth of Independent 
+      States (in former USSR), a portion of Iran, a portion of Afghanistan, almost the whole 
+      of Pakistan, and almost the whole of northern India were brought under one rule by the 
+      Kushans.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Among the 2 successive dynasties of the Kushans, the first dynasty was 
+      founded by a house of chiefs who were called _____, who ruled for 28 years from about 
+      A.D. 50 ?`,
+      answer: `Kadphises.`,
       description: `<ul>
-      <li></li>
+      <li>
+        It had 2 kings.
+        <ol>
+          <li>The first was Kadphises I, who issued coins south of the Hindukush. He minted 
+          coppers in imitation of Roman coins.</li>
+          <li>The second king was Kadphises II, who issued a large number of gold money and 
+          spread his kingdom east of the Indus.</li>
+        </ol>
+      </li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `In the Kushan dynasty, the house of Kadphises was succeeded by that of 
+      _____ ?`,
+      answer: `Kanishka.`,
       description: `<ul>
-      <li></li>
+      <li>Its kings extended the Kushan power over upper India and the lower Indus basin.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `The early Kushan Kings issued numerous gold coins with higher degree of 
+      metallic purity than is found in the Gupta gold coins. State true or false?`,
+      answer: `True.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Kushan coins, inscriptions, constructions and pieces of sculpture found in 
+      Mathura show that it was their second capital in India, the first being _____,  where 
+      Kanishka erected a monastery and a huge stupa or relic-tower?`,
+      answer: `Peshawar.`,
       description: `<ul>
-      <li></li>
+      <li>Peshawar is historically known as Purushapura.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Who started an era in A.D. 78, which is now known as the Shaka era?`,
+      answer: `Kanishka.`,
       description: `<ul>
-      <li></li>
+      <li>Kanishka was the most famous Kushan ruler.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Kanishka held a Buddhist council in _____, where the doctrines of the 
+      Mahayana form of Buddhism were finalized?`,
+      answer: `Kashmir.`,
       description: `<ul>
-      <li></li>
+        <li>Fourth Buddhist Council:
+          <ul>
+            <li>Venue: Kundalavana, Kashmir.</li>
+            <li>Year: A.D. 72.</li>
+            <li>King: Kanishka.</li>
+            <li>Priest: Vasumitra deputed by Asvaghosha.</li>
+            <li>Divided Buddhism into Mahayana and Hinayana sects.</li>
+          </ul>
+        </li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `The typical pottery of the Shaka-Kushan phase is _____, both plain and 
+      polished?`,
+      answer: `Red ware.`,
       description: `<ul>
-      <li></li>
+      <li>The period is also marked by the use of burnt bricks for flooring, use of tiles for 
+      both flooring and roofing, and the construction of brick-walls.</li>
+      <li>The distinctive pots are sprinklers and spouted channels.</li>
       </ul>`
     },
+    {
+      qaNumber: this.qaNumber++,
+      question: `The Shakas and Kushans introduced better cavalry and the use of riding horse 
+      on a large scale. State true or false?`,
+      answer: `True.`,
+      description: `<ul>
+      <li>They made common the use of reins and saddles, which appear in the Buddhist 
+      sculptures of the second and third centuries A.D.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `The Shakas and Kushans introduced turban, tunic, trousers, and heavy long 
+      coat. State true or false?`,
+      answer: `True.`,
+      description: `<ul>
+      <li>The Central Asians also brought in cap, helmet, and boots which were used by 
+      warriors.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Who were the first rulers in India to issue gold coins on a wide scale?`,
+      answer: `Kushans.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `The Kushans introduced the _____ system of government?`,
+      answer: `Satrap.`,
+      description: `<ul>
+      <li>The empire was divided into numerous satrapies, and each satrapy was placed under 
+      the rule of a satrap.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `The Greeks introduced the practice of military governorship. They appointed 
+      their governors called _____?`,
+      answer: `Strategos.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `The Greek ambassador _____ set up a pillar in honour of Vasudeva near Vidisa 
+      in Madhya Pradesh around the middle of the second century B.C.?`,
+      answer: `Heliodorus.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Indian craftsmen coming into contact with the Central Asians, Greeks, and 
+      Romans, especially in the north-western frontier of India in Gandhara gave rise to a 
+      new kind of art in which images of the Buddha were made in the _____ style?`,
+      answer: `Graeco-Roman style.`,
+      description: `<ul>
+      <li>The hair of the Buddha was fashioned in the Graeco-Roman style.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `The earliest specimen of <i>kavya</i> style is found in the Junagadh 
+      inscription of _____ in Kathiawar in about A.D. 150?`,
+      answer: `Rudradaman.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `_____ wrote the <i>Buddhacharita</i>, which is a biography of the Buddha?`,
+      answer: `Ashvaghosha.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `_____ composed the <i>Saundarananda</i>, which is a fine example of Sanskrit 
+      kavya?`,
+      answer: `Ashvaghosha.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `The Greeks contributed to the development of the Indian theatre by introducing 
+      the use of the _____?`,
+      answer: `Curtain.`,
+      description: `<ul>
+      <li>Since the curtain was borrowed from the Greeks, it came to be known as <i>yavanika</i>
+      </li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `<i>Kamasutra</i> was written by _____?`,
+      answer: `Vatsyayana.`,
+      description: `<ul>
+      <li>It is attributed to the third century A.D.</li>
+      </ul>`
+    },    
   ];
 }
