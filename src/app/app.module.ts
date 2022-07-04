@@ -74,6 +74,7 @@ import { PhysicalGeographyQAComponent } from './general-awareness-qa/geography-q
 import { EarthOriginAndEvolutionQAComponent } from './general-awareness-qa/geography-qa/physical-geography-qa/earth-origin-and-evolution-qa/earth-origin-and-evolution-qa.component';
 import { EarthInteriorQAComponent } from './general-awareness-qa/geography-qa/physical-geography-qa/earth-interior-qa/earth-interior-qa.component';
 import { CentralAsianInfluenceQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/central-asian-influence-qa/central-asian-influence-qa.component';
+import { SatavahanasQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/satavahanas-qa/satavahanas-qa.component';
 
 
 @NgModule({
@@ -152,7 +153,8 @@ import { CentralAsianInfluenceQAComponent } from './general-awareness-qa/history
     PhysicalGeographyQAComponent,
     EarthOriginAndEvolutionQAComponent,
     EarthInteriorQAComponent,
-    CentralAsianInfluenceQAComponent
+    CentralAsianInfluenceQAComponent,
+    SatavahanasQAComponent
   ],
   bootstrap: [
     AppComponent
