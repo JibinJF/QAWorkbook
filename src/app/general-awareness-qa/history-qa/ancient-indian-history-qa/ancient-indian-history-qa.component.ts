@@ -61,8 +61,8 @@ export class AncientIndianHistoryQAComponent implements OnInit {
   },
   {
     wbNumber: this.wbNumber++,
-    wbName: `Ancient Southern India QA`,
-    wbRoute: '/HistoryQA/AncientIndianHistoryQA/AncientSouthIndiaQA',
+    wbName: `Dawn Of History In South India QA`,
+    wbRoute: '/HistoryQA/AncientIndianHistoryQA/DawnOfHistoryInSouthIndiaQA',
   },
   {
     wbNumber: this.wbNumber++,

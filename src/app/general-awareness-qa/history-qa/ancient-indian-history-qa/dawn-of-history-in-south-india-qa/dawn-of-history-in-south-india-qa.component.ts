@@ -2,23 +2,23 @@ import { Component, OnInit } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-ancient-south-india-qa',
+  selector: 'dawn-of-history-in-south-india-qa',
   template: `
-  <app-display-qa [qas]="ancientSouthIndiaQAs" [workbookName]="workbookName"></app-display-qa>
+  <app-display-qa [qas]="dawnOfHistoryInSouthIndiaQAs" [workbookName]="workbookName"></app-display-qa>
   `,
   styles: [
   ]
 })
-export class AncientSouthIndiaQAComponent implements OnInit {
+export class DawnOfHistoryInSouthIndia implements OnInit {
 
   qaNumber: number = 1;
-  workbookName: string = `Ancient Southern India`;
+  workbookName: string = `Dawn Of History In South India`;
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  ancientSouthIndiaQAs: QAModel[] = [
+  dawnOfHistoryInSouthIndiaQAs: QAModel[] = [
     {
       qaNumber: this.qaNumber++,
       question: `?`,
