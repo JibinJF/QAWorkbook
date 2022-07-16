@@ -68,106 +68,74 @@ export class DawnOfHistoryInSouthIndia implements OnInit {
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `The Chola kingdom, which was situated to the north-east of the territory of 
+      the Pandyas, between the Pennar and the Velar rivers, came to be called _____ in early 
+      medieval times?`,
+      answer: `Cholamandalam (Coromandel).`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `The chief centre of political power of the Cholas lay at _____,  a place famous 
+      for cotton trade?`,
+      answer: `Uraiyur.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Which Chola king founded Puhar and constructed 160km of embankment along the 
+      Kaveri river?`,
+      answer: `Karikala.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Puhar is identical with _____, which was the Chola capital?`,
+      answer: `Kaveripattnam.`,      
       description: `<ul>
-      <li>.</li>
+      <li>It was a great centre of trade and commerce, and excavations show that it had a 
+      large dock.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `One of the main sources of the wealth of the Cholas was trade in _____ cloth?`,
+      answer: `Cotton.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Which country was situated to the west and north of the land of the Pandyas?`,
+      answer: `The Chera or the Kerala country.`,
       description: `<ul>
-      <li>.</li>
+      <li>It included the narrow strip of land between the sea and the mountains, and covered 
+      portions of both Kerala and Tamil Nadu.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Where did the Romans set up two regiments in the Chera country?`,
+      answer: `Muziris (identical with Cranganore).`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `The Sangam literature can roughly be divided into 2 groups, narrative and 
+      didactic. The narrative texts are called _____?`,
+      answer: `Melkanakku (or 18 major works).`,
       description: `<ul>
-      <li>.</li>
+      <li>They comprise 18 major works consisting of 8 anthologies and 10 idylls.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
+      question: `The Sangam literature can roughly be divided into 2 groups, narrative and 
+      didactic. The didactic works are called _____?`,
+      answer: `Kilkanakku (or 18 minor works).`,
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Tolkkappiyam in an important tamil text which deals with philosophy and wise 
+      maxims. State true or false?`,
+      answer: `False.`,
       description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
+      <li>Tolkkappiyam deals with grammar and poetics.</li>
+      <li>Tirukkural deals with philosophy and wise maxims.</li>
       </ul>`
     },
   ];
