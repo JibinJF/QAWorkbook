@@ -76,6 +76,7 @@ import { EarthInteriorQAComponent } from './general-awareness-qa/geography-qa/ph
 import { CentralAsianInfluenceQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/central-asian-influence-qa/central-asian-influence-qa.component';
 import { SatavahanasQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/satavahanas-qa/satavahanas-qa.component';
 import { DawnOfHistoryInSouthIndia } from './general-awareness-qa/history-qa/ancient-indian-history-qa/dawn-of-history-in-south-india-qa/dawn-of-history-in-south-india-qa.component';
+import { PostMauryaCraftsTradeAndTownsQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/post-maurya-crafts-trade-and-towns-qa/post-maurya-crafts-trade-and-towns-qa.component';
 
 
 @NgModule({
@@ -156,7 +157,8 @@ import { DawnOfHistoryInSouthIndia } from './general-awareness-qa/history-qa/anc
     EarthInteriorQAComponent,
     CentralAsianInfluenceQAComponent,
     SatavahanasQAComponent,
-    DawnOfHistoryInSouthIndia
+    DawnOfHistoryInSouthIndia,
+    PostMauryaCraftsTradeAndTownsQAComponent
   ],
   bootstrap: [
     AppComponent
