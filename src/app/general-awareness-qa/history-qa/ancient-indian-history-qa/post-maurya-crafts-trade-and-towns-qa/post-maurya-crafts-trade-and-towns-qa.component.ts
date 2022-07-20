@@ -22,99 +22,41 @@ export class PostMauryaCraftsTradeAndTownsQAComponent implements OnInit {
   postMauryaCraftsTradeAndTownsQAs: QAModel[] = [
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `The _____ or the <i>Questions of Milinda</i> enumerates as many as 75 
+      occupations, 60 of which are connected with various kinds of crafts?`,
+      answer: `Milinda Panho.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Mathura was a great centre for the manufacture of a special type of 
+      cloth, which was called _____?`,
+      answer: `Shataka.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Artisans were organised into guilds which were called _____?`,
+      answer: `Shrenis.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Which Roman writer wrote <i>Natural History</i> in Latin in A.D. 77?`,
+      answer: `Pliny.`,
       description: `<ul>
-      <li>.</li>
+      <li>He complains that Rome was being drained of gold on account of her trade with 
+      India.</li>
       </ul>`
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
+      question: `Since the Westerners were very much fond of Indian pepper, it is called 
+      _____ in Sanskrit?`,
+      answer: `Yavanpriya.`,
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
+      question: `Most Kushan towns in India lay exactly on the north-western or _____ 
+      route passing from Mathura to Taxila?`,
+      answer: `Uttarapatha.`,
+    }
   ];
 }
