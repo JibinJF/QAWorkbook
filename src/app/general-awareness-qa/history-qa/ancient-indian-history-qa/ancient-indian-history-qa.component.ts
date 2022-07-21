@@ -66,13 +66,18 @@ export class AncientIndianHistoryQAComponent implements OnInit {
   },
   {
     wbNumber: this.wbNumber++,
-    wbName: `Legacy in Science And Civilization QA`,
-    wbRoute: '/HistoryQA/AncientIndianHistoryQA/ScienceAndCivilizationLegacyQA',
+    wbName: `Post-Maurya Age Crafts, Trade, and Towns QA`,
+    wbRoute: '/HistoryQA/AncientIndianHistoryQA/PostMauryaCraftsTradeAndTownsQA',
   },
   {
     wbNumber: this.wbNumber++,
-    wbName: `Post-Maurya Age Crafts, Trade, and Towns QA`,
-    wbRoute: '/HistoryQA/AncientIndianHistoryQA/PostMauryaCraftsTradeAndTownsQA',
+    wbName: `Gupta Age QA`,
+    wbRoute: '/HistoryQA/AncientIndianHistoryQA/GuptaAgeQA',
+  },
+  {
+    wbNumber: this.wbNumber++,
+    wbName: `Legacy in Science And Civilization QA`,
+    wbRoute: '/HistoryQA/AncientIndianHistoryQA/ScienceAndCivilizationLegacyQA',
   },  
   ]
 }

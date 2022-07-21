@@ -52,6 +52,7 @@ import { CentralAsianInfluenceQAComponent } from './general-awareness-qa/history
 import { SatavahanasQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/satavahanas-qa/satavahanas-qa.component';
 import { DawnOfHistoryInSouthIndia } from './general-awareness-qa/history-qa/ancient-indian-history-qa/dawn-of-history-in-south-india-qa/dawn-of-history-in-south-india-qa.component';
 import { PostMauryaCraftsTradeAndTownsQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/post-maurya-crafts-trade-and-towns-qa/post-maurya-crafts-trade-and-towns-qa.component';
+import { GuptaAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/gupta-age-qa/gupta-age-qa.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -80,6 +81,7 @@ const routes: Routes = [
   { path: 'HistoryQA/AncientIndianHistoryQA/SatavahanasQA', component: SatavahanasQAComponent },
   { path: 'HistoryQA/AncientIndianHistoryQA/DawnOfHistoryInSouthIndiaQA', component: DawnOfHistoryInSouthIndia },
   { path: 'HistoryQA/AncientIndianHistoryQA/PostMauryaCraftsTradeAndTownsQA', component: PostMauryaCraftsTradeAndTownsQAComponent },
+  { path: 'HistoryQA/AncientIndianHistoryQA/GuptaAgeQA', component: GuptaAgeQAComponent },
   { path: 'HistoryQA/ModernIndianHistoryQA', component: ModernIndianHistoryQAComponent },
   { path: 'HistoryQA/ModernIndianHistoryQA/EighteenthCenturyIndiaQA', component: EighteenthCenturyIndiaQAComponent },
   { path: 'HistoryQA/ModernIndianHistoryQA/EuropeanPenetrationAndConquestQA', component: EuropeanPenetrationAndConquestQAComponent },
