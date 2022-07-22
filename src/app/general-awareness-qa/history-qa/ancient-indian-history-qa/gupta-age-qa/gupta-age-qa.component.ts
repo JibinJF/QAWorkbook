@@ -91,6 +91,82 @@ export class GuptaAgeQAComponent implements OnInit {
     },
     {
       qaNumber: this.qaNumber++,
+      question: `In ancient India, the Guptas issued the largest number of gold coins, 
+      which were called _____ in their inscriptions?`,
+      answer: `Dinaras.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li>.</li>
+      </ul>`
+    },{
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li>.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li>.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li>.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li>.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li>.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li>.</li>
+      </ul>`
+    },{
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li>.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li>.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
       question: `?`,
       answer: `.`,
       description: `<ul>
