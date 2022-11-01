@@ -97,26 +97,19 @@ export class GuptaAgeQAComponent implements OnInit {
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },{
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
+      question: `_____, the law book of Narads, is a work of about the fifth century A.D.?`,
+      answer: `Narada Smriti.`,
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
+      question: `The first example of the immolation of widow after the death of her husband 
+      appears in Gupta times in A.D. _____?`,
+      answer: `510.`,
+    },{
+      qaNumber: this.qaNumber++,
+      question: `Who is credited with maintaining in his court nine luminaries or great 
+      scholars?`,
+      answer: `Chandragupta II.`,
     },
     {
       qaNumber: this.qaNumber++,
