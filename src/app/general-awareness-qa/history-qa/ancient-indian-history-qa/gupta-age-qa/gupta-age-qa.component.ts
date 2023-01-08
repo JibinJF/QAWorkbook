@@ -113,6 +113,100 @@ export class GuptaAgeQAComponent implements OnInit {
     },
     {
       qaNumber: this.qaNumber++,
+      question: `In the Gupta period we find an over 2 metre high bronze image of the Buddha, 
+      which was recovered from _____ near Bhagalpur?`,
+      answer: `Sultanganj.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `The greatest specimen of Buddhist art in Gupta times is provided by the 
+      _____ paintings?`,
+      answer: `Ajanta paintings.`,
+      description: `<ul>
+      <li>Although these paintings covered the period from the first to the seventh century 
+      A.D., most of them belong to Gupta times. However, there is nothing to show that the 
+      Guptas were the patrons of the Ajanta paintings.</li>
+      <li>They depict various events in the life of Gautama Buddha and the previous Buddhas.
+      </li>
+      <li>These paintings are life-like and natural and the brilliance of their colours has 
+      not faded even after fourteen centuries.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `The Buddhist university at Nalanda was set up in the _____ century, and its 
+      earliest structure, made of brick, belongs to this period?`,
+      answer: `Fifth century.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `The 13 plays written by Bhasa belong to the Gupta period. State true or false?`,
+      answer: `True.`,
+      description: `<ul> 
+      <li>The Gupta period is remarkable for the production of secular literature.</li>
+      </ul>`
+    },{
+      qaNumber: this.qaNumber++,
+      question: `The <i>Mrichchhakatika</i> or the <i>Little Clay Court</i> is written by _____?`,
+      answer: `Shudraka.`,
+      description: `<ul>
+      <li>It deals with the love affair of a poor brahmana with the beautiful daughter of a 
+      courtesan, and is considered one of the best works of ancient drama.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Who wrote Abhijnanashakuntalam?`,
+      answer: `Kalidasa.`,
+      description: `<ul>
+      <li>It tells us about the love story of King Dushyanta and Shakuntala.</li>
+      <li>The Shakuntalam was one of the earliest Indian works to be translated into
+      European languages, the other work being the Bhagavadgita.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Two things can be noted about the plays produced in India in the Gupta 
+      period. First, these are all comedies. We do not come across any tragedies. Secondly, 
+      characters of the higher and lower classes do not speak the same language; women 
+      and shudras featuring in these plays use __(1)__ while the higher classes use __(2)__?`,
+      answer: `<br> (1) Prakrit <br> (2) Sanskrit.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `The Gupta period is memorable for the compilation of the Amarakosha by 
+      _____ ?`,
+      answer: `Amarasimha.`,
+      description: `<ul>
+      <li>This lexicon is learnt by heart by students who were taught Sanskrit in the 
+      traditional fashion.</li>
+      <li>Amarasimha was a luminary in the court of Chandragupta II.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `During the Gupta Age, in the field of mathematics, we come across a work 
+      called _____ written by Aryabhata, who belonged to Pataliputra ?`,
+      answer: `Aryabhatiya.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li>.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul>
+      <li>.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
       question: `?`,
       answer: `.`,
       description: `<ul>
@@ -140,6 +234,14 @@ export class GuptaAgeQAComponent implements OnInit {
       question: `?`,
       answer: `.`,
       description: `<ul>
+      <li>.</li>
+      </ul>`
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `?`,
+      answer: `.`,
+      description: `<ul> 
       <li>.</li>
       </ul>`
     },{
