@@ -191,11 +191,11 @@ export class GuptaAgeQAComponent implements OnInit {
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
+      question: `For a century from A.D. 432-33, we notice a series of land sale documents 
+      recorded on copper-plates in Pundravardhanabhukti, which covered almost the whole of 
+      north Bengal, now mostly in Bangladesh. Most land grants indicate that land was 
+      purchased with gold coins called _____ ?`,
+      answer: `Dinara.`,
     },
     {
       qaNumber: this.qaNumber++,
