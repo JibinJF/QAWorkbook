@@ -78,6 +78,7 @@ import { SatavahanasQAComponent } from './general-awareness-qa/history-qa/ancien
 import { DawnOfHistoryInSouthIndia } from './general-awareness-qa/history-qa/ancient-indian-history-qa/dawn-of-history-in-south-india-qa/dawn-of-history-in-south-india-qa.component';
 import { PostMauryaCraftsTradeAndTownsQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/post-maurya-crafts-trade-and-towns-qa/post-maurya-crafts-trade-and-towns-qa.component';
 import { GuptaAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/gupta-age-qa/gupta-age-qa.component';
+import { IntroductionQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/introduction-qa/introduction-qa.component';
 
 
 @NgModule({
@@ -160,7 +161,8 @@ import { GuptaAgeQAComponent } from './general-awareness-qa/history-qa/ancient-i
     SatavahanasQAComponent,
     DawnOfHistoryInSouthIndia,
     PostMauryaCraftsTradeAndTownsQAComponent,
-    GuptaAgeQAComponent
+    GuptaAgeQAComponent,
+    IntroductionQAComponent
   ],
   bootstrap: [
     AppComponent

@@ -20,6 +20,11 @@ export class IndianConstitutionQAComponent implements OnInit {
   indianConstitutionQAWbList: QAWbListModel[] = [
     {
       wbNumber: this.wbNumber++,
+      wbName: `Introduction QA`,
+      wbRoute: '/PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA/IntroductionQA'
+    },
+    {
+      wbNumber: this.wbNumber++,
       wbName: `Fundamental Rights QA`,
       wbRoute: '/PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA/FundamentalRightsQA'
     },
