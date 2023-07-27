@@ -8,10 +8,10 @@ import { QAModel } from 'src/app/StructuralComponents/qamodel';
   styles: [
   ]
 })
-export class IntroductionQAComponent {
+export class IntroductionAndFeaturesQAComponent {
 
   qaNumber: number = 1;
-  workbookName: string = `Introduction`;
+  workbookName: string = `Introduction And Features`;
 
   introductionQAs: QAModel[] = [
     {
