@@ -265,164 +265,50 @@ export class IntroductionAndFeaturesQAComponent {
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
+      question: `Who characterized Indian constitution as <i>co-operative federalism</i>?`,
+      answer: `Granville Austin.`,
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
+      question: `Who characterized Indian constitution as <i>Federation with centralising 
+      tendency</i>?`,
+      answer: `Ivor Jennings.`,
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
+      question: `Who characterized Indian constitution as <i>lawyer's paradise</i>?`,
+      answer: `Ivor Jennings.`,
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
+      question: `Who characterized Indian constitution as <i>unitary as well as federal</i>?`,
+      answer: `Dr. B R Ambedkar.`,
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
+      question: `Who characterized Indian constitution as <i>extremely federal</i>?`,
+      answer: `Paul Appleby.`,
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
+      question: `Who characterized Indian constitution as <i>bargaining federalism</i>?`,
+      answer: `Morris Jones.`,
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
+      question: `Who characterized Indian constitution as <i>mixture of unitary and federal 
+      features</i>?`,
+      answer: `D D Basu.`,
     },
     {
       qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
+      question: `Who characterized Indian constitution as <i>a case sui generis</i>?`,
+      answer: `Alexandrowics.`,
       description: `<ul>
       <li>.</li>
       </ul>`
     },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
-      question: `?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
+    
   ];
 
 }
