@@ -123,7 +123,7 @@ export class IntroductionAndFeaturesQAComponent {
     },
     {
       qaNumber: this.qaNumber++,
-      question: `Amerian constitution constitution came into force in the year _____ ?`,
+      question: `Amerian constitution came into force in the year _____ ?`,
       answer: `1789.`,
     },
     {
