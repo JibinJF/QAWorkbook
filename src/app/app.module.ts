@@ -80,6 +80,7 @@ import { PostMauryaCraftsTradeAndTownsQAComponent } from './general-awareness-qa
 import { GuptaAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/gupta-age-qa/gupta-age-qa.component';
 import { IntroductionAndFeaturesQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/introduction-and-features-qa/introduction-and-features-qa.component';
 import { ConstitutionalHistoryQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/constitutional-history-qa/constitutional-history-qa.component';
+import { MakingOfConstitutionQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/making-of-constitution-qa/making-of-constitution-qa.component';
 
 
 @NgModule({
@@ -164,7 +165,8 @@ import { ConstitutionalHistoryQAComponent } from './general-awareness-qa/politic
     PostMauryaCraftsTradeAndTownsQAComponent,
     GuptaAgeQAComponent,
     IntroductionAndFeaturesQAComponent,
-    ConstitutionalHistoryQAComponent
+    ConstitutionalHistoryQAComponent,
+    MakingOfConstitutionQAComponent
   ],
   bootstrap: [
     AppComponent

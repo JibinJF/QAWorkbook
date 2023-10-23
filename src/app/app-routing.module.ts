@@ -55,6 +55,7 @@ import { PostMauryaCraftsTradeAndTownsQAComponent } from './general-awareness-qa
 import { GuptaAgeQAComponent } from './general-awareness-qa/history-qa/ancient-indian-history-qa/gupta-age-qa/gupta-age-qa.component';
 import { IntroductionAndFeaturesQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/introduction-and-features-qa/introduction-and-features-qa.component';
 import { ConstitutionalHistoryQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/constitutional-history-qa/constitutional-history-qa.component';
+import { MakingOfConstitutionQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/making-of-constitution-qa/making-of-constitution-qa.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -93,6 +94,7 @@ const routes: Routes = [
   { path: 'PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA/FundamentalRightsQA', component: FundamentalRightsQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA/IntroductionAndFeaturesQA', component: IntroductionAndFeaturesQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA/ConstitutionalHistoryQA', component: ConstitutionalHistoryQAComponent },
+  { path: 'PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA/MakingOfConstitutionQA', component: MakingOfConstitutionQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA/DPSPQA', component: DPSPQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA/RegulatoryAuthoritiesQA', component: RegulatoryAuthoritiesQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA/RegulatoryAuthoritiesQA/FSDCQA', component: FSDCQAComponent },

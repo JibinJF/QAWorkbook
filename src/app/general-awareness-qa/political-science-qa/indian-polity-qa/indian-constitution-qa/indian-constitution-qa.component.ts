@@ -30,6 +30,11 @@ export class IndianConstitutionQAComponent implements OnInit {
     },
     {
       wbNumber: this.wbNumber++,
+      wbName: `Making Of Constitution QA`,
+      wbRoute: '/PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA/MakingOfConstitutionQA'
+    },
+    {
+      wbNumber: this.wbNumber++,
       wbName: `Fundamental Rights QA`,
       wbRoute: '/PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA/FundamentalRightsQA'
     },
