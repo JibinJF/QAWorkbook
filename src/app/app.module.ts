@@ -81,6 +81,7 @@ import { GuptaAgeQAComponent } from './general-awareness-qa/history-qa/ancient-i
 import { IntroductionAndFeaturesQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/introduction-and-features-qa/introduction-and-features-qa.component';
 import { ConstitutionalHistoryQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/constitutional-history-qa/constitutional-history-qa.component';
 import { MakingOfConstitutionQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/making-of-constitution-qa/making-of-constitution-qa.component';
+import { PreambleQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/preamble-qa/preamble-qa.component';
 
 
 @NgModule({
@@ -166,7 +167,8 @@ import { MakingOfConstitutionQAComponent } from './general-awareness-qa/politica
     GuptaAgeQAComponent,
     IntroductionAndFeaturesQAComponent,
     ConstitutionalHistoryQAComponent,
-    MakingOfConstitutionQAComponent
+    MakingOfConstitutionQAComponent,
+    PreambleQAComponent
   ],
   bootstrap: [
     AppComponent

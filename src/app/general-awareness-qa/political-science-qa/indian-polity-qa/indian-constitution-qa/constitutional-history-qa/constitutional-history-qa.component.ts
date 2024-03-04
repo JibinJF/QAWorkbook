@@ -58,7 +58,7 @@ export class ConstitutionalHistoryQAComponent {
     },
     {
       qaNumber: this.qaNumber++,
-      question: `Calcuatta Supreme Court came into being in the year ______?`,
+      question: `Calcutta Supreme Court came into being in the year ______?`,
       answer: `1774.`,      
       description: `<ul>
       <li>It comprised of 1 Chief Justice and 3 other judges.</li>
@@ -188,7 +188,7 @@ export class ConstitutionalHistoryQAComponent {
       question: `Which Act introduced a system of open competition for recruitment of civil 
       servants?`,
       answer: `Charter Act of 1853.`,
-    },
+    },   
     {
       qaNumber: this.qaNumber++,
       question: `Which Act introduced, for the first time, local representation in the Central 
@@ -221,6 +221,17 @@ export class ConstitutionalHistoryQAComponent {
       </ul>`,
       description: ``
     },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Who was the first Indian to become an Indian Civil Service (ICS) officer in 
+      1863?`,
+      answer: `Satyendranath Tagore.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Who is known as the father of “Civil Services” in India?`,
+      answer: `Charles Cornwallis (Lord Cornwallis).`,
+    },    
     {
       qaNumber: this.qaNumber++,
       question: `The Government of India Act, 1858 was followed by Queen's Proclamation which 
@@ -680,17 +691,11 @@ export class ConstitutionalHistoryQAComponent {
       qaNumber: this.qaNumber++,
       question: `Who is the first General Secretary of Communist Party of India?`,
       answer: `Puran Chand Joshi (PC Joshi).`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
     },
     {
       qaNumber: this.qaNumber++,
       question: `Who is first Indian to become a member of Communist International?`,
       answer: `M.N. Roy.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
     },
     {
       qaNumber: this.qaNumber++,
@@ -711,9 +716,6 @@ export class ConstitutionalHistoryQAComponent {
       qaNumber: this.qaNumber++,
       question: `The book "Gandhian Constitution of Free India' was authored by ______ in 1946?`,
       answer: `Shriman Narayan Agarwal.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
     },
     {
       qaNumber: this.qaNumber++,
@@ -800,7 +802,7 @@ export class ConstitutionalHistoryQAComponent {
     {
       qaNumber: this.qaNumber++,
       question: `Indian National Congress for the first time, officially demanded a 
-      Constituent Assembly to frame the Constitution of India in ______?`,
+      Constituent Assembly to frame the Constitution of India in which year ?`,
       answer: `1935.`,
     },
     {
@@ -888,10 +890,10 @@ export class ConstitutionalHistoryQAComponent {
         <ol>
         <li>Formation of a new executive council at the centre in which all members 
         except Viceroy and Commander in Chief were Indians.</li>
-        <li>All portfolios except Defence were to beunder the control of Indian members.</li>
+        <li>All portfolios except Defence were to be under the control of Indian members.</li>
         <li>Indian National Congress and Muslim League would get equal preference in the 
         reconstituted council.</li>
-        li>The plan proposed the formation of an interim government before proceeding for the 
+        <li>The plan proposed the formation of an interim government before proceeding for the 
         work of framing constitution.</li>
         </ol>
       </li>
@@ -1009,7 +1011,7 @@ export class ConstitutionalHistoryQAComponent {
     },
     {
       qaNumber: this.qaNumber++,
-      question: `Levis Mountbatten formulated and announced the plan in a jont conference 
+      question: `Levis Mountbatten formulated and announced the Mountbatten plan in a jont conference 
       of Congress and Muslim League in Delhi on ______?`,
       answer: `3rd June 1947.`,
       description: `<ul>
@@ -1146,19 +1148,8 @@ export class ConstitutionalHistoryQAComponent {
     },
     {
       qaNumber: this.qaNumber++,
-      question: `Who held the portfolio of in the first Cabinet of Independent India?`,
-      answer: `.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
-    },
-    {
-      qaNumber: this.qaNumber++,
       question: `Who held the portfolio of Health in the first Cabinet of Independent India?`,
       answer: `Rajkumari Amrit Kaur.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
     },
     {
       qaNumber: this.qaNumber++,
