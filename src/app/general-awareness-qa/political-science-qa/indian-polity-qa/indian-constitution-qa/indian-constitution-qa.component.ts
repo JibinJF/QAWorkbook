@@ -40,6 +40,11 @@ export class IndianConstitutionQAComponent implements OnInit {
     },
     {
       wbNumber: this.wbNumber++,
+      wbName: `Union And Its Territory QA`,
+      wbRoute: '/PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA/UnionAndItsTerritoryQA'
+    },
+    {
+      wbNumber: this.wbNumber++,
       wbName: `Fundamental Rights QA`,
       wbRoute: '/PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA/FundamentalRightsQA'
     },
