@@ -113,5 +113,10 @@ export class BooksAndAuthorsQAComponent implements OnInit {
       <li>An Autobiography of Jawaharlal Nehru.</li>
       </ul>`
     },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Who is the author of the book "We the people"?`,
+      answer: `Nani Palkhiwala.`,
+    },
   ];
 }

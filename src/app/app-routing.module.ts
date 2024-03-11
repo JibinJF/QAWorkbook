@@ -58,6 +58,7 @@ import { ConstitutionalHistoryQAComponent } from './general-awareness-qa/politic
 import { MakingOfConstitutionQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/making-of-constitution-qa/making-of-constitution-qa.component';
 import { PreambleQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/preamble-qa/preamble-qa.component';
 import { UnionAndItsTerritoryQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/union-and-its-territory-qa/union-and-its-territory-qa.component';
+import { CitizenshipQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/citizenship-qa/citizenship-qa.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -98,6 +99,7 @@ const routes: Routes = [
   { path: 'PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA/MakingOfConstitutionQA', component: MakingOfConstitutionQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA/PreambleQA', component: PreambleQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA/UnionAndItsTerritoryQA', component: UnionAndItsTerritoryQAComponent },
+  { path: 'PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA/CitizenshipQA', component: CitizenshipQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA/FundamentalRightsQA', component: FundamentalRightsQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA/DPSPQA', component: DPSPQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA/RegulatoryAuthoritiesQA', component: RegulatoryAuthoritiesQAComponent },

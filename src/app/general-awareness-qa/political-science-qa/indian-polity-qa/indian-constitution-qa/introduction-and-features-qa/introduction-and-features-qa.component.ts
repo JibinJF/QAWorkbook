@@ -304,11 +304,26 @@ export class IntroductionAndFeaturesQAComponent {
       qaNumber: this.qaNumber++,
       question: `Who characterized Indian constitution as <i>a case sui generis</i>?`,
       answer: `Alexandrowics.`,
-      description: `<ul>
-      <li>.</li>
-      </ul>`
     },
-    
+    {
+      qaNumber: this.qaNumber++,
+      question: `Which Amendment Act deleted Part VII (dealing with Part -B States)?`,
+      answer: `7th Amendment Act of 1956.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Part IV-A and Part XIV-A were added by which Amendment Act?`,
+      answer: `42nd Amendment Act of 1976.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Part IX-A was added by which Amendment Act?`,
+      answer: `74th Amendment Act of 1992.`,
+    },
+    {
+      qaNumber: this.qaNumber++,
+      question: `Part IX-B was added by which Amendment Act?`,
+      answer: `97th Amendment Act of 2011.`,
+    },
   ];
-
 }

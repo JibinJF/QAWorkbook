@@ -83,6 +83,7 @@ import { ConstitutionalHistoryQAComponent } from './general-awareness-qa/politic
 import { MakingOfConstitutionQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/making-of-constitution-qa/making-of-constitution-qa.component';
 import { PreambleQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/preamble-qa/preamble-qa.component';
 import { UnionAndItsTerritoryQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/union-and-its-territory-qa/union-and-its-territory-qa.component';
+import { CitizenshipQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/citizenship-qa/citizenship-qa.component';
 
 
 @NgModule({
@@ -170,7 +171,8 @@ import { UnionAndItsTerritoryQAComponent } from './general-awareness-qa/politica
     ConstitutionalHistoryQAComponent,
     MakingOfConstitutionQAComponent,
     PreambleQAComponent,
-    UnionAndItsTerritoryQAComponent
+    UnionAndItsTerritoryQAComponent,
+    CitizenshipQAComponent
   ],
   bootstrap: [
     AppComponent
