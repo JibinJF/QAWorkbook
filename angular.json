@@ -5,7 +5,10 @@
     "cache": {
       "enabled": false
     },
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ]
   },
   "newProjectRoot": "projects",
   "projects": {
@@ -27,8 +30,7 @@
         "@schematics/angular:interceptor": {
           "skipTests": true
         },
-        "@schematics/angular:module": {
-        },
+        "@schematics/angular:module": {},
         "@schematics/angular:pipe": {
           "skipTests": true
         },
@@ -98,18 +100,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "QAWorkbook:build"
+            "buildTarget": "QAWorkbook:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "QAWorkbook:build:production"
+              "buildTarget": "QAWorkbook:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "QAWorkbook:build"
+            "buildTarget": "QAWorkbook:build"
           }
         },
         "test": {
@@ -140,6 +142,15 @@
             "production": {
               "devServerTarget": "QAWorkbook:serve:production"
             }
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
           }
         }
       }
