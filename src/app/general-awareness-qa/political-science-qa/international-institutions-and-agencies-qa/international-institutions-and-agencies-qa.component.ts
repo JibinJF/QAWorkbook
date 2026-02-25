@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { QAWbListModel } from 'src/app/StructuralComponents/qawb-list-model';
 
 @Component({
-  selector: 'app-international-institutions-and-agencies-qa',
-  template: `<app-display-qawb-list [qaWbList]="internationalInstitutionsAndAgenciesQAsindianPolityQAWbList" [workbookName]="workbookName"></app-display-qawb-list>`,
-  styles: [
-  ]
+    selector: 'app-international-institutions-and-agencies-qa',
+    template: `<app-display-qawb-list [qaWbList]="internationalInstitutionsAndAgenciesQAsindianPolityQAWbList" [workbookName]="workbookName"></app-display-qawb-list>`,
+    styles: [],
+    standalone: false
 })
 export class InternationalInstitutionsAndAgenciesQAComponent implements OnInit {
 

@@ -2,8 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-chalcolithic-farming-cultures-qa',
-  template: `<app-display-qa [qas]="chalcolithicFarmingCulturesQAs" [workbookName]="workbookName"></app-display-qa>`
+    selector: 'app-chalcolithic-farming-cultures-qa',
+    template: `<app-display-qa [qas]="chalcolithicFarmingCulturesQAs" [workbookName]="workbookName"></app-display-qa>`,
+    standalone: false
 })
 export class ChalcolithicAgeQAComponent implements OnInit {
 

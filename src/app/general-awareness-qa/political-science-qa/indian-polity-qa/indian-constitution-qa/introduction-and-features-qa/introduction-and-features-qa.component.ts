@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-introduction-qa',
-  template: `<app-display-qa [qas]="introductionQAs" [workbookName]="workbookName">
+    selector: 'app-introduction-qa',
+    template: `<app-display-qa [qas]="introductionQAs" [workbookName]="workbookName">
   </app-display-qa>`,
-  styles: [
-  ]
+    styles: [],
+    standalone: false
 })
 export class IntroductionAndFeaturesQAComponent {
 

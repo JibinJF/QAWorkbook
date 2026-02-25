@@ -2,12 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-all-in-one-qa',
-  template: `
+    selector: 'app-all-in-one-qa',
+    template: `
     <app-display-qa [qas]="allInOneQAs" [workbookName]="workbookName">
     </app-display-qa>`,
-  styles: [
-  ]
+    styles: [],
+    standalone: false
 })
 export class AllInOneQAComponent implements OnInit {
 

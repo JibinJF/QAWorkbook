@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-constitutional-history-qa',
-  template: `<app-display-qa [qas]="constitutionalHistoryQAs" [workbookName]="workbookName">
+    selector: 'app-constitutional-history-qa',
+    template: `<app-display-qa [qas]="constitutionalHistoryQAs" [workbookName]="workbookName">
   </app-display-qa>`,
-  styles: [
-  ]
+    styles: [],
+    standalone: false
 })
 export class ConstitutionalHistoryQAComponent {
 

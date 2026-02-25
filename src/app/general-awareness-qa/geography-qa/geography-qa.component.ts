@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { QAWbListModel } from 'src/app/StructuralComponents/qawb-list-model';
 
 @Component({
-  selector: 'app-geography-qa',
-  template: `<app-display-qawb-list [qaWbList]="geographyQAWbList" [workbookName]="workbookName"></app-display-qawb-list>`,
-  styles: [
-  ]
+    selector: 'app-geography-qa',
+    template: `<app-display-qawb-list [qaWbList]="geographyQAWbList" [workbookName]="workbookName"></app-display-qawb-list>`,
+    styles: [],
+    standalone: false
 })
 export class GeographyQAComponent implements OnInit {
 

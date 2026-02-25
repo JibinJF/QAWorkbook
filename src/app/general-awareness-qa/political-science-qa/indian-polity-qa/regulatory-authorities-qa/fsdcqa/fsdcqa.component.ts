@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-fsdcqa',
-  template: `<app-display-qa [qas]="fsdcQAs" [workbookName]="workbookName"></app-display-qa>`,
-  styles: [
-  ]
+    selector: 'app-fsdcqa',
+    template: `<app-display-qa [qas]="fsdcQAs" [workbookName]="workbookName"></app-display-qa>`,
+    styles: [],
+    standalone: false
 })
 export class FSDCQAComponent implements OnInit {
 

@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-international-agreements-and-groupings-qa',
-  template: `<app-display-qa [qas]="internationalAgreementsAndGroupingsQAs" [workbookName]="workbookName"></app-display-qa>`,
-  styles: [
-  ]
+    selector: 'app-international-agreements-and-groupings-qa',
+    template: `<app-display-qa [qas]="internationalAgreementsAndGroupingsQAs" [workbookName]="workbookName"></app-display-qa>`,
+    styles: [],
+    standalone: false
 })
 export class InternationalAgreementsAndGroupingsQAComponent implements OnInit {
 

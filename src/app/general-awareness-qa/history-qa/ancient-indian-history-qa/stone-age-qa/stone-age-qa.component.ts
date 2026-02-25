@@ -2,8 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-stone-age-qa',
-  template: `<app-display-qa [qas]="stoneAgeQAs" [workbookName]="workbookName"></app-display-qa>`
+    selector: 'app-stone-age-qa',
+    template: `<app-display-qa [qas]="stoneAgeQAs" [workbookName]="workbookName"></app-display-qa>`,
+    standalone: false
 })
 export class StoneAgeQAComponent implements OnInit {
 

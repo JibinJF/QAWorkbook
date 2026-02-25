@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-dpspqa',
-  template: `<app-display-qa [qas]="dpspQAs" [workbookName]="workbookName">
+    selector: 'app-dpspqa',
+    template: `<app-display-qa [qas]="dpspQAs" [workbookName]="workbookName">
   </app-display-qa>`,
-  styles: [
-  ]
+    styles: [],
+    standalone: false
 })
 export class DPSPQAComponent implements OnInit {
 

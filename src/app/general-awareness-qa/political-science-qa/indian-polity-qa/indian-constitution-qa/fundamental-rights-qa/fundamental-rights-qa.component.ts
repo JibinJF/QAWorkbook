@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-fundamental-rights-qa',
-  template: `<app-display-qa [qas]="fundamentalRightsQAs" [workbookName]="workbookName"></app-display-qa>`,
-  styles: [
-  ]
+    selector: 'app-fundamental-rights-qa',
+    template: `<app-display-qa [qas]="fundamentalRightsQAs" [workbookName]="workbookName"></app-display-qa>`,
+    styles: [],
+    standalone: false
 })
 export class FundamentalRightsQAComponent implements OnInit {
 

@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-union-and-its-territory-qa',
-  template: `<app-display-qa [qas]="unionAndItsTerritoryQAs" [workbookName]="workbookName"></app-display-qa>`,
-  styles: [
-  ]
+    selector: 'app-union-and-its-territory-qa',
+    template: `<app-display-qa [qas]="unionAndItsTerritoryQAs" [workbookName]="workbookName"></app-display-qa>`,
+    styles: [],
+    standalone: false
 })
 export class UnionAndItsTerritoryQAComponent {
   qaNumber: number = 1;

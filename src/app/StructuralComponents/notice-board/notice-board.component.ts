@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-notice-board',
-  templateUrl: './notice-board.component.html',
-  styleUrls: ['./notice-board.component.css']
+    selector: 'app-notice-board',
+    templateUrl: './notice-board.component.html',
+    styleUrls: ['./notice-board.component.css'],
+    standalone: false
 })
 export class NoticeBoardComponent implements OnInit {
 

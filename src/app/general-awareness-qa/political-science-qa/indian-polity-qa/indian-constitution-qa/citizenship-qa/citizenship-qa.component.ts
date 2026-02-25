@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-citizenship-qa',
-  template: `<app-display-qa [qas]="citizenshipQAs" [workbookName]="workbookName"></app-display-qa>`,
-  styles: [
-  ]
+    selector: 'app-citizenship-qa',
+    template: `<app-display-qa [qas]="citizenshipQAs" [workbookName]="workbookName"></app-display-qa>`,
+    styles: [],
+    standalone: false
 })
 export class CitizenshipQAComponent {
   qaNumber: number = 1;

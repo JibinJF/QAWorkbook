@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-science-and-civilization-legacy-qa',
-  template: `<app-display-qa [qas]="scienceAndCivilizationLegacyQAs" 
+    selector: 'app-science-and-civilization-legacy-qa',
+    template: `<app-display-qa [qas]="scienceAndCivilizationLegacyQAs" 
     [workbookName]="workbookName"></app-display-qa>`,
-  styles: [
-  ]
+    styles: [],
+    standalone: false
 })
 export class ScienceAndCivilizationLegacyQAComponent implements OnInit {
 

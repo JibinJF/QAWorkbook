@@ -2,9 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { QAWbListModel } from '../../qawb-list-model';
 
 @Component({
-  selector: 'app-quick-nav',
-  templateUrl: './quick-nav.component.html',
-  styleUrls: ['./quick-nav.component.css']
+    selector: 'app-quick-nav',
+    templateUrl: './quick-nav.component.html',
+    styleUrls: ['./quick-nav.component.css'],
+    standalone: false
 })
 export class QuickNavComponent implements OnInit {
 

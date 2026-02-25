@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { QAWbListModel } from 'src/app/StructuralComponents/qawb-list-model';
 
 @Component({
-  selector: 'app-polity-qa',
-  template: `<app-display-qawb-list [qaWbList]="politicalScienceQAWbList" [workbookName]="workbookName"></app-display-qawb-list>`,
-  styles: [
-  ]
+    selector: 'app-polity-qa',
+    template: `<app-display-qawb-list [qaWbList]="politicalScienceQAWbList" [workbookName]="workbookName"></app-display-qawb-list>`,
+    styles: [],
+    standalone: false
 })
 export class PoliticalScienceQAComponent implements OnInit {
   

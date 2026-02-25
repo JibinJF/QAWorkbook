@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-central-asian-influence-qa',
-  template: `<app-display-qa [qas]="centralAsianInfluenceQAs" 
+    selector: 'app-central-asian-influence-qa',
+    template: `<app-display-qa [qas]="centralAsianInfluenceQAs" 
   [workbookName]="workbookName"></app-display-qa>`,
-  styles: [
-  ]
+    styles: [],
+    standalone: false
 })
 export class CentralAsianInfluenceQAComponent implements OnInit {
 

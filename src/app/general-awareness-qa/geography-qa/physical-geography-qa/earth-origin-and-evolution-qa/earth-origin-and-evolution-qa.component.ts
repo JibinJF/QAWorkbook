@@ -2,13 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-earth-origin-and-evolution-qa',
-  template: `
+    selector: 'app-earth-origin-and-evolution-qa',
+    template: `
     <app-display-qa [qas]="earthOriginAndEvolutionQAs" [workbookName]="workbookName">
     </app-display-qa>
   `,
-  styles: [
-  ]
+    styles: [],
+    standalone: false
 })
 export class EarthOriginAndEvolutionQAComponent implements OnInit {
 

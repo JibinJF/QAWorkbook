@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-fatfqa',
-  template: `<app-display-qa [qas]="fatfQAs" [workbookName]="workbookName"></app-display-qa>`,
-  styles: [
-  ]
+    selector: 'app-fatfqa',
+    template: `<app-display-qa [qas]="fatfQAs" [workbookName]="workbookName"></app-display-qa>`,
+    styles: [],
+    standalone: false
 })
 export class FATFQAComponent implements OnInit {
 

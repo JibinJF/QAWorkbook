@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-iloqa',
-  template: `<app-display-qa [qas]="iloQAs" [workbookName]="workbookName"></app-display-qa>`,
-  styles: [
-  ]
+    selector: 'app-iloqa',
+    template: `<app-display-qa [qas]="iloQAs" [workbookName]="workbookName"></app-display-qa>`,
+    styles: [],
+    standalone: false
 })
 export class ILOQAComponent implements OnInit {
 

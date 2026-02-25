@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-all-india-kisan-sabha-qa',
-  template: `<app-display-qa [qas]="allIndiaKisanSabhaQAs" [workbookName]="workbookName">
+    selector: 'app-all-india-kisan-sabha-qa',
+    template: `<app-display-qa [qas]="allIndiaKisanSabhaQAs" [workbookName]="workbookName">
   </app-display-qa>`,
-  styles: [
-  ]
+    styles: [],
+    standalone: false
 })
 export class AllIndiaKisanSabhaQAComponent implements OnInit {
 

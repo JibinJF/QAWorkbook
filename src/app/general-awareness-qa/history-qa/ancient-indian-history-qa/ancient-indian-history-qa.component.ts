@@ -2,8 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { QAWbListModel } from 'src/app/StructuralComponents/qawb-list-model';
 
 @Component({
-  selector: 'app-ancient-indian-history-qa',
-  template: `<app-display-qawb-list [qaWbList]="ancientIndianHistoryQAWbList" [workbookName]="workbookName"></app-display-qawb-list>`
+    selector: 'app-ancient-indian-history-qa',
+    template: `<app-display-qawb-list [qaWbList]="ancientIndianHistoryQAWbList" [workbookName]="workbookName"></app-display-qawb-list>`,
+    standalone: false
 })
 export class AncientIndianHistoryQAComponent implements OnInit {
 

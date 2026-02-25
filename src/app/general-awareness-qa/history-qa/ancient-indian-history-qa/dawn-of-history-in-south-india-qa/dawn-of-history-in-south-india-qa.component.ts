@@ -2,12 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'dawn-of-history-in-south-india-qa',
-  template: `
+    selector: 'dawn-of-history-in-south-india-qa',
+    template: `
   <app-display-qa [qas]="dawnOfHistoryInSouthIndiaQAs" [workbookName]="workbookName"></app-display-qa>
   `,
-  styles: [
-  ]
+    styles: [],
+    standalone: false
 })
 export class DawnOfHistoryInSouthIndia implements OnInit {
 

@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-drainage-system-qa',
-  template: `<app-display-qa [qas]="drainageSystemQAs" [workbookName]="workbookName"></app-display-qa>`,
-  styles: [
-  ]
+    selector: 'app-drainage-system-qa',
+    template: `<app-display-qa [qas]="drainageSystemQAs" [workbookName]="workbookName"></app-display-qa>`,
+    styles: [],
+    standalone: false
 })
 export class DrainageSystemQAComponent implements OnInit {
 

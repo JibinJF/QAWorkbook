@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-aryans-and-rig-veda-qa',
-  template: `<app-display-qa [qas]="aryansAndRigVedaQAs" [workbookName]="workbookName"></app-display-qa>`,
-  styles: [
-  ]
+    selector: 'app-aryans-and-rig-veda-qa',
+    template: `<app-display-qa [qas]="aryansAndRigVedaQAs" [workbookName]="workbookName"></app-display-qa>`,
+    styles: [],
+    standalone: false
 })
 export class VedicAgeQAComponent implements OnInit {
 

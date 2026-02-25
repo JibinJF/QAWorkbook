@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-nsfeqa',
-  template: `<app-display-qa [qas]="nsfeQAs" [workbookName]="workbookName"></app-display-qa>`,
-  styles: [
-  ]
+    selector: 'app-nsfeqa',
+    template: `<app-display-qa [qas]="nsfeQAs" [workbookName]="workbookName"></app-display-qa>`,
+    styles: [],
+    standalone: false
 })
 export class NSFEQAComponent implements OnInit {
 

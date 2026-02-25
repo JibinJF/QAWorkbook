@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { QAModel } from 'src/app/StructuralComponents/qamodel';
 
 @Component({
-  selector: 'app-making-of-constitution-qa',
-  template: `<app-display-qa [qas]="makingOfConstitutionQAs" [workbookName]="workbookName"></app-display-qa>`,
-  styles: [
-  ]
+    selector: 'app-making-of-constitution-qa',
+    template: `<app-display-qa [qas]="makingOfConstitutionQAs" [workbookName]="workbookName"></app-display-qa>`,
+    styles: [],
+    standalone: false
 })
 export class MakingOfConstitutionQAComponent {
   qaNumber: number = 1;

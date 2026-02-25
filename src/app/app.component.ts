@@ -2,9 +2,10 @@ import { Component, ChangeDetectorRef, OnDestroy } from '@angular/core';
 import { MediaMatcher } from '@angular/cdk/layout';
 
 @Component({
-  selector: "my-app",
-  templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.css"]
+    selector: "my-app",
+    templateUrl: "./app.component.html",
+    styleUrls: ["./app.component.css"],
+    standalone: false
 })
 
 export class AppComponent implements OnDestroy {
