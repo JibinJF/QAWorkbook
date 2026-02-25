@@ -11,7 +11,7 @@
   },
   "private": true,
   "dependencies": {
-    "@angular-eslint/schematics": "^18.4.0",
+    "@angular-eslint/schematics": "^19.8.1",
     "@angular/animations": "^19.2.18",
     "@angular/cdk": "^19.2.19",
     "@angular/common": "^19.2.18",
@@ -35,7 +35,8 @@
     "@angular/router": "^19.2.18",
     "@types/jasminewd2": "^2.0.10",
     "@types/node": "^22.9.0",
-    "angular-eslint": "18.4.0",
+    "angular-cli-ghpages": "^3.0.2",
+    "angular-eslint": "19.8.1",
     "eslint": "^9.13.0",
     "jasmine-core": "^5.4.0",
     "karma": "^6.4.0",
