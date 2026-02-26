@@ -1366,7 +1366,7 @@ _TopToolbarComponent = TopToolbarComponent;
   standalone: false,
   decls: 18,
   vars: 2,
-  consts: [["x", "mainNavMenu"], ["y", "whatshotNavMenu"], [1, "top-toolbar-row"], [1, "mainNavMenuButtonContainer"], ["mat-icon-button", "", 1, "sideNavButton", 3, "matMenuTriggerFor"], ["routerLink", ""], ["src", "\\assets\\QAWorkbook-Logo.png", "width", "60", "height", "60", 1, "toolbarQAWorkbookLogo"], ["routerLink", "", 1, "toolbarWbTitle"], [1, "syllabiMenuButtonContainer"], ["mat-icon-button", "", 1, "whatshotNavButton", 3, "matMenuTriggerFor"]],
+  consts: [["x", "mainNavMenu"], ["y", "whatshotNavMenu"], [1, "top-toolbar-row"], [1, "mainNavMenuButtonContainer"], ["mat-icon-button", "", 1, "sideNavButton", 3, "matMenuTriggerFor"], ["routerLink", ""], ["src", "assets\\QAWorkbook-Logo.png", "width", "60", "height", "60", 1, "toolbarQAWorkbookLogo"], ["routerLink", "", 1, "toolbarWbTitle"], [1, "syllabiMenuButtonContainer"], ["mat-icon-button", "", 1, "whatshotNavButton", 3, "matMenuTriggerFor"]],
   template: function TopToolbarComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "mat-toolbar")(1, "mat-toolbar-row", 2)(2, "div", 3)(3, "button", 4)(4, "mat-icon");
