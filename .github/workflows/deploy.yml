@@ -20,8 +20,11 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Fix CLI Permissions
+        run: chmod +x ./node_modules/.bin/ng
+
       - name: Build Angular Project
-        run: npx ng build --base-href=/QAWorkbook/
+        run: npm run build -- --base-href=/QAWorkbook/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
