@@ -59,6 +59,8 @@ import { MakingOfConstitutionQAComponent } from './general-awareness-qa/politica
 import { PreambleQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/preamble-qa/preamble-qa.component';
 import { UnionAndItsTerritoryQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/union-and-its-territory-qa/union-and-its-territory-qa.component';
 import { CitizenshipQAComponent } from './general-awareness-qa/political-science-qa/indian-polity-qa/indian-constitution-qa/citizenship-qa/citizenship-qa.component';
+import { KeralaHistoryQAComponent } from './general-awareness-qa/history-qa/kerala-history-qa/kerala-history-qa.component';
+import { TravancoreHistoryQAComponent } from './general-awareness-qa/history-qa/kerala-history-qa/travancore-history-qa/travancore-history-qa.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -91,6 +93,8 @@ const routes: Routes = [
   { path: 'HistoryQA/ModernIndianHistoryQA', component: ModernIndianHistoryQAComponent },
   { path: 'HistoryQA/ModernIndianHistoryQA/EighteenthCenturyIndiaQA', component: EighteenthCenturyIndiaQAComponent },
   { path: 'HistoryQA/ModernIndianHistoryQA/EuropeanPenetrationAndConquestQA', component: EuropeanPenetrationAndConquestQAComponent },
+  { path: 'HistoryQA/KeralaHistoryQA', component: KeralaHistoryQAComponent },
+  { path: 'HistoryQA/KeralaHistoryQA/TravancoreHistoryQA', component: TravancoreHistoryQAComponent },
   { path: 'PoliticalScienceQA', component: PoliticalScienceQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA', component: IndianPolityQAComponent },
   { path: 'PoliticalScienceQA/IndianPolityQA/IndianConstitutionQA', component: IndianConstitutionQAComponent },

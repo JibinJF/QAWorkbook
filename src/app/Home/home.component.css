@@ -1,9 +1,9 @@
 * {
     box-sizing: border-box; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 1px;
+    font-family: 'Bookman Old Style', Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.5px;
     font-variant-numeric: lining-nums;
 }
 
@@ -17,7 +17,7 @@
     align-content: center;
     color: #FFD700;
     margin-bottom: 5px;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     background-color: #383838;
     box-shadow: 0px .5px black;
